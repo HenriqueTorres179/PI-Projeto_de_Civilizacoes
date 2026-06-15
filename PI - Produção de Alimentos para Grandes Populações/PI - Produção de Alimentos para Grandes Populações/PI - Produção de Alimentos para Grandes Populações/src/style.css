@@ -125,25 +125,15 @@ nav .navbar {
     gap: 2rem;
     align-items: center;
 }
-nav .links {
+nav .inicio {
     padding-block: 0.5rem;
     position: relative;
 }
-nav .underline {
+nav .ativo {
     background-color: var(--primary);
     height: 0.125rem;
     position: absolute;
     left: 0;
     right: 0;
     bottom: -0.25rem;
-}
-main {
-    padding-top: 5rem;
-}
-main .content {
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
 }
