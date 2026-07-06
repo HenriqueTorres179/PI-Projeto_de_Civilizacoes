@@ -166,13 +166,12 @@ Passamos a utilizar o GitHub e iremos começar o readme. Todas as atualizações
 
 ## Assuntos Discutidos
 
-### Modelo do Figma
-Concluímos o código da primeira página do site e já viramos a chave para focar no modelo do Figma. Conseguimos adiantar bastante e terminamos três páginas de layout; nossa meta é finalizar o restante do design até a próxima semana.
+Fechamos com sucesso a programação da primeira página do site e, com essa etapa concluída, mudamos o foco totalmente para o design no Figma. O rendimento do grupo foi muito bom: conseguimos adiantar bastante o trabalho e finalizamos o layout de três páginas completas. A nossa meta agora é correr com o restante do design para deixar tudo pronto até a próxima semana.
 
 ---
 
 ## Encaminhamentos (Próxima Semana)
-* [ ] Continuar modelo do Figma
-* [ ] Continuar a fazer o Instagram
+* Continuar o desenvolvimento do modelo no Figma
+* Dar andamento na criação dos conteúdos para o Instagram
 
 
