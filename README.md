@@ -198,7 +198,7 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 * Voltamos a fazer o código da página
 
 #### Comentários
-**Tivemos avaliação individual e voltamos a fazer o código da página e o código do readme
+**Tivemos avaliação individual e voltamos a fazer o código da página e o código do readme**
 
 ### Encaminhamentos
 
