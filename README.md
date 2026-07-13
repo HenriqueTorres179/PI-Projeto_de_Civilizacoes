@@ -185,7 +185,7 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 * * **Turma:** 1info3
  
 ### Participantes
-* Anna Jully Buenu
+* Anna Jully Bueno
 * Henrique Torres
 * Juan Pedro Zastrow Damaceno
 * Leonardo Rodrigues Teixeira
