@@ -202,3 +202,5 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 
 ### Encaminhamentos
 
+* Fazer mais posts para o instagram
+* Continuar o código da página
