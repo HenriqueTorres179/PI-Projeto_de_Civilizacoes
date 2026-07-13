@@ -176,4 +176,24 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 * Continuar a produção de conteúdo para o Instagram
 * Finalizar os ajustes restantes acordados pelo grupo
 
+---
+
+## Ata 6
+
+### Informações Gerais
+* **Data:** 13/07
+* * **Turma:** 1info3
+ 
+### Participantes
+* Anna Jully Buenu
+* Henrique Torres
+* Juan Pedro Zastrow Damaceno
+* Leonardo Rodrigues Teixeira
+* Nicolas Henrique Klug Anacleto
+* Ryan Gabriel Duzanowski
+
+### Assustos Discutidos
+* Avaliação individual do grupo
+* Figma: [https://www.figma.com/design/MHv72gdKnSIRwb3uGJQMW4/Layout?node-id=0-1&t=dE2XZYwc7V29tBMx-1]
+* Voltamos a fazer o código
 
