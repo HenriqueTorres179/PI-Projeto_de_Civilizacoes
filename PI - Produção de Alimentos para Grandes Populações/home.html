@@ -11,42 +11,42 @@
 <body>
     <header>
         <nav>
-            <div class="nav flex">
-                <a href="home.html" class="flex">
-                    <div class="logo rounded-full flex">
+            <div class="nav">
+                <a href="home.html">
+                    <div class="logo">
                         <svg class="folhinha"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
                     </div>
                     <span>Alimentar o Futuro</span>
                 </a>
-                <ul class="navbar flex">
+                <ul class="links">
                     <li>
-                        <a href="home.html" class="links ativo">
+                        <a href="home.html" class="link ativo">
                             Início
                         <div class="underline"></div>
                         </a>
                     </li>
                     <li>
-                        <a href="mtd-md.html" class="links">
+                        <a href="mtd-md.html" class="link">
                             Métodos Modernos
                         </a>
                     </li>
                     <li>
-                        <a href="dsf.html" class="links">
+                        <a href="dsf.html" class="link">
                             Desafios
                         </a>
                     </li>
                     <li>
-                        <a href="slcs.html" class="links">
+                        <a href="slcs.html" class="link">
                             Soluções
                         </a>
                     </li>
                     <li>
-                        <a href="quiz.html" class="links">
+                        <a href="quiz.html" class="link">
                             Quiz
                         </a>
                     </li>
                     <li>
-                        <a href="cncls.html" class="links">
+                        <a href="cncls.html" class="link">
                             Conclusão
                         </a>
                     </li>
@@ -55,121 +55,117 @@
         </nav>
     </header>
     <main>
-        <div class="bg">
-            <section class="hero flex">
-                <div class="hero-image">
-                    <img src="images/agricultura-moderna.jpg" alt="Agricultura-Moderna">
-                    <div class="gradient"></div>
+        <section class="hero">
+            <div class="hero-image">
+                <img src="images/agricultura-moderna.jpg" alt="Agricultura-Moderna">
+                <div class="gradient"></div>
+            </div>
+            <div class="hero-text">
+                <div class="PI revelar-baixo">
+                    <span>Projeto Integrador 2026</span>
                 </div>
-                <div class="hero-text">
-                    <div class="PI revelar-baixo">
-                        <span>Projeto Integrador 2026</span>
-                    </div>
-                    <h1 class="revelar-baixo">Como Alimentar Bilhões de Pessoas de Forma Sustentável?</h1>
-                    <p class="revelar-baixo">
-                        Explorando os desafios e soluções para garantir segurança alimentar em um planeta com recursos limitados
+                <h1 class="revelar-baixo">Como Alimentar Bilhões de Pessoas de Forma Sustentável?</h1>
+                <p class="revelar-baixo">
+                    Explorando os desafios e soluções para garantir segurança alimentar em um planeta com recursos limitados
+                </p>
+                <div class="btn-reveal">
+                    <a href="mtd-md.html" class="btn-explorar">
+                        Explorar o Projeto
+                        <svg class="setinha"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="dsf-global">
+            <div class="dsf-global-content">
+                <div class="dsf-global-cabecalho">
+                    <h2>O Desafio Global</h2>
+                    <p>
+                        Números que revelam a urgência de repensar nossa produção de alimentos
                     </p>
-                    <div class="btn-reveal">
-                        <a href="mtd-md.html" class="btn-explorar rounded-full">
-                            Explorar o Projeto
-                            <svg class="setinha"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>                      
-                        </a>
-                    </div>
                 </div>
-            </section>
-            <section class="dsf-global">
-                <div class="dsf-global-content">
-                    <div class="dsf-global-cabecalho">
-                        <h2>O Desafio Global</h2>
+                <ul class="cards">
+                    <div class="card-reveal">
+                        <li class="card ppl-mundial">
+                            <svg class="cards-svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            <div class="cards-title">
+                                <span class="contador" data-alvo="8.3">0</span>Bi
+                            </div>
+                            <p>
+                                População mundial atual
+                            </p>
+                            <p>
+                                 E deve chegar a 9,7 bilhões até 2050
+                            </p>
+                        </li>
+                    </div>
+                    <div class="card-reveal">
+                        <li class="card pss-insg-alimentar">
+                            <svg class="cards-svg" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+                            <div class="cards-title">
+                                <span class="contador" data-alvo="828">0</span>M
+                            </div>
+                            <p>
+                                Pessoas em insegurança alimentar
+                            </p>
+                            <p>
+                                Dados da ONU de 2024
+                            </p>
+                        </li>
+                    </div>
+                    <div class="card-reveal">
+                        <li class="card comida-dpcd">
+                            <svg class="cards-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                            <div class="cards-title">
+                                <span class="contador" data-alvo="33">0</span>%
+                            </div>
+                            <p>
+                                De toda comida produzida é desperdiçada
+                            </p>
+                            <p>
+                                Dados da FAO
+                            </p>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="prod-stvl">
+            <div class="prod-stvl-content">
+                <div class="text-reveal">
+                    <div class="prod-stvl-text-header">
+                        <svg class="plantinha" viewBox="0 0 24 24"><path d="M7 20h10"></path><path d="M10 20c5.5-2.5.8-6.4 3-10"></path><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"></path><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"></path></svg>
+                        <span>Nossa Missão</span>
+                    </div>
+                    <h2>Produção Sustentável é Possível</h2>
+                    <p class="prod-stvl-text">
+                        Este projeto explora como a tecnologia, inovação e práticas sustentáveis podem transformar a agricultura para atender as demandas crescentes sem comprometer o futuro do planeta.
+                    </p>
+                    <p class="prod-stvl-text">
+                        Através de métodos modernos como agricultura de precisão, hidroponia, inteligência artificial e agroecologia, podemos produzir mais com menos impacto ambiental.
+                    </p>
+                    <a href="mtd-md.html">
+                        Descubra como
+                        <svg class="setinhazinha" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
+                <div class="img-reveal">
+                    <img src="images/producao-eficiente.jpg" alt="Produção-Eficiente">
+                    <div class="eficiencia">
                         <p>
-                            Números que revelam a urgência de repensar nossa produção de alimentos
+                            +70%
+                        </p>
+                        <p>
+                            Eficiência na produção
                         </p>
                     </div>
-                    <div class="cards grid">
-                        <div class="card-reveal">
-                            <div class="card ppl-mundial">
-                                <svg class="cards-svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                                <div class="cards-title">
-                                    <sapan class="contador" data-alvo="8.3">0</sapan>Bi
-                                </div>
-                                <p>
-                                    População mundial atual
-                                </p>
-                                <p>
-                                    E deve chegar a 9,7 bilhões até 2050
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                            <div class="card pss-insg-alimentar">
-                                <svg class="cards-svg" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
-                                <div class="cards-title">
-                                    <sapan class="contador" data-alvo="828">0</sapan>M
-                                </div>
-                                <p>
-                                    Pessoas em insegurança alimentar
-                                </p>
-                                <p>
-                                    Dados da ONU de 2024
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                            <div class="card comida-dpcd">
-                                <svg class="cards-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                                <div class="cards-title">
-                                    <sapan class="contador" data-alvo="33">0</sapan>%
-                                </div>
-                                <p>
-                                    De toda comida produzida é desperdiçada
-                                </p>
-                                <p>
-                                    Dados da FAO
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </section>
-            <section class="prod-stvl">
-                <div class="prod-sustentavel">
-                    <div class="prod-stvl-content grid">
-                        <div class="text-reveal">
-                            <div class="prod-stvl-text-header flex">
-                                <svg class="plantinha" viewBox="0 0 24 24"><path d="M7 20h10"></path><path d="M10 20c5.5-2.5.8-6.4 3-10"></path><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"></path><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"></path></svg>
-                                <span>Nossa Missão</span>
-                            </div>
-                            <h2>Produção Sustentável é Possível</h2>
-                            <p class="prod-stvl-text">
-                                Este projeto explora como a tecnologia, inovação e práticas sustentáveis podem transformar a agricultura para atender as demandas crescentes sem comprometer o futuro do planeta.
-                            </p>
-                            <p class="prod-stvl-text">
-                                Através de métodos modernos como agricultura de precisão, hidroponia, inteligência artificial e agroecologia, podemos produzir mais com menos impacto ambiental.
-                            </p>
-                            <a href="mtd-md.html">
-                                Descubra como
-                                <svg class="setinhazinha" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                            </a>
-                        </div>
-                        <div class="img-reveal">
-                            <img src="images/producao-eficiente.jpg" alt="Produção-Eficiente">
-                            <div class="eficiencia">
-                                <div>
-                                    +70%
-                                </div>
-                                <p>
-                                    Eficiência na produção
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="footer-content">
-            <div class="info grid">
+            <div class="info">
                 <div class="info-PI">
                     <div>
                         <h3>Projeto Integrador</h3>
