@@ -1,5 +1,4 @@
 // Scroll Reveal
-
 const configBase = {
   duration: 500,
   easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
@@ -77,14 +76,36 @@ ScrollReveal().reveal('.img-reveal', {
   ...configBase,
   origin: 'right',
   scale: 0.95,
+  delay: 250
+});
+
+ScrollReveal().reveal('.text-reveal .prod-stvl-text-header', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
   delay: 300
 });
 
-ScrollReveal().reveal('.text-reveal', {
+ScrollReveal().reveal('.text-reveal h2', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
   delay: 400
+});
+
+ScrollReveal().reveal('.text-reveal p', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  interval: 50,
+  delay: 450
+});
+
+ScrollReveal().reveal('.text-reveal a', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  delay: 450
 });
 
 ScrollReveal().reveal('.banner-text .revelar-baixo', {
@@ -99,7 +120,7 @@ ScrollReveal().reveal('.tec-revo-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
-  delay: 150
+  delay: 990
 });
 
 ScrollReveal().reveal('.tec-revo-cards .tec-revo-card-reveal', {
@@ -135,11 +156,26 @@ ScrollReveal().reveal('.right-time', {
   delay: 300
 });
 
-ScrollReveal().reveal('.videos-educacionais', {
+ScrollReveal().reveal('.videos-educacionais h2', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
   delay: 200
+});
+
+ScrollReveal().reveal('.videos-educacionais p', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  delay: 250
+});
+
+ScrollReveal().reveal('.videos-educacionais ul li', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  interval: 100,
+  delay: 300
 });
 
 ScrollReveal().reveal('.videos-carrossel', {
@@ -149,8 +185,94 @@ ScrollReveal().reveal('.videos-carrossel', {
   delay: 500
 });
 
-// Carrossel de Vídeos
+ScrollReveal().reveal('.dsf-text .revelar-baixo', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  interval: 220,
+  delay: 400
+});
 
+ScrollReveal().reveal('.prin-obs-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 1040
+});
+
+ScrollReveal().reveal('.prin-obs-cards .prin-obs-card', {
+  ...configBase,
+  duration: 400,
+  origin: 'bottom',
+  scale: 0.95,
+  interval: 150, 
+  delay: 200
+});
+
+ScrollReveal().reveal('.dados-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 200
+});
+
+ScrollReveal().reveal('.bar-chart', {
+  ...configBase,
+  origin: 'left',
+  easing: 'cubic-bezier(0.5, 1.8, 0.3, 0.8)',
+  scale: 0.95,
+  delay: 400
+});
+
+ScrollReveal().reveal('.pie-chart', {
+  ...configBase,
+  origin: 'right',
+  easing: 'cubic-bezier(0.5, 1.8, 0.3, 0.8)',
+  scale: 0.95,
+  delay: 400
+});
+
+ScrollReveal().reveal('.reg-vul-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 200
+});
+
+ScrollReveal().reveal('.map', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 200
+});
+
+ScrollReveal().reveal('.revelar-fome', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  delay: 300
+});
+
+ScrollReveal().reveal('.reg-vul-regs > *', {
+  ...configBase,
+  origin: 'right',
+  easing: 'cubic-bezier(0.5, 1.8, 0.3, 0.8)',
+  scale: 0.95,
+  interval: 100,
+  delay: 200,
+  afterReveal: function (el) {
+    el.classList.add('animated-btn');
+  }
+});
+
+ScrollReveal().reveal('.urg-content', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 200
+});
+
+// Carrossel de Vídeos
 let track = document.getElementById('track');
 let nextBtn = document.getElementById('next-btn');
 let slides = document.querySelectorAll('.carrossel-item');

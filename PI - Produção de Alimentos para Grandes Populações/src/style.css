@@ -2,68 +2,50 @@ html {
     scroll-behavior: smooth;
     font-family: ui-sans-serif, system-ui, 'Segoe UI', 'Open Sans', sans-serif;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: clamp(0.875rem, 0.533rem + 0.533vw, 1.25rem);
 }
-:root {
-    --color-red-50: #fef2f2;
-    --color-red-100: #ffe2e2;
-    --color-red-500: #fb2c36;
-    --color-red-600: #e7000b;
-    --color-red-700: #c10007;
-    --color-red-900: #82181a;
-    --color-orange-500: #ff6900;
-    --color-orange-600: #f54a00;
-    --color-green-50: #f0fdf4;
-    --color-green-100: #dcfce7;
-    --color-green-500: #00c950;
-    --color-green-600: #00a63e;
-    --primary: #1b5e20;
-    --secondary: #2e7d32;
-    --tertiary: #66bb6a;
-    --quaternary: #81c784;
-    --color-gray-100: #f3f4f6;
-    --color-gray-200: #e5e7eb;
-    --color-black: #000;
-    --color-white: #fff;
-    --muted: #f5f5f5;
-    --muted-foreground: #616161;
-    --highlight: #f9a825;
-    --destructive: #d4183d;
-    --border: #1b5e201a;
-    --switch-background: #cbced4;
-    --radius: 0.625rem;
-    --spacing: 0.25rem;
-    --container-sm: 24rem;
-    --container-lg: 32rem;
-    --container-4xl: 56rem;
-    --text-xs: 0.75rem;
-    --text-xs--line-height: calc(1 / 0.75);
-    --text-base: 1rem;
-    --text-base--line-height: calc(1.5 / 1);
-    --text-6xl: 3.75rem;
-    --text-6xl--line-height: 1;
-}
+
+/* === Line Heights === */
+/*
+1 / 0.75 --- 1.3333;
+1.25 / 0.875 --- 1.4287;
+1.75 / 1.125 --- 1.5555;
+1.75 / 1.25 --- 1.4;
+2 / 1.5 --- 1.3333;
+2.25 / 1.875 --- 1.2;
+2.5 / 2.25 --- 1.1111;
+*/
+
 body {
     color: #1b5e20;
 }
 
+/* === Keyframes === */
+@keyframes ping {
+    0% {
+        opacity: 0;
+        transform: scale(2);
+    }
+    8% {
+        opacity: 0.5;
+        transform: scale(2.5);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+@keyframes growthBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--target-width);
+    }
+}
+
 /* === Scroll Reveal === */
-html.sr .nav > a,
-html.sr .links li,
-html.sr .hero-text .revelar-baixo,
-html.sr .hero-text .btn-reveal,
-html.sr .dsf-global-cabecalho,
-html.sr .cards .card-reveal,
-html.sr .img-reveal,
-html.sr .text-reveal,
-html.sr .banner-text .revelar-baixo,
-html.sr .tec-revo-text,
-html.sr .tec-revo-cards .tec-revo-card-reveal,
-html.sr .evo-text,
-html.sr .left-time,
-html.sr .right-time,
-html.sr .videos-educacionais,
-html.sr .videos-carrossel {
+html.sr .hidden {
   visibility: hidden;
 }
 
@@ -97,20 +79,21 @@ nav a div.logo {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    transition: 150ms ease-in-out;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 nav a:hover div.logo {
     transform: scale(1.1);
 }
 nav a div.logo svg.folhinha {
     color: #ffffff;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.45rem; 
+    height: 1.45rem;
     display: block;
     fill: none;
     stroke: currentColor;
     stroke-width: 2px;
     stroke-linecap: round;
+    margin: auto;
 }
 nav a span {
     font-weight: 700;
@@ -125,6 +108,13 @@ nav ul.links {
 nav ul.links li a.link {
     padding: 0.5rem 0;
     position: relative;
+    color: #1b5e1fb3;
+}
+nav ul.links li a.link:hover {
+    color: #1b5e20;
+}
+nav ul.links li a.ativo {
+    color: #1b5e20;
 }
 nav ul.links li div.underline {
     background-color: #1b5e20;
@@ -289,7 +279,7 @@ section.hero div.hero-text a.btn-explorar {
     font-weight: 600;
     border-radius: 50px;
     line-height: 1.5555;
-    transition: 300ms ease-in-out;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.hero div.hero-text a.btn-explorar:hover {
     background-color: #2e7d32;
@@ -342,7 +332,7 @@ section.dsf-global div.dsf-global-content ul.cards li.card {
     color: #ffffff;
     border-radius: 1rem;
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
-    transition: 150ms ease-in-out;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.dsf-global div.dsf-global-content ul.cards li.card:hover {
     transform: scale(1.05);
@@ -583,7 +573,7 @@ section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card {
     overflow: hidden;
     cursor: pointer;
     height: 100%;
-    transition: 150ms ease-in-out;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card:hover {
     transform: translateY(-10px);
@@ -597,7 +587,7 @@ section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.te
     object-fit: cover;
     width: 100%;
     height: 100%;
-    transition: 500ms ease-in-out;
+    transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card:hover div.tec-revo-card-banner img {
     transform: scale(1.1);
@@ -798,7 +788,7 @@ section.videos div.videos-content div.videos-educacionais ul.videos-links li {
     background-color: #ffffff1a;
     border-radius: 0.625rem;
     margin-bottom: 1rem;
-    transition: 150ms ease-in-out;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.videos div.videos-content div.videos-educacionais ul.videos-links li a {
     font-weight: 600;
@@ -821,7 +811,7 @@ section.videos div.videos-content div.videos-carrossel div.carrossel-slide {
 }
 section.videos div.videos-content div.videos-carrossel div.carrossel-slide div.carrossel-track {
     display: flex;
-    transition: 500ms ease-in-out;
+    transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
 }
 section.videos div.videos-content div.videos-carrossel div.carrossel-slide div.carrossel-track .carrossel-item {
@@ -835,7 +825,7 @@ section.videos div.videos-content div.videos-carrossel button {
     line-height: 0;
     margin-left: 1rem;
     flex-shrink: 0;
-    transition: 100ms ease-in-out;
+    transition: 100ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.videos div.videos-content div.videos-carrossel button:hover {
     transform: translateY(-5px);
@@ -852,3 +842,695 @@ section.videos div.videos-content div.videos-carrossel button svg {
 }
 
 /* === 3ª Página - Desafios === /*
+
+/* === Desafios Atuais === */
+section.dsf-atuais {
+    color: #ffffff;
+    padding: 5rem 0;
+    background-image: linear-gradient(to bottom right, #82181a, #c10007);
+    overflow: hidden;
+    position: relative;
+}
+section.dsf-atuais div.dsf-lights {
+    opacity: 0.1;
+    position: absolute;
+    inset: 0;
+}
+section.dsf-atuais div.dsf-lights div.white-light {
+    filter: blur(64px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+}
+section.dsf-atuais div.dsf-lights div.orange-light {
+    filter: blur(64px);
+    background-color: #ff6900;
+    border-radius: 50%;
+    width: 24rem;
+    height: 24rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 5rem;
+}
+section.dsf-atuais div.dsf-text {
+    text-align: center;
+    max-width: 48rem;
+    margin: auto;
+}
+section.dsf-atuais div.dsf-text svg.alert {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+}
+section.dsf-atuais div.dsf-text h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+section.dsf-atuais div.dsf-text p {
+    color: #ffffffe6;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+/* === Principais Obstáculos === */
+section.prin-obs {
+    padding: 5rem 0;
+}
+section.prin-obs div.prin-obs-content {
+    padding: 0 2rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+section.prin-obs div.prin-obs-content div.prin-obs-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section.prin-obs div.prin-obs-content div.prin-obs-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1rem;
+}
+section.prin-obs div.prin-obs-content div.prin-obs-text p {
+    color: #1b5e1fb3;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    max-width: 42rem;
+    margin-inline: auto;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card {
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    padding: 2rem;
+    border-left: 4px #1b5e20 solid;
+    border-radius: 1rem;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card:hover {
+    box-shadow: 0 25px 50px -8px #00000026, 0 10px 30px -10px #00000026;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-icon {
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.875rem;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.stonks {
+    background-color: #1b5e20;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.chuvinha {
+    background-color: #2e7d32;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.lixinho {
+    background-color: #66bb6a;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.gotinha {
+    background-color: #f9a825;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-icon svg {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text {
+    flex: 1;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    margin-bottom: 0.5rem;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text p:nth-of-type(1) {
+    color: #1b5e1fb3;
+    margin-bottom: 1rem;
+}
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text p span {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+    border-radius: 0.625rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3333;
+}
+
+/* === Dados Mundias === */
+section.dados {
+    padding: 5rem 0;
+    background-color: #f5f5f5;
+}
+section.dados div.dados-content {
+    padding: 0 2rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+section.dados div.dados-content div.dados-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section.dados div.dados-content div.dados-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1rem;
+}
+section.dados div.dados-content div.dados-text p {
+    color: #1b5e1fb3;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    max-width: 42rem;
+    margin-inline: auto;
+}
+section.dados div.dados-content div.dados-charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+section.dados div.dados-content div.dados-charts div.bar-chart {
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+section.dados div.dados-content div.dados-charts div.bar-chart h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    margin-bottom: 1.5rem;
+}
+section.dados div.dados-content div.dados-charts div.bar-chart svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto; 
+}
+section.dados div.dados-content div.dados-charts div.pie-chart {
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+section.dados div.dados-content div.dados-charts div.pie-chart h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    margin-bottom: 1.5rem;
+}
+section.dados div.dados-content div.dados-charts div.pie-chart svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto; 
+}
+
+/* === Regiões Mais Vulneráveis === */
+section.reg-vul {
+    padding: 5rem 0;
+}
+section.reg-vul div.reg-vul-content {
+    padding: 0 2rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-text svg.loc {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-bottom: 1rem;
+    margin-inline: auto;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-text p {
+    color: #1b5e1fb3;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    max-width: 42rem;
+    margin-inline: auto;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 2rem;
+    align-items: flex-start;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.first-collumn {
+    grid-column: 1 / span 2;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map {
+    aspect-ratio: 16 / 9;
+    background-image: linear-gradient(160deg, #e8f5e9 0%, #c8e6c9 60%, #b2dfdb 100%);
+    box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+    border: 1px #ebe6e7 solid;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map svg.mapa {
+    opacity: 0.18;
+    width: 100%;
+    height: 100%;
+    display: block;
+    fill: currentColor;
+    inset: 0;
+    position: absolute;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-gradient {
+    background-image: linear-gradient(to bottom right, #1b5e200d, #66bb6a14);
+    inset: 0;
+    position: absolute;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.alto {
+    left: 53%;
+    top: 68%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio1 {
+    left: 63%;
+    top: 51%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio2 {
+    left: 56%;
+    top: 44%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.moderado {
+    left: 34%;
+    top: 57%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo {
+    left: 51%;
+    top: 36%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button span.ping {
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    animation: ping 1000ms cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.active span.ping {
+    animation: none;
+    transform: scale(2.5);
+    opacity: 0.5;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.alto span.ping {
+    background-color: #d32f2f;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio1 span.ping {
+    background-color: #f57c00;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio2 span.ping {
+    background-color: #ff8f00;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.moderado span.ping {
+    background-color: #fbc02d;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo span.ping {
+    background-color: #66bb6a;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    border: 2px #ffffff solid;
+    border-radius: 50%;
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button:hover div.mark {
+    transform: scale(1.25);
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.alto div.mark {
+    background-color: #d32f2f;
+    box-shadow: 0 4px 15px #d32f2f80;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio1 div.mark {
+    background-color: #f57c00;
+    box-shadow: 0 4px 15px #f57b0080;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio2 div.mark {
+    background-color: #ff8f00;
+    box-shadow: 0 4px 15px #ff910080;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.moderado div.mark {
+    background-color: #fbc02d;
+    box-shadow: 0 4px 15px #fbc12d80;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo div.mark {
+    background-color: #66bb6a;
+    box-shadow: 0 4px 15px #66bb6a80;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-box {
+    opacity: 0;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    z-index: 50;
+    transform: translateX(-50%);
+    color: #1e2939;
+    padding: 0.375rem 0.75rem;
+    background-color: #ffffff;
+    border: 1px #ebe6e7 solid;
+    border-radius: 0.625rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button:hover div.text-box {
+    opacity: 1;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-box h5 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.3333;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-box div.text-box-mark {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 4px #00000000 solid;
+    border-top-color: #ffffff;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda {
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    padding: 0.75rem;
+    background-color: #ffffffe6;
+    border: 1px #ebe6e7 solid;
+    border-radius: 0.875rem;
+    position: absolute;
+    left: 0.75rem;
+    bottom: 0.75rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda h4 {
+    text-transform: uppercase;
+    color: #6a7282;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-R {
+    background-color: #d32f2f;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-O {
+    background-color: #f57c00;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-Y {
+    background-color: #fbc02d;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-G {
+    background-color: #66bb6a;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel p {
+    color: #4a5565;
+    font-size: 0.75rem;
+    line-height: 1.3333;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title {
+    backdrop-filter: blur(8px);
+    box-shadow: 0 1px 3px 0px #0000001a, 0 1px 2px -1px #0000001a;
+    padding: 0.5rem 1rem;
+    background-color: #ffffffe6;
+    border: 1px #ebe6e7 solid;
+    border-radius: 0.875rem;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.75rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.3333;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome {
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #1b5e20, #2e7d32);
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 0.875rem;
+    margin-top: 1rem;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome:hover {
+    transform: scale(1.025) translateY(0.5rem);
+} 
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 0.25rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title p {
+    color: #6a7282;
+    font-size: 0.625rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-type(1) {
+    color: #ffffffcc;
+    font-size: 0.875rem;
+    line-height: 1.4287;
+    margin-bottom: 0.25rem;
+    transition: ease-in-out;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-type(2) {
+    color: #ffffff99;
+    font-size: 0.75rem;
+    line-height: 1.3333;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs h3 {
+    text-transform: uppercase;
+    color: #1b5e1f99;
+    font-weight: 600;
+    line-height: 1.4287;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button {
+    text-align: left;
+    box-shadow: 0 1px 3px 0px #0000001a, 0 1px 2px -1px #0000001a;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 2px #ebe6e7 solid;
+    border-radius: 0.875rem;
+    width: 100%;
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button:hover {
+    border: 2px #99a1af solid;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active {
+    background-color: #f5f5f5;
+    border: 2px #1b5e20 solid;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active:hover {
+    border: 2px #1b5e20 solid;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button:not(:last-of-type) {
+    margin-bottom: 0.75rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.regiao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.regiao h4 {
+    font-weight: 700;
+    line-height: 1.4287;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.regiao p:nth-of-type(1) {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.africa-sub div.regiao p:nth-of-type(1) {
+    color: #d32f2f;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-med div.regiao p:nth-of-type(1) {
+    color: #f57c00;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-oci div.regiao p:nth-of-type(1) {
+    color: #ff8f00;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.ame-lat-car div.regiao p:nth-of-type(1) {
+    color: #fbc02d;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.eu-ori div.regiao p:nth-of-type(1) {
+    color: #66bb6a;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.barrinha {
+    width: 100%;
+    height: 0.5rem;
+    background-color: #ebe6e7;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.barrinha div.porcentagem {
+    width: 0;
+    height: 0.5rem;
+    border-radius: 50px;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.animated-btn div.barrinha div.porcentagem {
+    animation: growthBar 800ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.africa-sub div.barrinha div.porcentagem {
+    background-color: #d32f2f;
+    --target-width: 96%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-med div.barrinha div.porcentagem {
+    background-color: #f57c00;
+    --target-width: 60%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-oci div.barrinha div.porcentagem {
+    background-color: #ff8f00;
+    --target-width: 48%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.ame-lat-car div.barrinha div.porcentagem {
+    background-color: #fbc02d;
+    --target-width: 36%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.eu-ori div.barrinha div.porcentagem {
+    background-color: #66bb6a;
+    --target-width: 12%;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button p.extra-text {
+    opacity: 0;
+    height: 0;
+    color: #1b5e20;
+    font-size: 0.75rem;
+    line-height: 1.625;
+    margin-top: 0.5rem;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active p.extra-text {
+    opacity: 1;
+    height: auto;
+}
+
+/* === Urgência de Agir === */
+section.urg {
+    color: #ffffff;
+    padding: 5rem 0;
+    background-image: linear-gradient(to bottom right, #f54a00, #e7000b);
+}
+section.urg div.urg-content {
+    text-align: center;
+    padding: 0 2rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+section.urg div.urg-content h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1.5rem;
+}
+section.urg div.urg-content p {
+    color: #ffffffe6;
+    font-size: 1.5rem;
+    line-height: 1.3333;
+    max-width: 48rem;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+}
+section.urg div.urg-content a {
+    color: #1b5e20;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+    border-radius: 100px;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.urg div.urg-content a:hover {
+    transform: scale(1.05);
+}
+section.urg div.urg-content a svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
