@@ -170,7 +170,7 @@ ScrollReveal().reveal('.videos-educacionais p', {
   delay: 250
 });
 
-ScrollReveal().reveal('.videos-educacionais ul li', {
+ScrollReveal().reveal('.videos-educacionais .revelar-links', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
@@ -270,6 +270,75 @@ ScrollReveal().reveal('.urg-content', {
   origin: 'bottom',
   scale: 0.95,
   delay: 200
+});
+
+ScrollReveal().reveal('.slcs-content .revelar-baixo', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  interval: 220,
+  delay: 400
+});
+
+ScrollReveal().reveal('.alt-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 1040
+});
+
+ScrollReveal().reveal('.slcs-img', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.9,
+  delay: 150
+});
+
+ScrollReveal().reveal('.slcs-text > *, .slcs-text ul .list-reveal', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  interval: 100,
+  delay: 150
+});
+
+ScrollReveal().reveal('.prob-sol-text', {
+  ...configBase,
+  origin: 'left',
+  scale: 0.95,
+  delay: 200
+});
+
+ScrollReveal().reveal('.prob-sol-content ul li', {
+  ...configBase,
+  duration: 300,
+  distance: 0,
+  scale: 0.2,
+  interval: 150,
+  delay: 300
+});
+
+ScrollReveal().reveal('.eco-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 200
+});
+
+ScrollReveal().reveal('.eco-content ul .sequencia-reveal', {
+  ...configBase,
+  origin: 'bottom',
+  easing: 'cubic-bezier(0.5, 1.8, 0.3, 0.8)',
+  scale: 0.9,
+  interval: 150,
+  delay: 200
+});
+
+ScrollReveal().reveal('.eco-content .eco-btn-reveal', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.9,
+  delay: 300
 });
 
 // Carrossel de Vídeos
