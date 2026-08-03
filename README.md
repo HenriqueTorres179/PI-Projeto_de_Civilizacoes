@@ -204,3 +204,22 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 
 * Fazer mais posts para o instagram
 * Continuar o código da página
+
+---
+
+## Ata 7
+
+### Informações Gerais
+* **Data:** 03/08
+* **Turma:** 1info3
+
+### Participantes
+* Anna Jully Bueno
+* Henrique Torres
+* Juan Pedro Zastrow Damaceno
+* Leonardo Rodrigues Teixeira
+* Nicolas Henrique Klug Anacleto
+* Ryan Gabriel Duzanowski
+
+### Assuntos Discutidos
+* Erros de dados ou páginas desatualizadas a serem corrigidos.
