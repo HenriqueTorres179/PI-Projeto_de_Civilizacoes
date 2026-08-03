@@ -223,3 +223,10 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 
 ### Assuntos Discutidos
 * Erros de dados ou páginas desatualizadas a serem corrigidos.
+
+* **Terminamos até a 4ª página do site. Adicionamos o link para o Instagram no rodapé.**
+
+### Encaminhamentos
+* Continuar o código da página.
+* Revisar o layout desenvolvido no Figma e aplicar os ajustes necessários.
+ 
