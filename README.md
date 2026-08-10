@@ -221,10 +221,15 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 * Ryan Gabriel Duzanowski
 
 ### Assustos Discutidos
-* Avaliação individual do grupo
-* [Figma](https://www.figma.com/design/MHv72gdKnSIRwb3uGJQMW4/Layout?node-id=0-1&t=dE2XZYwc7V29tBMx-1)
-* Voltamos a fazer o código da página
 
+* Avaliação individual do grupo  
+* Figma: [PI PRODUÇÃO DE ALIMENTOS PARA GRANDES POPULAÇÕES](https://www.figma.com/design/MHv72gdKnSIRwb3uGJQMW4/Layout?node-id=203-125&t=Qu2EbUh2xDnmnnmc-1)  
+* Voltamos a fazer o código da página
+  
+ ---
+ 
+  **Tivemos a avaliação individual e voltamos a fazer o código da página e o código do readme**  
+  
 #### Comentários
 **Tivemos avaliação individual e voltamos a fazer o código da página e o código do readme**
 
