@@ -51,13 +51,11 @@
 
 #### Vídeos de Referência
 
-* [**Instituto Futuros | Home**](https://www.institutofuturos.com.br/)  
-* [**Website Sustentável – Por uma Internet Mais Verde**](https://websitesustentavel.com.br/)  
-* [**Ferrari**](https://www.ferrari.com/en-BR)    
-* [**Playstation \- PS5**](https://www.playstation.com/pt-br/ps5/?smcid=pdc%3Apt-br%3Aaccessories%3Aprimary%20nav%3Amsg-ps5%3Aps5)  
-* [**SquadEasy**](https://www.squadeasy.com/en/)  
-* [**Wealthsimple**](https://www.wealthsimple.com/en-ca)  
-* [**FounderMastermind**](https://foundermastermind.mystrikingly.com/)
+* [**Planeta em Perigo: Produção de alimentos na Terra pode estar se aproximando do seu limite**](https://record.r7.com/domingo-espetacular/planeta-em-perigo/video/planeta-em-perigo-producao-de-alimentos-na-terra-pode-estar-se-aproximando-do-seu-limite-04082025/)  
+* [**Os 5 países que mais produzem alimentos no mundo**](https://www.youtube.com/watch?v=KdwB1z9zuy0)  
+* [**Como o Brasil produz tanto e tem tanta fome?**](https://www.youtube.com/watch?v=UmOXb5zLqJQ)  
+* [**Caminhos para uma Agricultura de Base Ecológica – Embrapa**](https://www.youtube.com/watch?v=ZlQ2gI9YhOw)  
+* [**Comida de Verdade – Curta Agroecologia – Canal Saúde Oficial**](https://fiocruz.br/video/comida-de-verdade-curta-agroecologia)
 
 #### Ideias de Funcionalidades
 * Recursos interativos: Gráficos dinâmicos, quizzes, mapas interativos e vídeos incorporados.
