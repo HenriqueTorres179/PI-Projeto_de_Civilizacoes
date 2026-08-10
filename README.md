@@ -61,6 +61,17 @@
 * Recursos interativos: Gráficos dinâmicos, quizzes, mapas interativos e vídeos incorporados.
 * Animações baseadas em exemplos de *CSS Animation Examples* (itens 2, 3, 18, 25, 31).
 
+# [**CSS Animation Examples**](https://prismic.io/blog/css-animation-examples)
+
+* **2**  
+* **3**  
+* **18**  
+* **25**  
+* **31**  
+  ---
+
+  **No desenvolvimento do site sobre produção de alimentos para grandes populações, serão utilizados diferentes tipos de materiais e recursos. Conteúdo: serão aproveitados artigos e relatórios de instituições como UNEP, Embrapa e Aprosoja/MS, que fornecem dados confiáveis e atualizados sobre os desafios e soluções na produção de alimentos. Elemento visual: referências de design de sites bonitos e com funcionalidades interessantes para trazer inspiração estética e moderna, criando uma experiência agradável e atrativa para o usuário. Funcionalidade: serão incorporados recursos interativos como gráficos dinâmicos, quizzes e mapas interativos, inspirados em funcionalidades vistas em sites. Os vídeos também servirão de referência durante o desenvolvimento do site.**   
+  
 ### Encaminhamentos
 * Detalhar o conteúdo de cada uma das 6 páginas
 * Iniciar o layout e prototipação no Figma
