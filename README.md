@@ -40,10 +40,13 @@
 * [**G1 – Série “PF: prato do futuro”**](https://g1.globo.com/economia/agronegocios/agro-de-gente-pra-gente/noticia/2024/07/23/serie-pf-prato-do-futuro-mostra-solucoes-para-desafios-da-producao-de-alimentos-no-brasil.ghtml)
 
 #### Referências Visuais e Funcionais
-* Instituto Futuros | Website Sustentável
-* Ferrari | Playstation (PS5)
-* SquadEasy | Wealthsimple | FounderMastermind
-
+* [**Instituto Futuros | Home**](https://www.institutofuturos.com.br/)  
+* [**Website Sustentável – Por uma Internet Mais Verde**](https://websitesustentavel.com.br/)  
+* [**Ferrari**](https://www.ferrari.com/en-BR)    
+* [**Playstation \- PS5**](https://www.playstation.com/pt-br/ps5/?smcid=pdc%3Apt-br%3Aaccessories%3Aprimary%20nav%3Amsg-ps5%3Aps5)  
+* [**SquadEasy**](https://www.squadeasy.com/en/)  
+* [**Wealthsimple**](https://www.wealthsimple.com/en-ca)  
+* [**FounderMastermind**](https://foundermastermind.mystrikingly.com/)
 #### Vídeos de Referência
 * *Planeta em Perigo: Produção de alimentos na Terra pode estar se aproximando do seu limite*
 * *Os 5 países que mais produzem alimentos no mundo*
