@@ -33,10 +33,10 @@
 #### Fontes e Referências de Conteúdo
 * [**UNEP** – Como alimentar 10 bilhões de pessoas até 2050](https://www.unep.org/pt-br/noticias-e-reportagens/reportagem/como-alimentar-10-bilhoes-de-pessoas-ate-2050)  
 * [**Aprosoja/MS** – Produção de alimentos precisará crescer 70%](https://www.aprosojams.org.br/producao-de-alimentos-precisara-crescer-70-para-atender-demanda-mundial)  
-* **CropLife** – Fome: o maior desafio da humanidade
-* **Portal Embrapa** – Megatendência: Intensificação e sustentabilidade | Cidades e Alimentação
-* **Seleto Industrial** – Produção em larga escala
-* **G1** – Série “PF: prato do futuro”
+* [**CropLife** – Fome: o maior desafio da humanidade](https://croplifebrasil.org/fome-o-maior-desafio-da-humanidade/)  
+* [**Portal Embrapa** – Megatendência: Intensificação e sustentabilidade | Cidades e Alimentação]
+* [**Seleto Industrial** – Produção em larga escala]
+* [**G1** – Série “PF: prato do futuro”]
 
 #### Referências Visuais e Funcionais
 * Instituto Futuros | Website Sustentável
