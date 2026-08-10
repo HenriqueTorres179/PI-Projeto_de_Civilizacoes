@@ -31,8 +31,8 @@
 * Conclusão com reflexão sobre a participação individual.
 
 #### Fontes e Referências de Conteúdo
-* **UNEP** – Como alimentar 10 bilhões de pessoas até 2050
-* **Aprosoja/MS** – Produção de alimentos precisará crescer 70%
+* [**UNEP** – Como alimentar 10 bilhões de pessoas até 2050](https://www.unep.org/pt-br/noticias-e-reportagens/reportagem/como-alimentar-10-bilhoes-de-pessoas-ate-2050)  
+* [**Aprosoja/MS** – Produção de alimentos precisará crescer 70%]
 * **CropLife** – Fome: o maior desafio da humanidade
 * **Portal Embrapa** – Megatendência: Intensificação e sustentabilidade | Cidades e Alimentação
 * **Seleto Industrial** – Produção em larga escala
