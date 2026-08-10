@@ -93,7 +93,17 @@
 * Nicolas Henrique Klug Anacleto
 * Ryan Gabriel Duzanowski
 
+## **Github**
+
+* [**https://github.com/HenriqueTorres179/PI-Projeto\_de\_Civilizacoes.git**](https://github.com/HenriqueTorres179/PI-Projeto_de_Civilizacoes.git)
+
+## **Figma**
+
+[https://www.figma.com/design/MHv72gdKnSIRwb3uGJQMW4/Layout?node-id=0-1\&p=f\&t=rVF4SntIAeQpDtm4-0](https://www.figma.com/design/MHv72gdKnSIRwb3uGJQMW4/Layout?node-id=0-1&p=f&t=rVF4SntIAeQpDtm4-0)
+
 ### Assuntos Discutidos
+
+**Houve uma troca de integrantes. Decidimos os responsáveis pelos wireframes e pelo Github. Já decidimos também alguns layouts de wireframes para o site e criamos o Github. Criamos também o layout do site com o Figma.**
 
 #### Troca de Integrante
 * **Saída:** Felipe Gabriel Fink Vieira
