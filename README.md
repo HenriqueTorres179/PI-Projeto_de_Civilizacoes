@@ -31,12 +31,13 @@
 * Conclusão com reflexão sobre a participação individual.
 
 #### Fontes e Referências de Conteúdo
-* [**UNEP** – Como alimentar 10 bilhões de pessoas até 2050](https://www.unep.org/pt-br/noticias-e-reportagens/reportagem/como-alimentar-10-bilhoes-de-pessoas-ate-2050)  
-* [**Aprosoja/MS** – Produção de alimentos precisará crescer 70%](https://www.aprosojams.org.br/producao-de-alimentos-precisara-crescer-70-para-atender-demanda-mundial)  
-* [**CropLife** – Fome: o maior desafio da humanidade](https://croplifebrasil.org/fome-o-maior-desafio-da-humanidade/)  
-* [**Portal Embrapa** – Megatendência: Intensificação e sustentabilidade | Cidades e Alimentação](https://www.embrapa.br/visao/intensificacao-e-sustentabilidade-dos-sistemas-de-producao-agricolas)  
-* [**Seleto Industrial** – Produção em larga escala](https://conteudo.seletoindustrial.com.br/termos/producao-em-larga-escala/)  
-* [**G1** – Série “PF: prato do futuro”]
+* [**UNEP – Como alimentar 10 bilhões de pessoas até 2050**](https://www.unep.org/pt-br/noticias-e-reportagens/reportagem/como-alimentar-10-bilhoes-de-pessoas-ate-2050)  
+* [**ate-2050Aprosoja/MS – Produção de alimentos precisará crescer 70%**](https://www.aprosojams.org.br/producao-de-alimentos-precisara-crescer-70-para-atender-demanda-mundial)  
+* [**CropLife – Fome: o maior desafio da humanidade**](https://croplifebrasil.org/fome-o-maior-desafio-da-humanidade/)  
+* [**Portal Embrapa – Megatendência: Intensificação e sustentabilidade**](https://www.embrapa.br/visao/intensificacao-e-sustentabilidade-dos-sistemas-de-producao-agricolas)  
+* [**Seleto Industrial – Produção em larga escala**](https://conteudo.seletoindustrial.com.br/termos/producao-em-larga-escala/)  
+* [**Portal Embrapa – Cidades e Alimentação**](https://www.embrapa.br/alimentos-e-territorios/areas-de-atuacao/cidades-e-alimentacao)  
+* [**G1 – Série “PF: prato do futuro”**](https://g1.globo.com/economia/agronegocios/agro-de-gente-pra-gente/noticia/2024/07/23/serie-pf-prato-do-futuro-mostra-solucoes-para-desafios-da-producao-de-alimentos-no-brasil.ghtml)
 
 #### Referências Visuais e Funcionais
 * Instituto Futuros | Website Sustentável
