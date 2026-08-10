@@ -35,7 +35,7 @@
 * [**Aprosoja/MS** – Produção de alimentos precisará crescer 70%](https://www.aprosojams.org.br/producao-de-alimentos-precisara-crescer-70-para-atender-demanda-mundial)  
 * [**CropLife** – Fome: o maior desafio da humanidade](https://croplifebrasil.org/fome-o-maior-desafio-da-humanidade/)  
 * [**Portal Embrapa** – Megatendência: Intensificação e sustentabilidade | Cidades e Alimentação](https://www.embrapa.br/visao/intensificacao-e-sustentabilidade-dos-sistemas-de-producao-agricolas)  
-* [**Seleto Industrial** – Produção em larga escala]
+* [**Seleto Industrial** – Produção em larga escala](https://conteudo.seletoindustrial.com.br/termos/producao-em-larga-escala/)  
 * [**G1** – Série “PF: prato do futuro”]
 
 #### Referências Visuais e Funcionais
