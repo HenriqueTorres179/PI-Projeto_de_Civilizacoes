@@ -47,12 +47,17 @@
 * [**SquadEasy**](https://www.squadeasy.com/en/)  
 * [**Wealthsimple**](https://www.wealthsimple.com/en-ca)  
 * [**FounderMastermind**](https://foundermastermind.mystrikingly.com/)
+
+
 #### Vídeos de Referência
-* *Planeta em Perigo: Produção de alimentos na Terra pode estar se aproximando do seu limite*
-* *Os 5 países que mais produzem alimentos no mundo*
-* *Como o Brasil produz tanto e tem tanta fome?*
-* *Caminhos para uma Agricultura de Base Ecológica* (Embrapa)
-* *Comida de Verdade – Curta Agroecologia* (Canal Saúde Oficial)
+
+* [**Instituto Futuros | Home**](https://www.institutofuturos.com.br/)  
+* [**Website Sustentável – Por uma Internet Mais Verde**](https://websitesustentavel.com.br/)  
+* [**Ferrari**](https://www.ferrari.com/en-BR)    
+* [**Playstation \- PS5**](https://www.playstation.com/pt-br/ps5/?smcid=pdc%3Apt-br%3Aaccessories%3Aprimary%20nav%3Amsg-ps5%3Aps5)  
+* [**SquadEasy**](https://www.squadeasy.com/en/)  
+* [**Wealthsimple**](https://www.wealthsimple.com/en-ca)  
+* [**FounderMastermind**](https://foundermastermind.mystrikingly.com/)
 
 #### Ideias de Funcionalidades
 * Recursos interativos: Gráficos dinâmicos, quizzes, mapas interativos e vídeos incorporados.
