@@ -88,11 +88,6 @@
 * **Saída:** Felipe Gabriel Fink Vieira
 * **Entrada:** Henrique Torres
 
-## **Wireframes**
-
-* **![][image1]**  
-* **![][image2]**
-
 #### Divisão de Responsabilidades
 * **Responsáveis pelos Wireframes:** Ryan, Leonardo e Anna
 * **Responsáveis pelo GitHub:** Henrique, Nicolas e Juan
