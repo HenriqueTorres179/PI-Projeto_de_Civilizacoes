@@ -229,4 +229,23 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 ### Encaminhamentos
 * Continuar o código da página.
 * Revisar o layout desenvolvido no Figma e aplicar os ajustes necessários.
- 
+
+ ---
+
+ ## Ata 8
+
+ ### Informações Gerais
+* **Data:** 03/08
+* **Turma:** 1info3
+
+### Participantes
+* Anna Jully Bueno
+* Henrique Torres
+* Juan Pedro Zastrow Damaceno
+* Leonardo Rodrigues Teixeira
+* Nicolas Henrique Klug Anacleto
+* Ryan Gabriel Duzanowski
+
+### Assuntos Discutidos
+
+### Encaminhamentos
