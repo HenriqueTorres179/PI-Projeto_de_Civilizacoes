@@ -268,7 +268,7 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
  ## Ata 8
 
  ### Informações Gerais
-* **Data:** 03/08
+* **Data:** 10/08
 * **Turma:** 1info3
 
 ### Participantes
@@ -280,5 +280,10 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 * Ryan Gabriel Duzanowski
 
 ### Assuntos Discutidos
+* Posts do instagram.
+* Continuação da programação do site.
 
+* **Discutimos sobre o instagram e como está o código do site.**
 ### Encaminhamentos
+* Continuar o código da página.
+* Decidir página de responsabilidade de cada integrante.
