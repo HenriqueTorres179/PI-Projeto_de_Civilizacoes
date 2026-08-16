@@ -193,21 +193,45 @@ footer div.footer-content div.info div.info-ref a:hover {
     color: #ffffff;
 }
 footer div.credits {
-    color: #ffffff99;
-    font-size: 0.875rem;
-    line-height: 1.4287;
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid #ffffff33;
     margin-top: 2rem;
 }
-
-/* === 1ª Página - Início === */
+footer div.credits p:nth-of-type(1) {
+    color: #ffffffcc;
+    margin-bottom: 0.5rem;
+}
+footer div.credits p:nth-of-type(1) a {
+    display: inline-flex;
+    gap: 0.5rem;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+footer div.credits p:nth-of-type(1) a svg {
+    width: 1.5; 
+    height: 1.5rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+footer div.credits p:nth-of-type(1) a:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}
+footer div.credits p:nth-of-type(2) {
+    color: #ffffff99;
+    font-size: 0.875rem;
+    line-height: 1.4287;
+}
 
 /* === Main - Content === */
 main {
     padding-top: 5rem;
 }
+
+/* === 1ª Página - Início === */
 
 /* === Hero === */
 section.hero {
@@ -219,9 +243,9 @@ section.hero {
     position: relative;
 }
 section.hero div.hero-image {
-    z-index: 0;
-    inset: 0;
     position: absolute;
+    inset: 0;
+    z-index: 0;
 }
 section.hero div.hero-image img {
     object-fit: cover;
@@ -483,8 +507,8 @@ section.banner {
 }
 section.banner div.banner-lights {
     opacity: 10%;
-    inset: 0;
     position: absolute;
+    inset: 0;
 }
 section.banner div.banner-lights div.white-light {
     filter: blur(64px);
@@ -1129,13 +1153,13 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.map svg.mapa {
     height: 100%;
     display: block;
     fill: currentColor;
-    inset: 0;
     position: absolute;
+    inset: 0;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-gradient {
     background-image: linear-gradient(to bottom right, #1b5e200d, #66bb6a14);
-    inset: 0;
     position: absolute;
+    inset: 0;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button {
     position: absolute;
@@ -1164,8 +1188,8 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo {
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button span.ping {
     position: absolute;
-    border-radius: 50%;
     inset: 0;
+    border-radius: 50%;
     animation: ping 1000ms cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.active span.ping {
@@ -1367,7 +1391,7 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-
     font-size: 0.875rem;
     line-height: 1.4287;
     margin-bottom: 0.25rem;
-    transition: ease-in-out;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-type(2) {
     color: #ffffff99;
@@ -1547,8 +1571,8 @@ section.slcs {
 }
 section.slcs div.slcs-lights {
     opacity: 0.1;
-    inset: 0;
     position: absolute;
+    inset: 0;
 }
 section.slcs div.slcs-lights div.white-light {
     filter: blur(64px);
@@ -1660,8 +1684,8 @@ section.alt div.alt-content ul li div.slcs-img:hover img {
 }
 section.alt div.alt-content ul li div.slcs-img div.slcs-gradient {
     background-image: linear-gradient(to top, #00000099, #00000000);
-    inset: 0;
     position: absolute;
+    inset: 0;
 }
 section.alt div.alt-content ul li div.slcs-img div.slcs-img-logo {
     position: absolute;
@@ -1930,3 +1954,475 @@ section.eco div.eco-content a svg {
     stroke-width: 2px;
     stroke-linecap: round;
 }
+
+/* === 5ª Página - Quiz === */
+
+/* === Curiosidades e Quiz === */
+section.cur-quiz {
+    color: #ffffff;
+    padding: 5rem 0;
+    background-image: linear-gradient(to bottom right, #F9A825, #F57C00);
+    overflow: hidden;
+    position: relative;
+}
+section.cur-quiz div.cur-quiz-lights {
+    opacity: 0.1;
+    position: absolute;
+    inset: 0;
+}
+section.cur-quiz div.cur-quiz-lights div.white-light {
+    filter: blur(64px);
+    background-color: #ffffff;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
+}
+section.cur-quiz div.cur-quiz-lights div.green-light {
+    filter: blur(64px);
+    background-color: #1b5e20;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+}
+section.cur-quiz div.cur-quiz-text {
+    text-align: center;
+    padding: 0 2rem;
+    max-width: 48rem;
+    margin-inline: auto;
+    z-index: 10;
+    position: relative;
+}
+section.cur-quiz div.cur-quiz-text svg {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+}
+section.cur-quiz div.cur-quiz-text h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+section.cur-quiz div.cur-quiz-text p {
+    color: #ffffffe6;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+/* === Curiosidades === */
+section.cur {
+    padding: 5rem 0;
+}
+section.cur div.cur-content {
+    padding: 0 2rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+section.cur div.cur-content div.cur-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section.cur div.cur-content div.cur-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1rem;
+}
+section.cur div.cur-content div.cur-text p {
+    color: #1b5e1fb3;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    max-width: 42rem;
+    margin-inline: auto;
+}
+section.cur div.cur-content ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+section.cur div.cur-content ul li {
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    color: #ffffff;
+    padding: 2rem;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #66bb6a, #2e7d32);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.cur div.cur-content ul li.cur1 {
+    border-radius: 1rem 1rem 0.5rem;
+}
+section.cur div.cur-content ul li.cur2 {
+    border-radius: 1rem 1rem 1rem 0.5rem;
+}
+section.cur div.cur-content ul li.cur3 {
+    border-radius: 1rem 0.5rem 1rem 1rem;
+}
+section.cur div.cur-content ul li.cur4 {
+    border-radius: 0.5rem 1rem 1rem;
+}
+section.cur div.cur-content ul li.cur1:hover {
+    transform: scale(1.045) translate(-0.7rem, -0.7rem);
+}
+section.cur div.cur-content ul li.cur2:hover {
+    transform: scale(1.045) translate(0.7rem, -0.7rem);
+}
+section.cur div.cur-content ul li.cur3:hover {
+    transform: scale(1.045) translate(-0.7rem, 0.7rem);
+}
+section.cur div.cur-content ul li.cur4:hover {
+    transform: scale(1.045) translate(0.7rem, 0.7rem);
+}
+section.cur div.cur-content ul li svg {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-bottom: 1.5rem;
+}
+section.cur div.cur-content ul li h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    margin-bottom: 0.75rem;
+}
+section.cur div.cur-content ul li p:nth-of-type(1) {
+    color: #ffffffe6;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+section.cur div.cur-content ul li p:nth-of-type(2) {
+    color: #ffffffb3;
+    font-size: 0.875rem;
+    line-height: 1.4287;
+    padding-top: 1rem;
+    border-top: 1px #ffffff33 solid;
+}
+
+/* === Quiz === */
+section.quiz {
+    padding: 5rem 0;
+    background-color: #f5f5f5;
+}
+section.quiz div.quiz-content {
+    padding: 0 2rem;
+    max-width: 56rem;
+    margin-inline: auto;
+}
+section.quiz div.quiz-content div.quiz-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section.quiz div.quiz-content div.quiz-text svg {
+    color: #f9a825;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-bottom: 1rem;
+    margin-inline: auto;
+}
+section.quiz div.quiz-content div.quiz-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1rem;
+}
+section.quiz div.quiz-content div.quiz-text p {
+    color: #1b5e1fb3;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+section.quiz div.quiz-content div.carrossel-quiz {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: auto;
+    min-height: 44rem;
+    transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.carrossel-item {
+    position: absolute;
+    inset: 0 0 auto 0;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateX(50px);
+    pointer-events: none;
+    z-index: 1;
+    transition: 300ms cubic-bezier(0.5, 1.8, 0.3, 0.8);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.carrossel-item.active {
+    z-index: 2;
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.carrossel-item.exit-left {
+    z-index: 1;
+    opacity: 0;
+    transform: translateX(-50px);
+    pointer-events: none;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.carrossel-item.enter-right {
+    z-index: 3;
+    opacity: 0;
+    transform: translateX(50px);
+    pointer-events: none;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.carrossel-item.enter-right.active {
+    z-index: 4;
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question {
+    box-shadow: 0 25px 50px -12px #0000001a, 0 10px 30px -15px #0000001a;
+    padding: 3rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.question-header h4 {
+    color: #f9a825;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4287;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.question-header p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4287;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.progress-bar {
+    background-color: #ebe6e7;
+    border-radius: 100px;
+    width: 100%;
+    height: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.progress-bar div.progress {
+    background-image: linear-gradient(to right, #1b5e20 30%, #2e7d32 70%, #f9a825);
+    border-radius: 100px;
+    width: 0;
+    height: 0.5rem;
+    transition: 900ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    margin-bottom: 2rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives {
+    margin-bottom: 2rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li:not(:nth-last-of-type(1)) {
+    margin-bottom: 1rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn {
+    text-align: left;
+    padding: 1rem;
+    background-color: #f6f3f4;
+    border: 2px solid;
+    border-color: #00000000;
+    border-radius: 0.875rem;
+    width: 100%;
+    cursor: pointer;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn:hover {
+    transform: scale(1.02);
+    background-color: #ebe6e7;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-correct {
+    background-color: #dcfce7;
+    border-color: #00c951;
+    pointer-events: none;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-wrong {
+    background-color: #ffe2e2;
+    border-color: #fb2c36;
+    pointer-events: none;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div p {
+    font-weight: 600;
+    flex: 1 1 auto;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div svg.certo {
+    color: #00a63e;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    opacity: 0;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div svg.errado {
+    color: #e7000b;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    opacity: 0;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-correct div svg.certo {
+    opacity: 1;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-wrong div svg.errado {
+    opacity: 1;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.explanation {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 1rem;
+    background-color: #eff6ff;
+    border-left: 4px #2b7fff solid;
+    border-radius: 0.625rem;
+    margin-bottom: 1.5rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.explanation.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.explanation p {
+    color: #1b5e1fb3;
+    font-size: 0.875rem;
+    line-height: 1.4287;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question button.prox-btn {
+    color: #ffffff;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1rem 0;
+    background-color: #1b5e20;
+    border-radius: 0.875rem;
+    width: 100%;
+    cursor: pointer;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question button.prox-btn.hidden {
+    display: none;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question button.prox-btn:hover {
+    background-color: #2e7d32;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final {
+    text-align: center;
+    box-shadow: 0 25px 50px -12px #0000001a, 0 10px 30px -15px #0000001a;
+    padding: 3rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final svg {
+    color: #f9a825;
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 1rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final p:nth-of-type(1) {
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final p:nth-of-type(2) {
+    color: #1b5e1fb3;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons button.restart-btn {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: #1b5e20;
+    border-radius: 0.875rem;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons button.restart-btn:hover {
+    background-color: #2e7d32;
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons a.prox-page {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: #f9a825;
+    border-radius: 0.875rem;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons a.prox-page:hover {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: #f57c00;
+    border-radius: 0.875rem;
+}
+
+/* === 6ª Página - Conclusão === */

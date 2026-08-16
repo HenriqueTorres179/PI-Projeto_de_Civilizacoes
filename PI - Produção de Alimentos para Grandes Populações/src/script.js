@@ -341,24 +341,40 @@ ScrollReveal().reveal('.eco-content .eco-btn-reveal', {
   delay: 300
 });
 
-// Carrossel de Vídeos
-let track = document.getElementById('track');
-let nextBtn = document.getElementById('next-btn');
-let slides = document.querySelectorAll('.carrossel-item');
-let index = 0;
-function updateCarousel() {
-  const width = document.querySelector('.carrossel-slide').clientWidth;
-  track.style.transform = `translateX(${-index * width}px)`;
-  let nativeVideos = track.getElementsByTagName('video');
-  for (let video of nativeVideos) {
-    video.pause();
-  }
-}
-nextBtn.addEventListener('click', () => {
-  index++;
-  if (index >= slides.length) {
-    index = 0;
-  }
-  updateCarousel();
+ScrollReveal().reveal('.cur-quiz-text .revelar-baixo', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  interval: 150,
+  delay: 200
 });
-window.addEventListener('resize', updateCarousel);
+
+ScrollReveal().reveal('.cur-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 800
+});
+
+ScrollReveal().reveal('.cur-content ul .curs', {
+  ...configBase,
+  duration: 400,
+  distance: 0,
+  scale: 0.4,
+  interval: 200,
+  delay: 300
+});
+
+ScrollReveal().reveal('.quiz-text', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.95,
+  delay: 200
+});
+
+ScrollReveal().reveal('.carrossel-quiz', {
+  ...configBase,
+  origin: 'bottom',
+  scale: 0.9,
+  delay: 200
+});
