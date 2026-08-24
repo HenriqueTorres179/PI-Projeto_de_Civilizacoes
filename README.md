@@ -287,3 +287,29 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 ### Encaminhamentos
 * Continuar o código da página.
 * Decidir página de responsabilidade de cada integrante.
+
+---
+
+## Ata 9
+
+### Informações Gerais
+* **Data:** 17/08
+* **Turma:** 1info3
+* 
+### Participantes 
+* Anna Jully Bueno
+* Henrique Torres
+* Juan Pedro Zastrow Damaceno
+* Leonardo Rodrigues Teixeira
+* Nicolas Henrique Klug Anacleto
+* Ryan Gabriel Duzanowski
+
+### Assuntos discutidos
+* Produção e organização de posts para o Instagram do projeto.
+* Definição das páginas que cada integrante irá apresentar na próxima aula.
+
+* **Durante a reunião, trabalhamos na criação dos posts para o Instagram do projeto e discutimos a divisão das páginas do site entre os integrantes, pensando na apresentação que será realizada na próxima aula.**
+### Encaminhamentos
+* Finalizar e organizar os posts do Instagram.
+* Cada integrante deverá se preparar para apresentar a página pela qual ficou responsável.
+Revisar o funcionamento e o conteúdo das páginas antes da apresentação.
