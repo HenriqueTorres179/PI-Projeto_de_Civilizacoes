@@ -2879,3 +2879,19 @@ section.about div.about-content ul.about-us li p {
     line-height: 1.3333;
     margin-top: 0.25rem;
 }
+
+/* === Media Queries === */
+
+/* === Tablet === */
+@media (max-width: 48rem) {
+    nav ul.links {
+        display: none;
+    }
+}
+
+/* === Celular === */
+@media (max-width: 40rem) {
+    nav a span {
+        display: none;
+    }
+}
