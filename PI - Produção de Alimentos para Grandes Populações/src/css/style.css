@@ -134,6 +134,19 @@ nav ul.links li div.underline {
     right: 0;
     bottom: -0.25rem;
 }
+nav button {
+    display: none;
+    padding: 0.5rem;
+}
+nav button svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
 
 /* === Footer === */
 footer {
@@ -3014,6 +3027,9 @@ section.about div.about-content ul.about-us li p {
 @media (max-width: 48rem) {
     nav ul.links {
         display: none;
+    }
+    nav button {
+        display: block;
     }
 }
 

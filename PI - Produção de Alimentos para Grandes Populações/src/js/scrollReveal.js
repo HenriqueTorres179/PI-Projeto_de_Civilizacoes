@@ -21,6 +21,14 @@ ScrollReveal().reveal('.links li', {
   delay: 300
 });
 
+ScrollReveal().reveal('nav button', {
+  ...configBase,
+  origin: 'top',
+  interval: 50,
+  distance: '15px',
+  delay: 300
+});
+
 ScrollReveal().reveal('.hero-text .revelar-baixo', {
   ...configBase,
   origin: 'bottom',
