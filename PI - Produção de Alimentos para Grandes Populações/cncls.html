@@ -172,12 +172,35 @@
                         </div>
                     </div>
                     <div class="btn-reveal hidden">
-                        <button type="submit">
+                        <button type="submit" class="disabled">
                             Registrar Meu Compromisso
                             <svg viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                         </button>
                     </div>
                 </form>
+                <div class="post-form" id="post-form">
+                    <div class="checkmark">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                    </div>
+                    <h3>Obrigado, <span id="nomeValidado"></span>!</h3>
+                    <p>
+                        Um agradecimento especial por se registrar com o email <span id="agradecimentoSpecial"></span>!
+                    </p>
+                    <p>
+                        Você se comprometeu com <span id="qtdAcoes"></span>.
+                    </p>
+                    <div class="acoes">
+                        <h4>Suas ações escolhidas:</h4>
+                        <ul class="lista-acoes"></ul>
+                    </div>
+                    <p>
+                        Pequenas ações individuais criam grandes transformações coletivas. Juntos, podemos construir um futuro alimentar sustentável para todos.
+                    </p>
+                    <a href="home.html">
+                        Voltar ao Início
+                        <svg viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
             </div>
         </section>
         <section class="futuro">
@@ -327,5 +350,7 @@
 </body>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="src/js/scrollReveal.js"></script>
+<script src="src/js/scriptForm.js"></script>
 <script src="src/js/scriptFooter.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 </html>
