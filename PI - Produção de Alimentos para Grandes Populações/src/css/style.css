@@ -604,6 +604,7 @@ section.banner div.banner-lights div.yellow-light {
 }
 section.banner div.banner-text {
     text-align: center;
+    padding: 0 2rem;
     max-width: 48rem;
     margin: auto;
 }
@@ -631,7 +632,7 @@ section.banner div.banner-text p {
 
 /* === Tecnologias Revolucionárias === */
 section.tec-revo {
-    padding: 5rem;
+    padding: 5rem 0;
     background-color: #ffffff;
 }
 section.tec-revo div.tec-revo-content {
@@ -3098,6 +3099,54 @@ section.about div.about-content ul.about-us li p {
     section.prod-stvl div.prod-stvl-content {
         padding: 0 1.5rem;
     }
+
+    /* === 2ª Página - Métodos Modernos === */
+
+    /* ==== Banner === */
+    section.banner div.banner-text {
+        padding: 0 1.5rem;
+    }
+
+    /* === Tecnologias Revolucionárias === */
+    section.tec-revo div.tec-revo-content {
+        padding: 0 1.5rem;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-prec {
+        grid-column: 1 / span 2;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.dron-agr {
+        grid-column: 3 / span 2;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.IA {
+        grid-column: 1 / span 2;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.hidroponia {
+        grid-column: 3 / span 2;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-vert {
+        grid-column: 2 / span 2;
+    }
+
+    /* === Evolução da Agricultura === */
+    section.evo div.evo-content {
+        padding: 1.5rem;
+    }
+
+    /* === Vídeos Educacionais === */
+    section.videos div.videos-content {
+        padding: 0 1.5rem;
+    }
+    section.videos div.videos-content div.videos-carrossel {
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.videos div.videos-content div.videos-carrossel button {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
 }
 /* === Tablet === */
 @media (max-width: 48rem) {
@@ -3154,6 +3203,60 @@ section.about div.about-content ul.about-us li p {
     section.prod-stvl div.prod-stvl-content {
         grid-template-columns: 1fr;
     }
+    section.prod-stvl div.prod-stvl-content div.eficiencia {
+        right: -1rem;
+        bottom: -1rem;
+    }
+
+    /* === 2ª Página - Métodos Modernos === */
+
+    /* ==== Banner === */
+    section.banner div.banner-text h1 {
+        font-size: 2.25rem;
+    }
+
+    /* === Tecnologias Revolucionárias === */
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards {
+        grid-template-columns: 1fr;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-prec {
+        grid-column: 1 / span 1;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.dron-agr {
+        grid-column: 1 / span 1;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.IA {
+        grid-column: 1 / span 1;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.hidroponia {
+        grid-column: 1 / span 1;
+    }
+    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-vert {
+        grid-column: 1 / span 1;
+    }
+
+    /* === Evolução da Agricultura === */
+    section.evo div.evo-content ul.evo-timeline div.linha {
+    left: 95%;
+    }
+    section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.time {
+        left: 95%;
+    }
+    section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.spacing {
+        flex: 0;
+    }
+    section.evo div.evo-content ul.evo-timeline li.right-card {
+        flex-direction: row;
+    }
+    section.evo div.evo-content ul.evo-timeline li.right-card div.right-time {
+        padding-left: 0;
+        padding-right: 3rem;
+    }
+
+    /* === Vídeos Educacionais === */
+    section.videos div.videos-content {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* === Celular === */
@@ -3179,6 +3282,31 @@ section.about div.about-content ul.about-us li p {
 
     /* === Produção Sustentável === */
     section.prod-stvl div.prod-stvl-content {
+        padding: 0 1rem;
+    }
+    section.prod-stvl div.prod-stvl-content div.eficiencia {
+        right: -0.75rem;
+    }
+
+    /* === 2ª Página - Métodos Modernos === */
+
+    /* ==== Banner === */
+    section.banner div.banner-text {
+        padding: 0 1rem;
+    }
+
+    /* === Tecnologias Revolucionárias === */
+    section.tec-revo div.tec-revo-content {
+        padding: 0 1rem;
+    }
+
+    /* === Evolução da Agricultura === */
+    section.evo div.evo-content {
+        padding: 1rem;
+    }
+
+    /* === Vídeos Educacionais === */
+    section.videos div.videos-content {
         padding: 0 1rem;
     }
 }
