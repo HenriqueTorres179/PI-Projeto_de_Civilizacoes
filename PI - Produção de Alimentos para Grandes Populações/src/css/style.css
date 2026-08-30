@@ -175,6 +175,10 @@ nav div.nav-cell.open {
 }
 nav div.nav-cell ul {
     padding: 1rem;
+    display: none;
+}
+nav div.nav-cell ul.display {
+    display: block;
 }
 nav div.nav-cell ul li:not(:nth-last-of-type(1)) {
     margin-bottom: 0.5rem;
@@ -938,7 +942,7 @@ section.videos div.videos-content div.videos-carrossel button svg {
     stroke-linecap: round;
 }
 
-/* === 3ª Página - Desafios === /*
+/* === 3ª Página - Desafios === */
 
 /* === Desafios Atuais === */
 section.dsf-atuais {
@@ -975,6 +979,7 @@ section.dsf-atuais div.dsf-lights div.orange-light {
 }
 section.dsf-atuais div.dsf-text {
     text-align: center;
+    padding: 0 2rem;
     max-width: 48rem;
     margin: auto;
 }
@@ -1207,9 +1212,10 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0 2rem;
     align-items: flex-start;
+    grid-template-areas: "map map regs" "fome fome regs";
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.first-collumn {
-    grid-column: 1 / span 2;
+    grid-area: map;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.map {
     aspect-ratio: 16 / 9;
@@ -1437,6 +1443,7 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title h4 {
     line-height: 1.3333;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome {
+    grid-area: fome;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     color: #ffffff;
     background-image: linear-gradient(to bottom right, #1b5e20, #2e7d32);
@@ -1470,6 +1477,9 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-
     color: #ffffff99;
     font-size: 0.75rem;
     line-height: 1.3333;
+}
+section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs {
+    grid-area: regs;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs h3 {
     text-transform: uppercase;
@@ -1569,15 +1579,16 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.eu
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button p.extra-text {
     opacity: 0;
-    height: 0;
+    max-height: 0;
     color: #1b5e20;
     font-size: 0.75rem;
     line-height: 1.625;
     margin-top: 0.5rem;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active p.extra-text {
     opacity: 1;
-    height: auto;
+    max-height: 5rem;
 }
 
 /* === Urgência de Agir === */
@@ -3147,6 +3158,49 @@ section.about div.about-content ul.about-us li p {
         margin-left: 0;
         margin-top: 1rem;
     }
+
+    /* === 3ª Página - Desafios === */
+
+    /* === Desafios Atuais === */
+    section.dsf-atuais div.dsf-text {
+        padding: 0 1.5rem;
+    }
+
+    /* === Principais Obstáculos === */
+    section.prin-obs div.prin-obs-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Dados Mundias === */
+    section.dados div.dados-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Regiões Mais Vulneráveis === */
+    section.reg-vul div.reg-vul-content {
+        padding: 0 1.5rem;
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados {
+        grid-template-columns: 1fr;
+        grid-template-areas: "map" "regs" "fome";
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.first-collumn {
+        display: contents;
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map {
+        margin-bottom: 2rem;
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome {
+        margin-top: 2rem;
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome:hover {
+        transform: none;
+    }
+
+    /* === Urgência de Agir === */
+    section.urg div.urg-content {
+        padding: 0 1.5rem;
+    }
 }
 /* === Tablet === */
 @media (max-width: 48rem) {
@@ -3257,6 +3311,30 @@ section.about div.about-content ul.about-us li p {
     section.videos div.videos-content {
         grid-template-columns: 1fr;
     }
+
+    /* === 3ª Página - Desafios === */
+
+    /* === Desafios Atuais === */
+    section.dsf-atuais div.dsf-text h1 {
+        font-size: 2.25rem;
+    }
+
+    /* === Principais Obstáculos === */
+    section.prin-obs div.prin-obs-content ul.prin-obs-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* === Dados Mundias === */
+    section.dados div.dados-content div.dados-charts {
+        grid-template-columns: 1fr;
+    }
+
+    /* === Regiões Mais Vulneráveis === */
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda {
+        transform: scale(0.9);
+        left: 0.4rem;
+        bottom: 0.4rem;
+    }
 }
 
 /* === Celular === */
@@ -3307,6 +3385,43 @@ section.about div.about-content ul.about-us li p {
 
     /* === Vídeos Educacionais === */
     section.videos div.videos-content {
+        padding: 0 1rem;
+    }
+
+    /* === 3ª Página - Desafios === */
+
+    /* === Desafios Atuais === */
+    section.dsf-atuais div.dsf-text {
+        padding: 0 1.5rem;
+    }
+
+    /* === Principais Obstáculos === */
+    section.prin-obs div.prin-obs-content {
+        padding: 0 1rem;
+    }
+
+    /* === Dados Mundias === */
+    section.dados div.dados-content {
+        padding: 0 1rem;
+    }
+
+    /* === Regiões Mais Vulneráveis === */
+    section.reg-vul div.reg-vul-content {
+        padding: 0 1.5rem;
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda {
+        transform: scale(0.75);
+        left: -0.6rem;
+        bottom: -0.2rem;
+    }
+    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title {
+        transform: scale(0.9);
+        top: 0.6rem;
+        right: 0.3rem;
+    }
+
+    /* === Urgência de Agir === */
+    section.urg div.urg-content {
         padding: 0 1rem;
     }
 }
