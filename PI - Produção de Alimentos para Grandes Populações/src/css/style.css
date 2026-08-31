@@ -7,6 +7,7 @@ html {
 
 body {
     color: #1b5e20;
+    overflow-x: hidden;
 }
 
 /* === Keyframes === */
@@ -3223,6 +3224,23 @@ section.about div.about-content ul.about-us li p {
     section.eco div.eco-content {
         padding: 0 1.5rem;
     }
+
+    /* === 5ª Página - Quiz === */
+
+    /* === Curiosidades e Quiz === */
+    section.cur-quiz div.cur-quiz-text {
+        padding: 0 1.5rem;
+    }
+
+    /* === Curiosidades === */
+    section.cur div.cur-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Quiz === */
+    section.quiz div.quiz-content {
+        padding: 0 1.5rem;
+    }
 }
 /* === Tablet === */
 @media (max-width: 48rem) {
@@ -3409,6 +3427,50 @@ section.about div.about-content ul.about-us li p {
     section.eco div.eco-content ul:hover > div {
         animation-play-state: paused;
     }
+
+    /* === 5ª Página - Quiz === */
+
+    /* === Curiosidades e Quiz === */
+    section.cur-quiz div.cur-quiz-text h1 {
+        font-size: 2.25rem;
+    }
+
+    /* === Curiosidades === */
+    section.cur div.cur-content ul {
+        grid-template-columns: 1fr;
+    }
+    section.cur div.cur-content ul li.cur1 {
+        border-radius: 1rem;
+    }
+    section.cur div.cur-content ul li.cur2 {
+        border-radius: 1rem;
+    }
+    section.cur div.cur-content ul li.cur3 {
+        border-radius: 1rem;
+    }
+    section.cur div.cur-content ul li.cur4 {
+        border-radius: 1rem;
+    }
+    section.cur div.cur-content ul li.cur1:hover {
+        transform: none;
+    }
+    section.cur div.cur-content ul li.cur2:hover {
+        transform: none;
+    }
+    section.cur div.cur-content ul li.cur3:hover {
+        transform: none;
+    }
+    section.cur div.cur-content ul li.cur4:hover {
+        transform: none;
+    }
+
+    /* === Quiz === */
+    section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question {
+        padding: 2rem;
+    }
+    section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final {
+        padding: 2rem;
+    }
 }
 
 /* === Celular === */
@@ -3520,4 +3582,24 @@ section.about div.about-content ul.about-us li p {
     section.eco div.eco-content {
         padding: 0 1rem;
     }
+
+    /* === 5ª Página - Quiz === */
+
+    /* === Curiosidades e Quiz === */
+    section.cur-quiz div.cur-quiz-text {
+        padding: 0 1rem;
+    }
+
+    /* === Curiosidades === */
+    section.cur div.cur-content {
+        padding: 0 1rem;
+    }
+
+    /* === Quiz === */
+    section.quiz div.quiz-content {
+        padding: 0 1rem;
+    }
 }
+    section.cur div.cur-content ul li.cur1 {
+        border-radius: 1rem;
+    }
