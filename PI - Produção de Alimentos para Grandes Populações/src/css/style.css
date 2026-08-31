@@ -42,6 +42,17 @@ body {
         opacity: 1;
     }
 }
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 
 /* === Scroll Reveal === */
 html.sr .hidden {
@@ -1993,17 +2004,6 @@ section.eco div.eco-content ul > div {
 section.eco div.eco-content ul:hover > div {
     animation-play-state: running;
 }
-@keyframes wave {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
 section.eco div.eco-content ul > div:nth-of-type(1) {
     animation-delay: 0ms;
 }
@@ -3201,6 +3201,28 @@ section.about div.about-content ul.about-us li p {
     section.urg div.urg-content {
         padding: 0 1.5rem;
     }
+
+    /* === 4ª Página - Soluções === */
+
+    /* === Soluções Sustentáveis === */
+    section.slcs div.slcs-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Alternativas Transformadoras === */
+    section.alt div.alt-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Problema x Solução === */
+    section.prob-sol div.prob-sol-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Economia Cricular === */
+    section.eco div.eco-content {
+        padding: 0 1.5rem;
+    }
 }
 /* === Tablet === */
 @media (max-width: 48rem) {
@@ -3335,6 +3357,58 @@ section.about div.about-content ul.about-us li p {
         left: 0.4rem;
         bottom: 0.4rem;
     }
+
+    /* === 4ª Página - Soluções === */
+
+    /* === Soluções Sustentáveis === */
+    section.slcs div.slcs-content h1 {
+        font-size: 2.25rem;
+    }
+
+    /* === Alternativas Transformadoras === */
+    section.alt div.alt-content ul li {
+        grid-template-columns: 1fr;
+    }
+    section.alt div.alt-content ul li div.trocar-1 {
+        order: 1;
+    }
+    section.alt div.alt-content ul li div.trocar-2 {
+        order: 2;
+    }
+    section.alt div.alt-content ul li div.slcs-img:hover img {
+        transform: scale(1);
+    }
+    section.alt div.alt-content ul li div.slcs-text.order-1:hover {
+        transform: translateX(0);
+    }
+    section.alt div.alt-content ul li div.slcs-text.order-2:hover {
+        transform: translateX(0);
+    }
+    section.alt div.alt-content ul li div.slcs-img:hover ~ div.slcs-text.order-1 {
+        transform: translateX(0);
+    }
+    section.alt div.alt-content ul li div.slcs-img:hover ~ div.slcs-text.order-2 {
+        transform: translateX(0);
+    }
+    section.alt div.alt-content ul li div.slcs-text ul li:hover {
+        transform: translateX(0);
+    }
+
+    /* === Problema x Solução === */
+    section.prob-sol div.prob-sol-content ul {
+        grid-template-columns: 1fr;
+    }
+
+    /* === Economia Cricular === */
+    section.eco div.eco-content ul {
+        grid-template-columns: 1fr;
+    }
+    section.eco div.eco-content ul li {
+        animation: none;
+    }
+    section.eco div.eco-content ul:hover > div {
+        animation-play-state: paused;
+    }
 }
 
 /* === Celular === */
@@ -3422,6 +3496,28 @@ section.about div.about-content ul.about-us li p {
 
     /* === Urgência de Agir === */
     section.urg div.urg-content {
+        padding: 0 1rem;
+    }
+
+    /* === 4ª Página - Soluções === */
+
+    /* === Soluções Sustentáveis === */
+    section.slcs div.slcs-content {
+        padding: 0 1rem;
+    }
+
+    /* === Alternativas Transformadoras === */
+    section.alt div.alt-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Problema x Solução === */
+    section.prob-sol div.prob-sol-content {
+        padding: 0 1rem;
+    }
+
+    /* === Economia Cricular === */
+    section.eco div.eco-content {
         padding: 0 1rem;
     }
 }
