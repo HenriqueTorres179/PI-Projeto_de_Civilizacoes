@@ -2612,11 +2612,6 @@ section.resp div.resp-content {
     max-width: 56rem;
     margin-inline: auto;
 }
-section.resp div.resp-content {
-    padding: 0 2rem;
-    max-width: 56rem;
-    margin-inline: auto;
-}
 section.resp div.resp-content div.resp-text {
     text-align: center;
     margin-bottom: 3rem;
@@ -3241,6 +3236,33 @@ section.about div.about-content ul.about-us li p {
     section.quiz div.quiz-content {
         padding: 0 1.5rem;
     }
+
+    /* === 6ª Página - Conclusão === */
+
+    /* === Conclusão e Reflaxão === */
+    section.cncls div.cncls-text {
+        padding: 0 1.5rem;
+    }
+
+    /* === Responsabilidade === */
+    section.resp div.resp-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Compromisso - Form === */
+    section.compr div.compr-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === Futuro === */
+    section.futuro div.futuro-content {
+        padding: 0 1.5rem;
+    }
+
+    /* === About === */
+    section.about div.about-content {
+        padding: 0 1.5rem;
+    }
 }
 /* === Tablet === */
 @media (max-width: 48rem) {
@@ -3471,6 +3493,34 @@ section.about div.about-content ul.about-us li p {
     section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final {
         padding: 2rem;
     }
+
+    /* === 6ª Página - Conclusão === */
+
+    /* === Conclusão e Reflaxão === */
+    section.cncls div.cncls-text h1 {
+        font-size: 2.25rem;
+    }
+
+    /* === Responsabilidade === */
+    section.resp div.resp-content div.resp-message {
+        padding: 2rem;
+    }
+    section.resp div.resp-content div.resp-message h3 {
+        font-size: 1.875rem;
+    }
+
+    /* === Compromisso - Form === */
+    section.compr div.compr-content form {
+        padding: 2rem;
+    }
+    section.compr div.compr-content div.post-form {
+        padding: 2rem;
+    }
+
+    /* === About === */
+    section.about div.about-content ul.about-us {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* === Celular === */
@@ -3599,7 +3649,31 @@ section.about div.about-content ul.about-us li p {
     section.quiz div.quiz-content {
         padding: 0 1rem;
     }
-}
-    section.cur div.cur-content ul li.cur1 {
-        border-radius: 1rem;
+
+    /* === 6ª Página - Conclusão === */
+
+    /* === Conclusão e Reflaxão === */
+    section.cncls div.cncls-text {
+        padding: 0 1rem;
     }
+
+    /* === Responsabilidade === */
+    section.resp div.resp-content {
+        padding: 0 1rem;
+    }
+
+    /* === Compromisso - Form === */
+    section.compr div.compr-content {
+        padding: 0 1rem;
+    }
+
+    /* === Futuro === */
+    section.futuro div.futuro-content {
+        padding: 0 1rem;
+    }
+
+    /* === About === */
+    section.about div.about-content {
+        padding: 0 1rem;
+    }
+}
