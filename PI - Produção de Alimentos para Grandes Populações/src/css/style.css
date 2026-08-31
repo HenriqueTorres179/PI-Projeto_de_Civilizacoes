@@ -3053,8 +3053,12 @@ section.about div.about-content ul.about-us li div:hover {
 section.about div.about-content ul.about-us li div.sombra {
     box-shadow: 0 30px 50px -6px #0000001a, 0 20px 30px -10px #0000001a;
 }
+section.about div.about-content ul.about-us li div a {
+    display: flex;
+}
 section.about div.about-content ul.about-us li div img {
     object-fit: cover;
+    height: 100%;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.about div.about-content ul.about-us li div:hover img {
