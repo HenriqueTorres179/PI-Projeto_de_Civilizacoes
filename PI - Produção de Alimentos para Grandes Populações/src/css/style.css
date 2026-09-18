@@ -1574,7 +1574,7 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.an
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.africa-sub div.barrinha div.porcentagem {
     background-color: #d32f2f;
-    --target-width: 96%;
+    --target-width: 80%;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-med div.barrinha div.porcentagem {
     background-color: #f57c00;
@@ -1586,7 +1586,7 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.as
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.ame-lat-car div.barrinha div.porcentagem {
     background-color: #fbc02d;
-    --target-width: 36%;
+    --target-width: 24%;
 }
 section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.eu-ori div.barrinha div.porcentagem {
     background-color: #66bb6a;
