@@ -295,7 +295,7 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 ### Informações Gerais
 * **Data:** 17/08
 * **Turma:** 1info3
-* 
+
 ### Participantes 
 * Anna Jully Bueno
 * Henrique Torres
@@ -309,7 +309,36 @@ Decidimos focar totalmente no Figma hoje para finalmente fechar o design e deixa
 * Definição das páginas que cada integrante irá apresentar na próxima aula.
 
 * **Durante a reunião, trabalhamos na criação dos posts para o Instagram do projeto e discutimos a divisão das páginas do site entre os integrantes, pensando na apresentação que será realizada na próxima aula.**
+
 ### Encaminhamentos
 * Finalizar e organizar os posts do Instagram.
 * Cada integrante deverá se preparar para apresentar a página pela qual ficou responsável.
 Revisar o funcionamento e o conteúdo das páginas antes da apresentação.
+
+---
+
+## Ata 10
+
+### Informações Gerais
+* **Data:** 24/08
+* **Turma:** 1info3
+
+### Participantes 
+* Anna Jully Bueno
+* Henrique Torres
+* Juan Pedro Zastrow Damaceno
+* Leonardo Rodrigues Teixeira
+* Nicolas Henrique Klug Anacleto
+* Ryan Gabriel Duzanowski
+
+### Assuntos discutidos
+* Realização da atividade individual referente à avaliação do projeto.
+* Continuação do desenvolvimento dos códigos das páginas do site.
+* Revisão e organização dos códigos desenvolvidos.
+
+* **Durante a reunião, todos os integrantes realizaram a atividade individual referente à avaliação do projeto. Após a atividade, a equipe continuou o desenvolvimento dos códigos das páginas do site, realizando ajustes e organizando o conteúdo para dar continuidade ao projeto.**
+
+### Encaminhamentos
+* Finalizar a atividade individual da avaliação.
+* Continuar o desenvolvimento e a organização dos códigos das páginas.
+* Revisar o funcionamento das páginas e realizar possíveis correções.
