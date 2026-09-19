@@ -342,3 +342,33 @@ Revisar o funcionamento e o conteúdo das páginas antes da apresentação.
 * Finalizar a atividade individual da avaliação.
 * Continuar o desenvolvimento e a organização dos códigos das páginas.
 * Revisar o funcionamento das páginas e realizar possíveis correções.
+
+---
+
+## Ata 11
+
+### Informações Gerais
+* **Data:** 29/08
+* **Turma:** 1info3
+
+### Participantes 
+* Anna Jully Bueno
+* Henrique Torres
+* Juan Pedro Zastrow Damaceno
+* Leonardo Rodrigues Teixeira
+* Nicolas Henrique Klug Anacleto
+* Ryan Gabriel Duzanowski
+
+### Assuntos discutidos
+* Produção de posts e stories para o Instagram do projeto.
+* Criação e organização dos materiais no Canva.
+* Revisão dos códigos das páginas do site.
+* Identificação e correção de possíveis erros nos códigos.
+
+* **Durante a reunião, a equipe trabalhou na criação de materiais no Canva para os posts e stories do Instagram do projeto. Também foram revisados os códigos das páginas do site, realizando ajustes e correções necessárias para melhorar seu funcionamento e organização.**
+
+### Encaminhamentos
+* Continuar a produção e organização dos conteúdos para o Instagram.
+* Finalizar os posts e stories que ainda estiverem em desenvolvimento.
+* Continuar a revisão e correção dos códigos das páginas.
+* Verificar o funcionamento das páginas após os ajustes.
