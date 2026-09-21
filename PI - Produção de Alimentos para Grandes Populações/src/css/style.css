@@ -3,6 +3,7 @@ html {
     font-family: ui-sans-serif, system-ui, 'Segoe UI', 'Open Sans', sans-serif;
     line-height: 1.5;
     font-size: clamp(1rem, 0.533rem + 0.533vw, 1.25rem);
+    scrollbar-width: none;
     overflow-x: hidden;
     width: 100%;
 }
