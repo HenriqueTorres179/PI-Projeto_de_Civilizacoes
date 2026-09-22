@@ -886,13 +886,16 @@ section.slides-img div.slides {
     height: 100%;
     display: flex;
 }
-section.slides-img div.slide div.slide {
+section.slides-img div.slides div.slide {
     flex: 1 1 0%;
     overflow: hidden;
     cursor: pointer;
     position: relative;
 }
-section.slides-img div.slide div.slide img {
+section.slides-img div.slides div.slide.aberto {
+    flex: 3 1 0%;
+}
+section.slides-img div.slides div.slide img {
     transition: 600ms cubic-bezier(0.4, 0, 0.2, 1);
     object-fit: cover;
     width: 100%;
@@ -900,25 +903,103 @@ section.slides-img div.slide div.slide img {
     position: absolute;
     inset: 0;
 }
-section.slides-img div.slide div.slide div.slide-gradient {
+section.slides-img div.slides div.slide div.slide-gradient {
     background-image: linear-gradient(to top, #000000d9, #0000008c);
     transition: 600ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     inset: 0;
 }
-section.slides-img div.slide div.slide div.slide-text {
+section.slides-img div.slides div.slide.aberto div.slide-gradient {
+    background-image: linear-gradient(to top, #000000bf, rgba(0, 0, 0, 0.15) 60%, #00000000 100%);
+}
+section.slides-img div.slides div.slide div.slide-text {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     inset: 0;
 }
-section.slides-img div.slide div.slide div.slide-text span {
+section.slides-img div.slides div.slide.aberto div.slide-text {
+    display: block;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 5rem;
+}
+section.slides-img div.slides div.slide div.slide-text span {
     color: #ffffff99;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.4287;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+section.slides-img div.slides div.slide div.slide-text span {
+    color: #ffffff99;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.4287;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+section.slides-img div.slides div.slide.aberto div.slide-text span {
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.3333;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: #F9A825;
+    margin-bottom: 0.75rem;
+}
+section.slides-img div.slides div.slide.aberto div.slide-text h3 {
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.1111;
+    margin-bottom: 0.5rem;
+}
+section.slides-img div.slides div.slide.aberto div.slide-text p {
+    color: #ffffffcc;
+    font-weight: 700;
+    max-width: 28rem;
+}
+section.slides-img div.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 24rem;
+    position: absolute;
+    left: 50%;
+    bottom: 1.25rem;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+section.slides-img div.slider input {
+    accent-color: #f9a825;
+    cursor: pointer;
+    width: 100%;
+}
+section.slides-img div.slider div.slider-text {
+    padding: 0 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+section.slides-img div.slider div.slider-text span {
+    color: #ffffff66;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.3333;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+section.slides-img div.slider div.slider-text span.current {
+    color: #f9a825;
 }
 
 /* === Vídeos Educacionais === */
