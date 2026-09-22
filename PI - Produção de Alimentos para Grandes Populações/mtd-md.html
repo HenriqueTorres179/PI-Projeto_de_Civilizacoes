@@ -252,28 +252,61 @@
         </section>
         <section class="slides-img">
             <div class="slides">
-                <div class="slide">
+                <div class="slide" id="agri-trad">
                     <img src="images/agri-trad.jpeg" alt="Agricultura-Tradicional">
                     <div class="slide-gradient"></div>
-                    <div class="slide-text"><span>Agricultura Tradicional</span></div>
+                    <div class="slide-text">
+                        <div class="texto-fechado">
+                            <span>Agricultura Tradicional</span>
+                        </div>
+                        <div class="texto-aberto">
+                            <span>Até 1950</span>
+                            <h3>Agricultura Tradicional</h3>
+                            <p>
+                                Trabalho manual, tração animal e técnicas milenares passadas de geração em geração.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="slide">
+                <div class="slide aberto" id="agri-ind">
                     <img src="images/agri-ind.jpeg" alt="Agricultura-Industrial">
                     <div class="slide-gradient"></div>
-                    <div class="slide-text"><span>Agricultura Industrial</span></div>
+                    <div class="slide-text">
+                        <div class="texto-fechado">
+                            <span>Agricultura Industrial</span>
+                        </div>
+                        <div class="texto-aberto">
+                            <span>1950 – 2010</span>
+                            <h3>Agricultura Industrial</h3>
+                            <p>
+                                Mecanização em larga escala, colheitadeiras e uso intensivo de fertilizantes e defensivos químicos.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="slide">
+                <div class="slide" id="agri-fut">
                     <img src="images/agri-fut.jpeg" alt="Agricultura-Futuro">
                     <div class="slide-gradient"></div>
-                    <div class="slide-text"><span>Agricultura do Futuro</span></div>
+                    <div class="slide-text">
+                        <div class="texto-fechado">
+                            <span>Agricultura do Futuro</span>
+                        </div>
+                        <div class="texto-aberto">
+                            <span>2010 – Hoje</span>
+                            <h3>Agricultura do Futuro</h3>
+                            <p>
+                                IA, hidroponia, drones, agricultura de precisão e fazendas verticais sustentáveis.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="slider">
-                <input type="range" min="0" max="10" step="0.5" value="5">
+                <input type="range" min="0" max="100" step="0.2" value="50">
                 <div class="slider-text">
-                    <span>Até 1950</span>
-                    <span>1950 – 2010</span>
-                    <span>2010 – Hoje</span>
+                    <span id="trad">Até 1950</span>
+                    <span class="current" id="ind">1950 – 2010</span>
+                    <span id="fut">2010 – Hoje</span>
                 </div>
             </div>
         </section>
@@ -358,6 +391,7 @@
 </body>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="src/js/scrollReveal.js"></script>
+<script src="src/js/scriptSlides.js"></script>
 <script src="src/js/scriptVideos.js"></script>
 <script src="src/js/scriptNav.js"></script>
 </html>

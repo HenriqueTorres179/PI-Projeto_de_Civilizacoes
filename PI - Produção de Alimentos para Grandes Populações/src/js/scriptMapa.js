@@ -1,3 +1,4 @@
+// ! Feito com IA !
 const affectedRegions = [
     { key: "alto", side: "africa-sub", name: "África Subsaariana" },
     { key: "medio1", side: "asia-med", name: "Ásia Meridional" },

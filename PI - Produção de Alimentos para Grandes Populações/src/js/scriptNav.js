@@ -1,3 +1,4 @@
+// ! Feito Legitimamente 🥳 !
 const menuToggle = document.getElementById('menu-toggle');
 const navCell = document.getElementById('nav-cell');
 const lista = document.querySelector('.nav-cell ul');

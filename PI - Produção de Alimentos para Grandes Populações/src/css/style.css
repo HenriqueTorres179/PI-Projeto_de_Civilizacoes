@@ -891,6 +891,7 @@ section.slides-img div.slides div.slide {
     overflow: hidden;
     cursor: pointer;
     position: relative;
+    transition: 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.slides-img div.slides div.slide.aberto {
     flex: 3 1 0%;
@@ -912,40 +913,40 @@ section.slides-img div.slides div.slide div.slide-gradient {
 section.slides-img div.slides div.slide.aberto div.slide-gradient {
     background-image: linear-gradient(to top, #000000bf, rgba(0, 0, 0, 0.15) 60%, #00000000 100%);
 }
-section.slides-img div.slides div.slide div.slide-text {
+section.slides-img div.slides div.slide div.slide-text div.texto-fechado {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     inset: 0;
 }
-section.slides-img div.slides div.slide.aberto div.slide-text {
-    display: block;
+section.slides-img div.slides div.slide.aberto div.slide-text div.texto-fechado {
+    visibility: hidden;
+}
+section.slides-img div.slides div.slide div.slide-text div.texto-fechado span {
+    color: #ffffff99;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.4287;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+section.slides-img div.slides div.slide div.slide-text div.texto-aberto {
     position: absolute;
     left: 1.5rem;
     bottom: 5rem;
+    transform: translateY(-20vh);
+    opacity: 0;
+    transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.slides-img div.slides div.slide div.slide-text span {
-    color: #ffffff99;
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1.4287;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+section.slides-img div.slides div.slide.aberto div.slide-text div.texto-aberto {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: none;
 }
-section.slides-img div.slides div.slide div.slide-text span {
-    color: #ffffff99;
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1.4287;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
-section.slides-img div.slides div.slide.aberto div.slide-text span {
+section.slides-img div.slides div.slide div.slide-text div.texto-aberto span {
     color: #ffffff;
     font-size: 0.75rem;
     font-weight: 700;
@@ -954,16 +955,17 @@ section.slides-img div.slides div.slide.aberto div.slide-text span {
     display: inline-block;
     padding: 0.25rem 0.75rem;
     background-color: #F9A825;
+    border-radius: 100px;
     margin-bottom: 0.75rem;
 }
-section.slides-img div.slides div.slide.aberto div.slide-text h3 {
+section.slides-img div.slide div.slide-text div.texto-aberto h3 {
     color: #ffffff;
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 0.5rem;
 }
-section.slides-img div.slides div.slide.aberto div.slide-text p {
+section.slides-img div.slide div.slide-text div.texto-aberto p {
     color: #ffffffcc;
     font-weight: 700;
     max-width: 28rem;
@@ -973,7 +975,7 @@ section.slides-img div.slider {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    width: 24rem;
+    width: 18rem;
     position: absolute;
     left: 50%;
     bottom: 1.25rem;
