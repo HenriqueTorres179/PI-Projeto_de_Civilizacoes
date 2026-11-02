@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos Antigos</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <a href="index.html" class="hidden">
+                    <div class="logo">
+                        <svg class="folhinha" viewBox="0.5 2.5 23 18"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                    </div>
+                    <span>Alimentar Impérios</span>
+                </a>
+                <ul class="links hidden">
+                    <li><a href="index.html" class="link">Início</a></li>
+                    <li>
+                        <a href="#" class="link ativo">
+                            Métodos Antigos
+                            <div class="underline"></div>
+                        </a>
+                    </li>
+                    <li><a href="dsf.html" class="link">Desafios</a></li>
+                    <li><a href="rspts.html" class="link">Respostas</a></li>
+                    <li><a href="quiz.html" class="link">Quiz</a></li>
+                    <li><a href="cncls.html" class="link">Conclusão</a></li>
+                </ul>
+                <button class="hidden" id="menu-toggle">
+                    <svg class="abrir" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                    <svg class="fechar" viewBox="0 0 24 24"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+                </button>
+            </div>
+            <div class="nav-cell" id="nav-cell">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li class="active"><a href="#">Métodos Antigos</a></li>
+                    <li><a href="dsf.html">Desafios</a></li>
+                    <li><a href="rspts.html">Respostas</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="cncls.html">Conclusão</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-lights">
+                <div class="white-light"></div>
+                <div class="yellow-light"></div>
+            </div>
+            <div class="banner-text hidden">
+                <div class="TI revelar-baixo">
+                    <span>Técnica e Organização</span>
+                </div>
+                <h1 class="revelar-baixo">Métodos Agrícolas da Antiguidade</h1>
+                <p class="revelar-baixo">
+                    Como conhecimento, engenharia e trabalho coletivo sustentaram as primeiras grandes populações
+                </p>
+            </div>
+        </section>
+        <section class="tec-revo">
+            <div class="tec-revo-content">
+                <div class="tec-revo-text hidden">
+                    <h2>Inovações do Mundo Antigo</h2>
+                    <p>
+                        Conheça técnicas que ampliaram colheitas, preservaram excedentes e conectaram campos distantes aos centros urbanos
+                    </p>
+                </div>
+                <ul class="tec-revo-cards hidden">
+                    <li class="tec-revo-card-reveal agr-prec">
+                        <div class="tec-revo-card">
+                            <div class="tec-revo-card-banner">
+                                <img src="images/irri-can.jpg" alt="Irrigação-por-Canais">
+                                <div class="tec-revo-card-banner-gradient"></div>
+                                <div class="tec-revo-card-banner-icon">
+                                    <svg><path d="M13 7 9 3 5 7l4 4"></path><path d="m17 11 4 4-4 4-4-4"></path><path d="m8 12 4 4 6-6-4-4Z"></path><path d="m16 8 3-3"></path><path d="M9 21a6 6 0 0 0-6-6"></path></svg>
+                                </div>
+                            </div>
+                            <div class="tec-revo-card-text">
+                                <h3>Irrigação por Canais</h3> <!--- tirar cursor pointer --->
+                                <p>
+                                    Mesopotâmicos desviavam rios por diques e canais para levar água a campos distantes, ampliando colheitas em regiões de chuvas irregulares.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tec-revo-card-reveal dron-agr">
+                        <div class="tec-revo-card">
+                            <div class="tec-revo-card-banner">
+                                <img src="images/shaduf.jpg" alt="Shaduf-Egípcio">
+                                <div class="tec-revo-card-banner-gradient"></div>
+                                <div class="tec-revo-card-banner-icon">
+                                    <svg><rect width="16" height="16" x="4" y="4" rx="2"></rect><rect width="6" height="6" x="9" y="9" rx="1"></rect><path d="M15 2v2"></path><path d="M15 20v2"></path><path d="M2 15h2"></path><path d="M2 9h2"></path><path d="M20 15h2"></path><path d="M20 9h2"></path><path d="M9 2v2"></path><path d="M9 20v2"></path></svg>
+                                </div>
+                            </div>
+                            <div class="tec-revo-card-text">
+                                <h3>Shaduf Egípcio</h3>
+                                <p>
+                                    Uma haste com contrapeso permitia elevar água do Nilo com menos esforço e irrigar pequenas áreas acima do nível do rio.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tec-revo-card-reveal IA">
+                        <div class="tec-revo-card">
+                            <div class="tec-revo-card-banner">
+                                <img src="images/cal-agri.jpg" alt="Calendários-Agrícolas">
+                                <div class="tec-revo-card-banner-gradient"></div>
+                                <div class="tec-revo-card-banner-icon">
+                                    <svg><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>
+                                </div>
+                            </div>
+                            <div class="tec-revo-card-text">
+                                <h3>Calendários Agrícolas</h3>
+                                <p>
+                                    A observação dos astros e das cheias orientava épocas de plantio e colheita, reduzindo riscos e coordenando o trabalho coletivo.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tec-revo-card-reveal hidroponia">
+                        <div class="tec-revo-card">
+                            <div class="tec-revo-card-banner">
+                                <img src="images/ter-cul.jpg" alt="Terraços-de-Cultivo">
+                                <div class="tec-revo-card-banner-gradient"></div>
+                                <div class="tec-revo-card-banner-icon">
+                                    <svg><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path></svg>
+                                </div>
+                            </div>
+                            <div class="tec-revo-card-text">
+                                <h3>Terraços de Cultivo</h3>
+                                <p>
+                                    Degraus construídos em encostas controlavam a erosão, retinham água e tornavam cultiváveis terrenos montanhosos nos Andes, na Ásia e no Mediterrâneo.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tec-revo-card-reveal agr-vert">
+                        <div class="tec-revo-card">
+                            <div class="tec-revo-card-banner">
+                                <img src="images/cel-pub.jpg" alt="Celeiros-Públicos">
+                                <div class="tec-revo-card-banner-gradient"></div>
+                                <div class="tec-revo-card-banner-icon">
+                                    <svg><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
+                                </div>
+                            </div>
+                            <div class="tec-revo-card-text">
+                                <h3>Celeiros Públicos</h3>
+                                <p>
+                                    Armazéns protegiam excedentes de grãos, abasteciam cidades durante secas e permitiam a cobrança de tributos para sustentar Estados e exércitos.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="evo">
+            <div class="evo-content">
+                <div class="evo-text hidden">
+                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <h2>Marcos da Agricultura Antiga</h2>
+                    <p>
+                        Uma jornada do início do cultivo ao abastecimento dos grandes impérios
+                    </p>
+                </div>
+                <ul class="evo-timeline">
+                    <div class="linha"></div>
+                    <li class="evo-timeline-cards left-card">
+                        <div class="left-time flex1 hidden">
+                            <div class="card">
+                                <h4>c. 10.000 a.C.</h4>
+                                <h3>Revolução Neolítica</h3>
+                                <p>
+                                    Comunidades começam a domesticar plantas e animais na Crescente Fértil
+                                </p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div></div>
+                        </div>
+                        <div class="flex1 spacing"></div>
+                    </li>
+                    <li class="evo-timeline-cards right-card">
+                        <div class="right-time flex1 hidden">
+                            <div class="card">
+                                <h4>c. 3.500 a.C.</h4>
+                                <h3>Canais Mesopotâmicos</h3>
+                                <p>
+                                    Sistemas de irrigação sustentam cidades como Uruk e Ur
+                                </p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div></div>
+                        </div>
+                        <div class="flex1 spacing"></div>
+                    </li>
+                    <li class="evo-timeline-cards left-card">
+                        <div class="left-time flex1 hidden">
+                            <div class="card">
+                                <h4>c. 2.500 a.C.</h4>
+                                <h3>Celeiros do Egito</h3>
+                                <p>
+                                    Excedentes do Nilo são armazenados, contabilizados e redistribuídos
+                                </p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div></div>
+                        </div>
+                        <div class="flex1 spacing"></div>
+                    </li>
+                    <li class="evo-timeline-cards right-card">
+                        <div class="right-time flex1 hidden">
+                            <div class="card">
+                                <h4>c. 500 a.C.</h4>
+                                <h3>Rotas Mediterrâneas</h3>
+                                <p>
+                                    Grãos, azeite e vinho circulam por portos gregos e fenícios
+                                </p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div></div>
+                        </div>
+                        <div class="flex1 spacing"></div>
+                    </li>
+                    <li class="evo-timeline-cards left-card">
+                        <div class="left-time flex1 hidden">
+                            <div class="card">
+                                <h4>c. 100 d.C.</h4>
+                                <h3>Abastecimento de Roma</h3>
+                                <p>
+                                    A annona leva trigo do Egito e do norte da África a cerca de um milhão de habitantes
+                                </p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div></div>
+                        </div>
+                        <div class="flex1 spacing"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="slides-img">
+            <div class="slides">
+                <div class="slide" id="agri-trad">
+                    <img src="images/ter-cul.jpg" alt="Aldeias-Neolíticas">
+                    <div class="slide-gradient"></div>
+                    <div class="slide-text">
+                        <div class="texto-fechado">
+                            <span>Aldeias Neolíticas</span>
+                        </div>
+                        <div class="texto-aberto">
+                            <span>10.000–4.000 a.C.</span>
+                            <h3>Aldeias Neolíticas</h3>
+                            <p>
+                                A domesticação de cereais e animais permite assentamentos permanentes e a formação dos primeiros excedentes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide aberto" id="agri-ind">
+                    <img src="images/irri-can.jpg" alt="Cidades-Fluviais">
+                    <div class="slide-gradient"></div>
+                    <div class="slide-text">
+                        <div class="texto-fechado">
+                            <span>Cidades Fluviais</span>
+                        </div>
+                        <div class="texto-aberto">
+                            <span>4.000–1.000 a.C.</span>
+                            <h3>Cidades Fluviais</h3>
+                            <p>
+                                Irrigação, escrita contábil e grandes celeiros organizam a produção no Egito, Mesopotâmia, Indo e China.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" id="agri-fut">
+                    <img src="images/cal-agri.jpg" alt="Impérios-e-Rotas">
+                    <div class="slide-gradient"></div>
+                    <div class="slide-text">
+                        <div class="texto-fechado">
+                            <span>Impérios e Rotas</span>
+                        </div>
+                        <div class="texto-aberto">
+                            <span>1.000 a.C.–500 d.C.</span>
+                            <h3>Impérios e Rotas</h3>
+                            <p>
+                                Estradas, portos, tributos e comércio de longa distância abastecem metrópoles como Alexandria e Roma.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <input type="range" min="0" max="100" step="0.2" value="50">
+                <div class="slider-text">
+                    <span id="trad">10.000–4.000 a.C.</span>
+                    <span class="current" id="ind">4.000–1.000 a.C.</span>
+                    <span id="fut">1.000 a.C.–500 d.C.</span>
+                </div>
+            </div>
+        </section>
+        <section class="videos">
+            <div class="videos-content">
+                <div class="videos-educacionais hidden">
+                    <h2>Vídeos Educacionais</h2>
+                    <p>
+                        Assista aos vídeos selecionados para aprofundar seu conhecimento sobre produção, armazenamento e comércio de alimentos na Antiguidade
+                    </p>
+                    <ul class="videos-links">
+                        <div class="revelar-links">
+                            <li><a href="https://youtu.be/trxtcdsbbFo?si=NtisEQHqN-pC9pO5" target="_blank" rel="external">A Revolução Neolítica: O Domínio da Agricultura e Pecuária</a></li>
+                        </div>
+                        <div class="revelar-links">
+                            <li><a href="https://youtu.be/UPbVjsXBjVg?si=i_3Qszy9FGi4Ma95" target="_blank" rel="external">Como a engenhosidade dos egípcios transformou a agricultura</a></li>
+                        </div>
+                        <div class="revelar-links">
+                            <li><a href="https://youtu.be/2dzfSWDZwH4?si=-zVze2NQmO9dut6d" target="_blank" rel="external">Os aquedutos de Roma</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="videos-carrossel hidden">
+                    <div class="carrossel-slide">
+                        <div class="carrossel-track" id="track">
+                            <video class="carrossel-item" src="videos/videoplayback.mp4" controls></video>
+                            <video class="carrossel-item" src="videos/videoplayback (1).mp4" controls></video>
+                            <video class="carrossel-item" src="videos/videoplayback (2).mp4" controls></video>
+                        </div>
+                    </div>
+                    <button class="next-btn" id="next-btn"><svg viewBox="0 0 24 24"><path d="M9 3 l6 9-6 9"></path></svg></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="info">
+                <div class="info-PI">
+                    <div>
+                        <h3>Projeto Integrador</h3>
+                        <p>
+                            Técnico em Informática - Turma 1INFO3
+                        </p>
+                    </div>
+                </div>
+                <div class="info-equipe">
+                    <div>
+                        <h3>Equipe</h3>
+                        <ul>
+                            <li><a href="https://github.com/annajullybueno" target="_blank" rel="author">Anna Jully Bueno</a></li>
+                            <li><a href="https://github.com/leonardoteixeira22" target="_blank" rel="author">Leonardo Rodrigues Teixeira</a></li>
+                            <li><a href="https://github.com/RyanDznwsk" target="_blank" rel="author">Ryan Gabriel Duzanowski</a></li>
+                            <li><a href="https://github.com/HenriqueTorres179" target="_blank" rel="author">Henrique Torres</a></li>
+                            <li><a href="https://github.com/NicolasHenriqueK" target="_blank" rel="author">Nicolas Henrique Klug Anacleto</a></li>
+                            <li><a href="https://github.com/JuanDamaceno" target="_blank" rel="author">Juan Pedro Zastrow Damaceno</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-ref">
+                    <div>
+                        <h3>Referências</h3>
+                        <ul>
+                            <li><a href="https://seer.ufu.br/index.php/braziliangeojournal/article/view/50874/27000" target="_blank" rel="external">BGJournal - Evolução da Agricultura <br> no Mundo - PDF</a></li>
+                            <li><a href="https://www.worldhistory.org/disambiguation/Agriculture/" target="_blank" rel="external">World History Encyclopedia</a></li>
+                            <li><a href="https://www.britannica.com/search?query=history%20of%20agriculture" target="_blank" rel="external">Encyclopaedia Britannica</a></li>
+                            <li><a href="https://ourworldindata.org/grapher/population" target="_blank" rel="external">Our World in Data</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="credits">
+                <p>
+                    <a href="https://www.instagram.com/alimentar_ofuturo?igsh=MXh4ZDVxcDIwdmdvNQ%3D%3D&utm_source=qr" target="_blank" rel="author">Siga nosso Instagram!<svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+                </p>
+                <p>
+                    © 2026 - Produção de Alimentos para Grandes Populações
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="src/js/scrollReveal.js"></script>
+<script src="src/js/scriptSlides.js"></script>
+<script src="src/js/scriptVideos.js"></script>
+<script src="src/js/scriptNav.js"></script>
+</html>
