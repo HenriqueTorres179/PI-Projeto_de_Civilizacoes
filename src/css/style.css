@@ -1367,7 +1367,7 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.first-collumn {
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map {
     aspect-ratio: 16 / 9;
-    background-image: linear-gradient(160deg, #f5f2e8 0%, #e6dac8 60%, #dfbdb2 100%);
+    background-image: linear-gradient(160deg, #f0e8d9 0%, #f1dfc9 60%, #e6a59a 100%);
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
     border: 1px #ebe9e6 solid;
     border-radius: 1rem;
@@ -1791,24 +1791,24 @@ section.dsf-gov div.dsf-gov-content a svg {
     stroke-linecap: round;
 }
 
-/* === 4ª Página - Soluções === */
+/* === 4ª Página - Respostas === */
 
-/* === Soluções Sustentáveis === */
-section.slcs {
-    color: #ffffff;
+/* === Respostas do Mundo Antigo === */
+section.rspts {
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #66bb6a, #2e7d32);
+    background-image: linear-gradient(to bottom right, #bc7a54, #935531);
     overflow: hidden;
     position: relative;
 }
-section.slcs div.slcs-lights {
+section.rspts div.rspts-lights {
     opacity: 0.1;
     position: absolute;
     inset: 0;
 }
-section.slcs div.slcs-lights div.white-light {
+section.rspts div.rspts-lights div.white-light {
     filter: blur(64px);
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 50%;
     width: 16rem;
     height: 16rem;
@@ -1816,9 +1816,9 @@ section.slcs div.slcs-lights div.white-light {
     left: 5rem;
     top: 5rem;
 }
-section.slcs div.slcs-lights div.yellow-light {
+section.rspts div.rspts-lights div.yellow-light {
     filter: blur(64px);
-    background-color: #F9A825;
+    background-color: #d08c34;
     border-radius: 50%;
     width: 24rem;
     height: 24rem;
@@ -1826,7 +1826,7 @@ section.slcs div.slcs-lights div.yellow-light {
     right: 5rem;
     bottom: 5rem;
 }
-section.slcs div.slcs-content {
+section.rspts div.rspts-content {
     text-align: center;
     padding: 0 2rem;
     max-width: 48rem;
@@ -1834,7 +1834,7 @@ section.slcs div.slcs-content {
     z-index: 10;
     position: relative;
 }
-section.slcs div.slcs-content svg {
+section.rspts div.rspts-content svg {
     width: 4rem;
     height: 4rem;
     display: block;
@@ -1844,91 +1844,92 @@ section.slcs div.slcs-content svg {
     stroke-linecap: round;
     margin-bottom: 1.5rem;
     margin-inline: auto;
+    stroke-linejoin: round;
 }
-section.slcs div.slcs-content h1 {
+section.rspts div.rspts-content h1 {
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 1.5rem;
 }
-section.slcs div.slcs-content p {
-    color: #ffffffe6;
+section.rspts div.rspts-content p {
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
 }
 
-/* === Alternativas Transformadoras === */
-section.alt {
+/* === Estratégias de Abastecimento === */
+section.est {
     padding: 5rem 0;
 }
-section.alt div.alt-content {
+section.est div.est-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.alt div.alt-content div.alt-text {
+section.est div.est-content div.est-text {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.alt div.alt-content div.alt-text h2 {
+section.est div.est-content div.est-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1rem;
 }
-section.alt div.alt-content div.alt-text p {
-    color: #1b5e1fb3;
+section.est div.est-content div.est-text p {
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
     margin-inline: auto;
 }
-section.alt div.alt-content ul li {
+section.est div.est-content ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
 }
-section.alt div.alt-content ul li:not(:last-of-type) {
+section.est div.est-content ul li:not(:last-of-type) {
     margin-bottom: 3rem;
 }
-section.alt div.alt-content ul li div.order-1 {
+section.est div.est-content ul li div.order-1 {
     order: 1;
 }
-section.alt div.alt-content ul li div.order-2 {
+section.est div.est-content ul li div.order-2 {
     order: 2;
 }
-section.alt div.alt-content ul li div.slcs-img {
+section.est div.est-content ul li div.rspts-img {
     box-shadow: 0 25px 50px -12px #0000001a, 0 10px 30px -15px #0000001a;
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
     height: 20rem;
 }
-section.alt div.alt-content ul li div.slcs-img img {
+section.est div.est-content ul li div.rspts-img img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.alt div.alt-content ul li div.slcs-img:hover img {
+section.est div.est-content ul li div.rspts-img:hover img {
     transform: scale(1.1);
 }
-section.alt div.alt-content ul li div.slcs-img div.slcs-gradient {
-    background-image: linear-gradient(to top, #00000099, #00000000);
+section.est div.est-content ul li div.rspts-img div.rspts-gradient {
+    background-image: linear-gradient(to top, #0e080799, #00000000);
     position: absolute;
     inset: 0;
 }
-section.alt div.alt-content ul li div.slcs-img div.slcs-img-logo {
+section.est div.est-content ul li div.rspts-img div.rspts-img-logo {
     position: absolute;
     left: 1.5rem;
     bottom: 1.5rem;
     padding: 1rem;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     border-radius: 50%;
 }
-section.alt div.alt-content ul li div.slcs-img div.slcs-img-logo svg {
-    color: #ffffff;
+section.est div.est-content ul li div.rspts-img div.rspts-img-logo svg {
+    color: #fffaed;
     width: 2rem;
     height: 2rem;
     display: block;
@@ -1937,111 +1938,111 @@ section.alt div.alt-content ul li div.slcs-img div.slcs-img-logo svg {
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.alt div.alt-content ul li div.slcs-text {
+section.est div.est-content ul li div.rspts-text {
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.alt div.alt-content ul li div.slcs-text.order-2:hover {
+section.est div.est-content ul li div.rspts-text.order-2:hover {
     transform: translateX(10px);
 }
-section.alt div.alt-content ul li div.slcs-text.order-1:hover {
+section.est div.est-content ul li div.rspts-text.order-1:hover {
     transform: translateX(-10px);
 }
-section.alt div.alt-content ul li div.slcs-img:hover ~ div.slcs-text.order-2 {
+section.est div.est-content ul li div.rspts-img:hover ~ div.rspts-text.order-2 {
     transform: translateX(10px);
 }
-section.alt div.alt-content ul li div.slcs-img:hover ~ div.slcs-text.order-1 {
+section.est div.est-content ul li div.rspts-img:hover ~ div.rspts-text.order-1 {
     transform: translateX(-10px);
 }
-section.alt div.alt-content ul li div.slcs-text h3 {
+section.est div.est-content ul li div.rspts-text h3 {
     font-size: 1.875rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
-section.alt div.alt-content ul li div.slcs-text > p {
-    color: #1b5e1fb3;
+section.est div.est-content ul li div.rspts-text > p {
+    color: #5a3422b3;
     font-size: 1.125rem;
     line-height: 1.5555;
     margin-bottom: 1.5rem;
 }
-section.alt div.alt-content ul li div.slcs-text ul li {
+section.est div.est-content ul li div.rspts-text ul li {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.alt div.alt-content ul li div.slcs-text ul li:hover {
+section.est div.est-content ul li div.rspts-text ul li:hover {
     transform: translateX(10px);
 }
-section.alt div.alt-content ul li div.slcs-text ul li:not(:last-of-type) {
+section.est div.est-content ul li div.rspts-text ul li:not(:last-of-type) {
     margin-bottom: 0.75rem;
 }
-section.alt div.alt-content ul li div.slcs-text ul li div.item {
-    background-color: #66bb6a;
+section.est div.est-content ul li div.rspts-text ul li div.item {
+    background-color: #bc7a54;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
 }
-section.alt div.alt-content ul li div.slcs-text ul li p {
-    color: #1b5e1fcc;
+section.est div.est-content ul li div.rspts-text ul li p {
+    color: #5a3422cc;
 }
 
-/* === Problema x Solução === */
-section.prob-sol {
+/* === Desafio x Resposta === */
+section.dsf-res {
     padding: 5rem 0;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
 }
-section.prob-sol div.prob-sol-content {
+section.dsf-res div.dsf-res-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.prob-sol div.prob-sol-content div.prob-sol-text {
+section.dsf-res div.dsf-res-content div.dsf-res-text {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.prob-sol div.prob-sol-content div.prob-sol-text h2 {
+section.dsf-res div.dsf-res-content div.dsf-res-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1rem;
 }
-section.prob-sol div.prob-sol-content div.prob-sol-text p {
-    color: #1b5e1fb3;
+section.dsf-res div.dsf-res-content div.dsf-res-text p {
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
     margin-inline: auto;
 }
-section.prob-sol div.prob-sol-content ul {
+section.dsf-res div.dsf-res-content ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-section.prob-sol div.prob-sol-content ul li {
+section.dsf-res div.dsf-res-content ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
     overflow: hidden;
 }
-section.prob-sol div.prob-sol-content ul li div.prob {
+section.dsf-res div.dsf-res-content ul li div.dsf {
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
     padding: 1.5rem;
-    background-color: #fef2f2;
-    border-right: 1px #ebe6e7 solid;
+    background-color: #eee6e5;
+    border-right: 1px #ddd2d3 solid;
 }
-section.prob-sol div.prob-sol-content ul li div.prob div.prob-logo {
+section.dsf-res div.dsf-res-content ul li div.dsf div.dsf-logo {
     padding: 0.5rem;
-    background-color: #fb2c36;
+    background-color: #c5434a;
     border-radius: 50%;
     margin-top: 0.25rem;
 }
-section.prob-sol div.prob-sol-content ul li div.prob div.prob-logo svg {
-    color: #ffffff;
+section.dsf-res div.dsf-res-content ul li div.dsf div.dsf-logo svg {
+    color: #fffaed;
     width: 1rem;
     height: 1rem;
     display: block;
@@ -2050,32 +2051,32 @@ section.prob-sol div.prob-sol-content ul li div.prob div.prob-logo svg {
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.prob-sol div.prob-sol-content ul li div.prob div.prob-text h4 {
-    color: #c10007;
+section.dsf-res div.dsf-res-content ul li div.dsf div.dsf-text h4 {
+    color: #9c292d;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
-section.prob-sol div.prob-sol-content ul li div.prob div.prob-text p {
-    color: #1b5e1fb3;
+section.dsf-res div.dsf-res-content ul li div.dsf div.dsf-text p {
+    color: #5a3422b3;
     font-size: 0.875rem;
     line-height: 1.4287;
 }
-section.prob-sol div.prob-sol-content ul li div.sol {
+section.dsf-res div.dsf-res-content ul li div.res {
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
     padding: 1.5rem;
-    background-color: #f0fdf4;
+    background-color: #e6ece8;
     height: 100%;
 }
-section.prob-sol div.prob-sol-content ul li div.sol div.sol-logo {
+section.dsf-res div.dsf-res-content ul li div.res div.res-logo {
     padding: 0.5rem;
-    background-color: #1b5e20;
+    background-color: #254e28;
     border-radius: 50%;
     margin-top: 0.25rem;
 }
-section.prob-sol div.prob-sol-content ul li div.sol div.sol-logo svg {
-    color: #ffffff;
+section.dsf-res div.dsf-res-content ul li div.res div.res-logo svg {
+    color: #fffaed;
     width: 1rem;
     height: 1rem;
     display: block;
@@ -2084,13 +2085,13 @@ section.prob-sol div.prob-sol-content ul li div.sol div.sol-logo svg {
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.prob-sol div.prob-sol-content ul li div.sol div.sol-text h4 {
-    color: #1b5e20;
+section.dsf-res div.dsf-res-content ul li div.res div.res-text h4 {
+    color: #5a3422;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
-section.prob-sol div.prob-sol-content ul li div.sol div.sol-text p {
-    color: #1b5e1fb3;
+section.dsf-res div.dsf-res-content ul li div.res div.res-text p {
+    color: #5a3422b3;
     font-size: 0.875rem;
     line-height: 1.4287;
 }

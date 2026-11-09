@@ -280,7 +280,7 @@ ScrollReveal().reveal('.dsf-gov-content', {
   delay: 200
 });
 
-ScrollReveal().reveal('.slcs-content .revelar-baixo', {
+ScrollReveal().reveal('.rspts-content .revelar-baixo', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
@@ -288,21 +288,21 @@ ScrollReveal().reveal('.slcs-content .revelar-baixo', {
   delay: 400
 });
 
-ScrollReveal().reveal('.alt-text', {
+ScrollReveal().reveal('.est-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
   delay: 1040
 });
 
-ScrollReveal().reveal('.slcs-img', {
+ScrollReveal().reveal('.rspts-img', {
   ...configBase,
   origin: 'bottom',
   scale: 0.9,
   delay: 150
 });
 
-ScrollReveal().reveal('.slcs-text > *, .slcs-text ul .list-reveal', {
+ScrollReveal().reveal('.rspts-text > *, .rspts-text ul .list-reveal', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
@@ -310,14 +310,14 @@ ScrollReveal().reveal('.slcs-text > *, .slcs-text ul .list-reveal', {
   delay: 150
 });
 
-ScrollReveal().reveal('.prob-sol-text', {
+ScrollReveal().reveal('.dsf-res-text', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
   delay: 200
 });
 
-ScrollReveal().reveal('.prob-sol-content ul li', {
+ScrollReveal().reveal('.dsf-res-content ul li', {
   ...configBase,
   duration: 300,
   distance: 0,
