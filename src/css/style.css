@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    color: #1b5e20;
-    background-color: #ffffff;
+    color: #5a3422;
+    background-color: #fffbf2;
     overflow-x: hidden;
     width: 100%;
 }
@@ -69,7 +69,7 @@ html.sr .hidden {
 nav {
     width: 100%;
     position: fixed;
-    background-color: #fffffff2;
+    background-color: #fffbf2f2;
     backdrop-filter: blur(16px);
     z-index: 100;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
@@ -89,7 +89,7 @@ nav a:nth-of-type(1) {
     gap: 0.5rem;
 }
 nav a div.logo {
-    background-color: #1b5e20;
+    background-color: #5a3422;
     height: 2.5rem;
     width: 2.5rem;
     display: flex;
@@ -101,15 +101,16 @@ nav a div.logo {
 nav a:hover div.logo {
     transform: scale(1.1);
 }
-nav a div.logo svg.folhinha {
-    color: #ffffff;
-    width: 1.5rem; 
-    height: 1.5rem;
+nav a div.logo svg.svg-logo {
+    color: #fffaed;
+    width: 1.45rem; 
+    height: 1.45rem;
     display: block;
     fill: none;
     stroke: currentColor;
     stroke-width: 2px;
     stroke-linecap: round;
+    stroke-linejoin: round;
     margin: auto;
 }
 nav a span {
@@ -125,16 +126,16 @@ nav ul.links {
 nav ul.links li a.link {
     padding: 0.5rem 0;
     position: relative;
-    color: #1b5e1fb3;
+    color: #5a3422b3;
 }
 nav ul.links li a.link:hover {
-    color: #1b5e20;
+    color: #5a3422;
 }
 nav ul.links li a.ativo {
-    color: #1b5e20;
+    color: #5a3422;
 }
 nav ul.links li div.underline {
-    background-color: #1b5e20;
+    background-color: #5a3422;
     height: 0.125rem;
     position: absolute;
     left: 0;
@@ -181,8 +182,8 @@ nav button.open svg.fechar {
 nav div.nav-cell {
     max-height: 0;
     opacity: 0;
-    background-color: #ffffff;
-    border-top: 1px #1b5e201a solid;
+    background-color: #fffbf2;
+    border-top: 1px #5a34221a solid;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -201,8 +202,8 @@ nav div.nav-cell ul li:not(:nth-last-of-type(1)) {
     margin-bottom: 0.5rem;
 }
 nav div.nav-cell ul li.active {
-    color: #ffffff;
-    background-color: #1b5e20;
+    color: #fffbf2;
+    background-color: #5a3422;
     border-radius: 0.625rem;
 }
 nav div.nav-cell ul li a {
@@ -216,9 +217,9 @@ nav div.nav-cell.open ul li a {
 
 /* === Footer === */
 footer {
-    color: #ffffff;
+    color: #fffbf2;
     padding: 3rem 0;
-    background-color: #1b5e20;
+    background-color: #5a3422;
 }
 footer div.footer-content {
     padding: 0 2rem;
@@ -240,7 +241,7 @@ footer div.footer-content div.info div.info-PI h3 {
     font-size: 1.125rem;
 }
 footer div.footer-content div.info div.info-PI p {
-    color: #ffffffcc;
+    color: #fffaedcc;
     font-size: 0.875rem;
     line-height: 1.4287;
 }
@@ -254,7 +255,7 @@ footer div.footer-content div.info div.info-equipe h3 {
     font-size: 1.125rem;
 }
 footer div.footer-content div.info div.info-equipe ul {
-    color: #ffffffcc;
+    color: #fffaedcc;
     font-size: 0.875rem;
     line-height: 1.4287;
 }
@@ -262,7 +263,7 @@ footer div.footer-content div.info div.info-equipe li {
     margin-bottom: 0.25rem;
 }
 footer div.footer-content div.info div.info-equipe li a:hover {
-    color: #ffffff;
+    color: #fffaed;
 }
 footer div.footer-content div.info div.info-ref {
     display: flex;
@@ -274,7 +275,7 @@ footer div.footer-content div.info div.info-ref h3 {
     font-size: 1.125rem;
 }
 footer div.footer-content div.info div.info-ref ul {
-    color: #ffffffcc;
+    color: #fffaedcc;
     font-size: 0.875rem;
     line-height: 1.4287;
 }
@@ -282,16 +283,16 @@ footer div.footer-content div.info div.info-ref li {
     margin-bottom: 0.25rem;
 }
 footer div.footer-content div.info div.info-ref a:hover {
-    color: #ffffff;
+    color: #fffaed;
 }
 footer div.credits {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #ffffff33;
+    border-top: 1px solid #fffaed33;
     margin-top: 2rem;
 }
 footer div.credits p:nth-of-type(1) {
-    color: #ffffffcc;
+    color: #fffaedcc;
     margin-bottom: 0.5rem;
 }
 footer div.credits p:nth-of-type(1) a {
@@ -309,7 +310,7 @@ footer div.credits p:nth-of-type(1) a svg {
     stroke-linecap: round;
 }
 footer div.credits p:nth-of-type(1) a:hover {
-    color: #ffffff;
+    color: #fffaed;
     transform: scale(1.05);
 }
 footer div.credits p:nth-of-type(2) {
@@ -348,7 +349,7 @@ section.hero div.hero-image img {
 section.hero div.hero-image div.gradient {
     position: absolute;
     inset: 0;
-    background-image: linear-gradient(to bottom, #00000099, #00000066, #000000b3);
+    background-image: linear-gradient(to bottom, #0e080799, #0c080666, #0e0807b3);
 }
 section.hero div.hero-text {
     text-align: center;
@@ -362,24 +363,24 @@ section.hero div.hero-text div.PI {
     margin-bottom: 1.5rem;
 }
 section.hero div.hero-text div.PI span {
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     font-size: 0.875rem;
     padding: 0.5rem 1.5rem;
-    background-color: #f9a825;
+    background-color: #d08c34;
     border-radius: 100px;
 }
 section.hero div.hero-text h1 {
     font-size: 4.5rem;
     line-height: 1.25;
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
 section.hero div.hero-text p {
     font-size: 1.5rem;
     line-height: 1.3333;
-    color: #ffffffe6;
+    color: #fffaede6;
     max-width: 48rem;
     margin-bottom: 2.5rem;
     margin-inline: auto;
@@ -388,9 +389,9 @@ section.hero div.hero-text a.btn-explorar {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     padding: 1rem 2rem;
-    color: #ffffff;
+    color: #fffaed;
     font-size: 1.125rem;
     font-weight: 600;
     border-radius: 50px;
@@ -398,11 +399,11 @@ section.hero div.hero-text a.btn-explorar {
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.hero div.hero-text a.btn-explorar:hover {
-    background-color: #2e7d32;
+    background-color: #5a3422;
     transform: scale(1.05);
 }
 section.hero div.hero-text a.btn-explorar svg.setinha {
-    color: #ffffff;
+    color: #fffaed;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
@@ -412,50 +413,50 @@ section.hero div.hero-text a.btn-explorar svg.setinha {
     stroke-linecap: round;
 }
 
-/* === Desafio Global === */
-section.dsf-global {
+/* === Escala do Mundo Antigo === */
+section.escala {
     padding: 5rem 0;
 }
-section.dsf-global div.dsf-global-content {
+section.escala div.escala-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin: auto;
 }
-section.dsf-global div.dsf-global-content div.dsf-global-cabecalho {
+section.escala div.escala-content div.escala-cabecalho {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.dsf-global div.dsf-global-content div.dsf-global-cabecalho h2 {
+section.escala div.escala-content div.escala-cabecalho h2 {
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 1.1111;
     margin-bottom: 1rem;
 }
-section.dsf-global div.dsf-global-content div.dsf-global-cabecalho p {
+section.escala div.escala-content div.escala-cabecalho p {
     opacity: 0.7;
     font-size: 1.25rem;
     line-height: 1.5555;
     max-width: 42rem;
     margin: auto;
 }
-section.dsf-global div.dsf-global-content ul.cards {
+section.escala div.escala-content ul.cards {
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
-section.dsf-global div.dsf-global-content ul.cards li.card {
+section.escala div.escala-content ul.cards li.card {
     padding: 2rem;
-    color: #ffffff;
+    color: #fffaed;
     height: 100%;
     border-radius: 1rem;
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.dsf-global div.dsf-global-content ul.cards li.card:hover {
+section.escala div.escala-content ul.cards li.card:hover {
     transform: scale(1.05);
 }
-section.dsf-global div.dsf-global-content ul.cards li.card svg.cards-svg {
-    color: #ffffff;
+section.escala div.escala-content ul.cards li.card svg.cards-svg {
+    color: #fffaed;
     width: 3rem;
     height: 3rem;
     margin-bottom: 1rem;
@@ -465,37 +466,37 @@ section.dsf-global div.dsf-global-content ul.cards li.card svg.cards-svg {
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.dsf-global div.dsf-global-content ul.cards li.card div.cards-title {
+section.escala div.escala-content ul.cards li.card div.cards-title {
     font-weight: 700;
     font-size: 3rem;
     line-height: 1;
     margin-bottom: 0.5rem;
 }
-section.dsf-global div.dsf-global-content ul.cards li.card p:nth-of-type(1) {
+section.escala div.escala-content ul.cards li.card p:nth-of-type(1) {
     opacity: 0.9;
 }
-section.dsf-global div.dsf-global-content ul.cards li.card p:nth-of-type(2) {
+section.escala div.escala-content ul.cards li.card p:nth-of-type(2) {
     opacity: 0.7;
     font-size: 0.875rem;
     line-height: 1.4287;
     margin-top: 0.5rem;
 }
-section.dsf-global div.dsf-global-content ul.cards li.ppl-mundial {
-    background-image: linear-gradient(to bottom right, #1b5e20, #2e7d32);
+section.escala div.escala-content ul.cards li.hab-roma {
+    background-image: linear-gradient(to bottom right, #5a3422, #935531);
 }
-section.dsf-global div.dsf-global-content ul.cards li.pss-insg-alimentar {
-    background-image: linear-gradient(to bottom right, #2e7d32, #66bb6a);
+section.escala div.escala-content ul.cards li.hab-imperio-roma {
+    background-image: linear-gradient(to bottom right, #935531, #bc7a54);
 }
-section.dsf-global div.dsf-global-content ul.cards li.comida-dpcd {
-    background-image: linear-gradient(to bottom right, #66bb6a, #81c784);
+section.escala div.escala-content ul.cards li.ppl-trab {
+    background-image: linear-gradient(to bottom right, #bc7a54, #cc8f6d);
 }
 
-/* === Produção Sustentável === */
-section.prod-stvl {
+/* === Alimentar Cidades === */
+section.ali-cid {
     padding: 5rem 0;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
 }
-section.prod-stvl div.prod-stvl-content {
+section.ali-cid div.ali-cid-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
@@ -504,14 +505,14 @@ section.prod-stvl div.prod-stvl-content {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
-section.prod-stvl div.prod-stvl-content div.prod-stvl-text-header {
+section.ali-cid div.ali-cid-content div.ali-cid-text-header {
     display: flex;
     gap: 0.75rem;
     align-items: center;
     margin-bottom: 1rem;
 }
-section.prod-stvl div.prod-stvl-content div.prod-stvl-text-header svg.plantinha {
-    color: #1b5e20;
+section.ali-cid div.ali-cid-content div.ali-cid-text-header svg.papelzinho {
+    color: #5a3422;
     width: 2rem;
     height: 2rem;
     display: block;
@@ -520,37 +521,37 @@ section.prod-stvl div.prod-stvl-content div.prod-stvl-text-header svg.plantinha 
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.prod-stvl div.prod-stvl-content div.prod-stvl-text-header span {
-    color: #f9a825;
+section.ali-cid div.ali-cid-content div.ali-cid-text-header span {
+    color: #d08c34;
     font-weight: 600;
 }
-section.prod-stvl div.prod-stvl-content h2 {
+section.ali-cid div.ali-cid-content h2 {
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 1.1111;
     margin-bottom: 1.5rem;
 }
-section.prod-stvl div.prod-stvl-content p.prod-stvl-text {
-    color: #1b5e1fb3;
+section.ali-cid div.ali-cid-content p.ali-cid-text {
+    color: #5a3422b3;
     font-size: 1.125rem;
     line-height: 1.5555;
     margin-bottom: 1.5rem;
 }
-section.prod-stvl div.prod-stvl-content p.prod-stvl-text:nth-of-type(2) {
+section.ali-cid div.ali-cid-content p.ali-cid-text:nth-of-type(2) {
     margin-bottom: 2rem;
 }
-section.prod-stvl div.prod-stvl-content a {
+section.ali-cid div.ali-cid-content a {
     font-weight: 600;
     display: inline-flex;
     gap: 0.5rem;
     align-items: center;
     transition: all 0.15s;
 }
-section.prod-stvl div.prod-stvl-content a:hover {
+section.ali-cid div.ali-cid-content a:hover {
     gap: 1rem;
 }
-section.prod-stvl div.prod-stvl-content a svg.setinhazinha {
-    color: #1b5e20;
+section.ali-cid div.ali-cid-content a svg.setinhazinha {
+    color: #5a3422;
     width: 1.25rem;
     height: 1.25rem;
     display: block;
@@ -559,43 +560,43 @@ section.prod-stvl div.prod-stvl-content a svg.setinhazinha {
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.prod-stvl div.prod-stvl-content div.img-reveal {
+section.ali-cid div.ali-cid-content div.img-reveal {
     position: relative;
 }
-section.prod-stvl div.prod-stvl-content img {
+section.ali-cid div.ali-cid-content img {
     box-shadow: 0 25px 50px -12px #0000001a, 0 10px 30px -15px #0000001a;
     border-radius: 1rem;
     max-width: 100%;
     height: auto;
     display: block;
 }
-section.prod-stvl div.prod-stvl-content div.eficiencia {
+section.ali-cid div.ali-cid-content div.anos-agri {
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
-    color: #ffffff;
+    color: #fffaed;
     padding: 1.5rem;
-    background-color: #f9a825;
+    background-color: #d08c34;
     border-radius: 0.75rem 1rem 1rem;
     position: absolute;
     bottom: -1.5rem;
     right: -1.5rem;
 }
-section.prod-stvl div.prod-stvl-content div.eficiencia p:nth-of-type(1) {
+section.ali-cid div.ali-cid-content div.anos-agri p:nth-of-type(1) {
     font-weight: 700;
     font-size: 1.875rem;
     line-height: 1.2;
 }
-section.prod-stvl div.prod-stvl-content div.eficiencia p:nth-of-type(2) {
+section.ali-cid div.ali-cid-content div.anos-agri p:nth-of-type(2) {
     font-size: 0.875rem;
     line-height: 1.4287;
 }
 
-/* === 2ª Página - Métodos Modernos === */
+/* === 2ª Página - Métodos Antigos === */
 
 /* ==== Banner === */
 section.banner {
-    color: #ffffff;
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #1b5e20, #2e7d32);
+    background-image: linear-gradient(to bottom right, #5a3422, #935531);
     position: relative;
 }
 section.banner div.banner-lights {
@@ -605,7 +606,7 @@ section.banner div.banner-lights {
 }
 section.banner div.banner-lights div.white-light {
     filter: blur(64px);
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 50%;
     width: 16rem;
     height: 16rem;
@@ -615,7 +616,7 @@ section.banner div.banner-lights div.white-light {
 }
 section.banner div.banner-lights div.yellow-light {
     filter: blur(64px);
-    background-color: #f9a825;
+    background-color: #d08c34;
     border-radius: 50%;
     width: 24rem;
     height: 24rem;
@@ -629,14 +630,14 @@ section.banner div.banner-text {
     max-width: 48rem;
     margin: auto;
 }
-section.banner div.banner-text div.TI span {
+section.banner div.banner-text div.TO span {
     display: inline-block;
     margin-bottom: 1.5rem;
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     font-size: 0.875rem;
     padding: 0.5rem 1rem;
-    background-color: #f9a825;
+    background-color: #d08c34;
     border-radius: 100px;
 }
 section.banner div.banner-text h1 {
@@ -646,87 +647,86 @@ section.banner div.banner-text h1 {
     margin-bottom: 1.5rem;
 }
 section.banner div.banner-text p {
-    color: #ffffffe6;
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.5555;
 }
 
-/* === Tecnologias Revolucionárias === */
-section.tec-revo {
+/* === Inovações do Mundo Antigo === */
+section.ino-mund {
     padding: 5rem 0;
-    background-color: #ffffff;
+    background-color: #fffbf2;
 }
-section.tec-revo div.tec-revo-content {
+section.ino-mund div.ino-mund-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.tec-revo div.tec-revo-content div.tec-revo-text {
+section.ino-mund div.ino-mund-content div.ino-mund-text {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.tec-revo div.tec-revo-content div.tec-revo-text h2 {
+section.ino-mund div.ino-mund-content div.ino-mund-text h2 {
     font-weight: 700;
     font-size: 2.25rem;
     margin-bottom: 1rem;
     line-height: 1.1111;
 }
-section.tec-revo div.tec-revo-content div.tec-revo-text p {
-    color: #1b5e1fb3;
+section.ino-mund div.ino-mund-content div.ino-mund-text p {
+    color: #5a3422b3;
     font-size: 1.25rem;
     margin-bottom: 1rem;
     line-height: 1.4;
     max-width: 42rem;
     margin-inline: auto;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 2rem;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card {
-    background-color: #ffffff;
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card {
+    background-color: #fffbf2;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     border-radius: 1rem;
     overflow: hidden;
-    cursor: pointer;
     height: 100%;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card:hover {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card:hover {
     transform: translateY(-10px);
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-banner {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-banner {
     overflow: hidden;
     height: 12rem;
     position: relative;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-banner img {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-banner img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card:hover div.tec-revo-card-banner img {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card:hover div.ino-mund-card-banner div.ino-mund-card-banner img {
     transform: scale(1.1);
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-banner div.tec-revo-card-banner-gradient {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-banner-gradient {
     opacity: 0.6;
-    background-image: linear-gradient(to top, #1b5e20, #2e7d32);
+    background-image: linear-gradient(to top, #5a3422, #935531);
     position: absolute;
     inset: 0;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-banner div.tec-revo-card-banner-icon {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-banner div.ino-mund-card-banner-icon {
     padding: 0.75rem;
-    background-color: #ffffff33;
+    background-color: #fffbf233;
     backdrop-filter: blur(8px);
     border-radius: 50px;
     position: absolute;
     left: 1rem;
     bottom: 1rem;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-banner div.tec-revo-card-banner-icon svg {
-    color: #ffffff;
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-banner div.ino-mund-card-banner-icon svg {
+    color: #fffaed;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
@@ -734,50 +734,51 @@ section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.te
     stroke: currentColor;
     stroke-width: 2px;
     stroke-linecap: round;
+    stroke-linejoin: round;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-text {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-text {
     padding: 1.5rem;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-text h3 {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-text h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.75rem;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards div.tec-revo-card div.tec-revo-card-text p {
-    color: #1b5e1fb3;
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-text p {
+    color: #5a3422b3;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-prec {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards li.irri-can {
     grid-column: 1 / span 2;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards li.dron-agr {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards li.shaduf {
     grid-column: 3 / span 2;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards li.IA {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards li.cal-agri {
     grid-column: 5 / span 2;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards li.hidroponia {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards li.ter-cul {
     grid-column: 2 / span 2;
 }
-section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-vert {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards li.cel-pub {
     grid-column: 4 / span 2;
 }
 
-/* === Evolução da Agricultura === */
-section.evo {
+/* === Marcos da Agricultura Antiga === */
+section.mar {
     padding: 5rem 0;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
 }
-section.evo div.evo-content {
+section.mar div.mar-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.evo div.evo-content div.evo-text {
+section.mar div.mar-content div.mar-text {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.evo div.evo-content div.evo-text svg {
+section.mar div.mar-content div.mar-text svg {
     width: 3rem;
     height: 3rem;
     display: block;
@@ -788,24 +789,24 @@ section.evo div.evo-content div.evo-text svg {
     margin-bottom: 1rem;
     margin-inline: auto;
 }
-section.evo div.evo-content div.evo-text h2 {
+section.mar div.mar-content div.mar-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1rem;
 }
-section.evo div.evo-content div.evo-text p {
-    color: #1b5e1fb3;
+section.mar div.mar-content div.mar-text p {
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
     margin-inline: auto;
 }
-section.evo div.evo-content ul.evo-timeline {
+section.mar div.mar-content ul.mar-timeline {
     position: relative;
 }
-section.evo div.evo-content ul.evo-timeline div.linha {
-    background-color: #66bb6a;
+section.mar div.mar-content ul.mar-timeline div.linha {
+    background-color: #bc7a54;
     width: 0.25rem;
     transform: translateX(-50%);
     position: absolute;
@@ -814,61 +815,61 @@ section.evo div.evo-content ul.evo-timeline div.linha {
     top: 0;
     border-radius: 1.2px;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards {
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards .flex1 {
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards .flex1 {
     flex: 1;
 }
-section.evo div.evo-content ul.evo-timeline li.left-card {
+section.mar div.mar-content ul.mar-timeline li.left-card {
     flex-direction: row;
 }
-section.evo div.evo-content ul.evo-timeline li.left-card div.left-time {
+section.mar div.mar-content ul.mar-timeline li.left-card div.left-time {
     padding-right: 3rem;
 }
-section.evo div.evo-content ul.evo-timeline li.right-card {
+section.mar div.mar-content ul.mar-timeline li.right-card {
     flex-direction: row-reverse;
 }
-section.evo div.evo-content ul.evo-timeline li.right-card div.right-time {
+section.mar div.mar-content ul.mar-timeline li.right-card div.right-time {
     padding-left: 3rem;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.card {
-    background-color: #ffffff;
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card {
+    background-color: #fffbf2;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     border-radius: 1rem;
     padding: 1.5rem;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.card h4 {
-    color: #f9a825;
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card h4 {
+    color: #d08c34;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
     margin-bottom: 0.5rem;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.card h3 {
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.5rem;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.card p {
-    color: #1b5e1fb3;
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card p {
+    color: #5a3422b3;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.time {
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 3rem;
     height: 3rem;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
-    border: 4px #ffffff solid;
+    border: 4px #fffaed solid;
     border-radius: 50%;
 }
-section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.time div {
-    background-color: #f9a825;
+section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time div {
+    background-color: #d08c34;
     border-radius: 50%;
     width: 1rem;
     height: 1rem;
@@ -905,13 +906,13 @@ section.slides-img div.slides div.slide img {
     inset: 0;
 }
 section.slides-img div.slides div.slide div.slide-gradient {
-    background-image: linear-gradient(to top, #000000d9, #0000008c);
+    background-image: linear-gradient(to top, #0e0907d9, #0e09078c);
     transition: 600ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     inset: 0;
 }
 section.slides-img div.slides div.slide.aberto div.slide-gradient {
-    background-image: linear-gradient(to top, #000000bf, rgba(0, 0, 0, 0.15) 60%, #00000000 100%);
+    background-image: linear-gradient(to top, #0e0907bf, #0e090826 60%, #0e090700 100%);
 }
 section.slides-img div.slides div.slide div.slide-text div.texto-fechado {
     display: flex;
@@ -924,12 +925,11 @@ section.slides-img div.slides div.slide.aberto div.slide-text div.texto-fechado 
     visibility: hidden;
 }
 section.slides-img div.slides div.slide div.slide-text div.texto-fechado span {
-    color: #ffffff99;
+    color: #fffaed99;
     font-size: 0.875rem;
     font-weight: 700;
     line-height: 1.4287;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    transform: rotate(-90deg);
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
@@ -947,26 +947,26 @@ section.slides-img div.slides div.slide.aberto div.slide-text div.texto-aberto {
     pointer-events: none;
 }
 section.slides-img div.slides div.slide div.slide-text div.texto-aberto span {
-    color: #ffffff;
+    color: #fffaed;
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 1.3333;
     letter-spacing: 0.05em;
     display: inline-block;
     padding: 0.25rem 0.75rem;
-    background-color: #F9A825;
+    background-color: #d08c34;
     border-radius: 100px;
     margin-bottom: 0.75rem;
 }
 section.slides-img div.slide div.slide-text div.texto-aberto h3 {
-    color: #ffffff;
+    color: #fffaed;
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 0.5rem;
 }
 section.slides-img div.slide div.slide-text div.texto-aberto p {
-    color: #ffffffcc;
+    color: #fffaedcc;
     font-weight: 700;
     max-width: 28rem;
 }
@@ -975,7 +975,7 @@ section.slides-img div.slider {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    width: 18rem;
+    width: 19rem;
     position: absolute;
     left: 50%;
     bottom: 1.25rem;
@@ -983,7 +983,7 @@ section.slides-img div.slider {
     transform: translateX(-50%);
 }
 section.slides-img div.slider input {
-    accent-color: #f9a825;
+    accent-color: #d08c34;
     cursor: pointer;
     width: 100%;
 }
@@ -994,21 +994,21 @@ section.slides-img div.slider div.slider-text {
     width: 100%;
 }
 section.slides-img div.slider div.slider-text span {
-    color: #ffffff66;
+    color: #fffaed66;
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 1.3333;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.slides-img div.slider div.slider-text span.current {
-    color: #f9a825;
+    color: #d08c34;
 }
 
 /* === Vídeos Educacionais === */
 section.videos {
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #2e7d32, #1b5e20);
-    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #935531, #5a3422);
+    color: #fffaed;
 }
 section.videos div.videos-content {
     padding: 0 2rem;
@@ -1026,14 +1026,14 @@ section.videos div.videos-content div.videos-educacionais h2 {
     margin-bottom: 1.5rem;
 }
 section.videos div.videos-content div.videos-educacionais p {
-    color: #ffffffe6;
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
     margin-bottom: 2rem;
 }
 section.videos div.videos-content div.videos-educacionais ul.videos-links li {
     backdrop-filter: blur(8px);
-    background-color: #ffffff1a;
+    background-color: #fffaed1a;
     border-radius: 0.625rem;
     margin-bottom: 1rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1065,7 +1065,7 @@ section.videos div.videos-content div.videos-carrossel div.carrossel-slide div.c
 section.videos div.videos-content div.videos-carrossel div.carrossel-slide div.carrossel-track .carrossel-item {
     width: 100%;
     height: 100%;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     object-fit: cover;
 }
 section.videos div.videos-content div.videos-carrossel button {
@@ -1079,7 +1079,7 @@ section.videos div.videos-content div.videos-carrossel button:hover {
     transform: translateY(-5px);
 }
 section.videos div.videos-content div.videos-carrossel button svg {
-    color: #ffffffcc;
+    color: #fffaedcc;
     width: 2rem;
     height: 2rem;
     display: block;
@@ -1091,22 +1091,22 @@ section.videos div.videos-content div.videos-carrossel button svg {
 
 /* === 3ª Página - Desafios === */
 
-/* === Desafios Atuais === */
-section.dsf-atuais {
-    color: #ffffff;
+/* === Desafios da Antiguidade === */
+section.dsf-anti {
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #82181a, #c10007);
+    background-image: linear-gradient(to bottom right, #771e1d, #a53025);
     overflow: hidden;
     position: relative;
 }
-section.dsf-atuais div.dsf-lights {
+section.dsf-anti div.dsf-lights {
     opacity: 0.1;
     position: absolute;
     inset: 0;
 }
-section.dsf-atuais div.dsf-lights div.white-light {
+section.dsf-anti div.dsf-lights div.white-light {
     filter: blur(64px);
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 50%;
     width: 16rem;
     height: 16rem;
@@ -1114,9 +1114,9 @@ section.dsf-atuais div.dsf-lights div.white-light {
     right: 5rem;
     top: 5rem;
 }
-section.dsf-atuais div.dsf-lights div.orange-light {
+section.dsf-anti div.dsf-lights div.orange-light {
     filter: blur(64px);
-    background-color: #ff6900;
+    background-color: #c96425;
     border-radius: 50%;
     width: 24rem;
     height: 24rem;
@@ -1124,13 +1124,13 @@ section.dsf-atuais div.dsf-lights div.orange-light {
     left: 5rem;
     bottom: 5rem;
 }
-section.dsf-atuais div.dsf-text {
+section.dsf-anti div.dsf-text {
     text-align: center;
     padding: 0 2rem;
     max-width: 48rem;
     margin: auto;
 }
-section.dsf-atuais div.dsf-text svg.alert {
+section.dsf-anti div.dsf-text svg.alert {
     width: 4rem;
     height: 4rem;
     display: block;
@@ -1141,14 +1141,14 @@ section.dsf-atuais div.dsf-text svg.alert {
     margin-bottom: 1.5rem;
     margin-inline: auto;
 }
-section.dsf-atuais div.dsf-text h1 {
+section.dsf-anti div.dsf-text h1 {
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 1.5rem;
 }
-section.dsf-atuais div.dsf-text p {
-    color: #ffffffe6;
+section.dsf-anti div.dsf-text p {
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
 }
@@ -1173,7 +1173,7 @@ section.prin-obs div.prin-obs-content div.prin-obs-text h2 {
     margin-bottom: 1rem;
 }
 section.prin-obs div.prin-obs-content div.prin-obs-text p {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
@@ -1187,7 +1187,7 @@ section.prin-obs div.prin-obs-content ul.prin-obs-cards {
 section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card {
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     padding: 2rem;
-    border-left: 4px #1b5e20 solid;
+    border-left: 4px #5a3422 solid;
     border-radius: 1rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1200,21 +1200,21 @@ section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.pri
     gap: 1rem;
 }
 section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-icon {
-    color: #ffffff;
+    color: #fffaed;
     padding: 1rem;
     border-radius: 0.875rem;
 }
-section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.stonks {
-    background-color: #1b5e20;
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.templinho {
+    background-color: #5a3422;
 }
-section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.chuvinha {
-    background-color: #2e7d32;
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.ondinha {
+    background-color: #935531;
 }
-section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.lixinho {
-    background-color: #66bb6a;
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.barquinho {
+    background-color: #bc7a54;
 }
-section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.gotinha {
-    background-color: #f9a825;
+section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.triguinho {
+    background-color: #d08c34;
 }
 section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-icon svg {
     width: 2rem;
@@ -1224,6 +1224,7 @@ section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.pri
     stroke: currentColor;
     stroke-width: 2px;
     stroke-linecap: round;
+    stroke-linejoin: round;
 }
 section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text {
     flex: 1;
@@ -1235,102 +1236,102 @@ section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.pri
     margin-bottom: 0.5rem;
 }
 section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text p:nth-of-type(1) {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     margin-bottom: 1rem;
 }
 section.prin-obs div.prin-obs-content ul.prin-obs-cards li.prin-obs-card div.prin-obs-card-content div.prin-obs-card-text p span {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
     border-radius: 0.625rem;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
 }
 
-/* === Dados Mundias === */
-section.dados {
+/* === Populações e Dieta === */
+section.ppl-die {
     padding: 5rem 0;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
 }
-section.dados div.dados-content {
+section.ppl-die div.ppl-die-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.dados div.dados-content div.dados-text {
+section.ppl-die div.ppl-die-content div.ppl-die-text {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.dados div.dados-content div.dados-text h2 {
+section.ppl-die div.ppl-die-content div.ppl-die-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1rem;
 }
-section.dados div.dados-content div.dados-text p {
-    color: #1b5e1fb3;
+section.ppl-die div.ppl-die-content div.ppl-die-text p {
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
     margin-inline: auto;
 }
-section.dados div.dados-content div.dados-charts {
+section.ppl-die div.ppl-die-content div.ppl-die-charts {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-section.dados div.dados-content div.dados-charts div.bar-chart {
+section.ppl-die div.ppl-die-content div.ppl-die-charts div.bar-chart {
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
 }
-section.dados div.dados-content div.dados-charts div.bar-chart h3 {
+section.ppl-die div.ppl-die-content div.ppl-die-charts div.bar-chart h3 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
     margin-bottom: 1.5rem;
 }
-section.dados div.dados-content div.dados-charts div.bar-chart svg {
+section.ppl-die div.ppl-die-content div.ppl-die-charts div.bar-chart svg {
     width: 100%;
     height: auto;
     display: block;
     margin: auto; 
 }
-section.dados div.dados-content div.dados-charts div.pie-chart {
+section.ppl-die div.ppl-die-content div.ppl-die-charts div.pie-chart {
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
 }
-section.dados div.dados-content div.dados-charts div.pie-chart h3 {
+section.ppl-die div.ppl-die-content div.ppl-die-charts div.pie-chart h3 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
     margin-bottom: 1.5rem;
 }
-section.dados div.dados-content div.dados-charts div.pie-chart svg {
+section.ppl-die div.ppl-die-content div.ppl-die-charts div.pie-chart svg {
     width: 100%;
     height: auto;
     display: block;
     margin: auto; 
 }
 
-/* === Regiões Mais Vulneráveis === */
-section.reg-vul {
+/* === Grandes Sistemas Alimentares === */
+section.gran-sis {
     padding: 5rem 0;
 }
-section.reg-vul div.reg-vul-content {
+section.gran-sis div.gran-sis-content {
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-text {
+section.gran-sis div.gran-sis-content div.gran-sis-text {
     text-align: center;
     margin-bottom: 4rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-text svg.loc {
+section.gran-sis div.gran-sis-content div.gran-sis-text svg.loc {
     width: 3rem;
     height: 3rem;
     display: block;
@@ -1341,39 +1342,39 @@ section.reg-vul div.reg-vul-content div.reg-vul-text svg.loc {
     margin-bottom: 1rem;
     margin-inline: auto;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-text h2 {
+section.gran-sis div.gran-sis-content div.gran-sis-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-text p {
-    color: #1b5e1fb3;
+section.gran-sis div.gran-sis-content div.gran-sis-text p {
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
     margin-inline: auto;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados {
+section.gran-sis div.gran-sis-content div.gran-sis-dados {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0 2rem;
     align-items: flex-start;
-    grid-template-areas: "map map regs" "fome fome regs";
+    grid-template-areas: "map map regs" "hab hab regs";
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.first-collumn {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.first-collumn {
     grid-area: map;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map {
     aspect-ratio: 16 / 9;
-    background-image: linear-gradient(160deg, #e8f5e9 0%, #c8e6c9 60%, #b2dfdb 100%);
+    background-image: linear-gradient(160deg, #f5f2e8 0%, #e6dac8 60%, #dfbdb2 100%);
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
-    border: 1px #ebe6e7 solid;
+    border: 1px #ebe9e6 solid;
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map svg.mapa {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map svg.mapa {
     opacity: 0.18;
     width: 100%;
     height: 100%;
@@ -1382,63 +1383,63 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.map svg.mapa {
     position: absolute;
     inset: 0;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-gradient {
-    background-image: linear-gradient(to bottom right, #1b5e200d, #66bb6a14);
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.map-gradient {
+    background-image: linear-gradient(to bottom right, #5a34220d, #bc7a5414);
     position: absolute;
     inset: 0;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button {
     position: absolute;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.alto {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.muito-alta {
+    left: 50%;
+    top: 47%;
+}
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta1 {
     left: 53%;
-    top: 68%;
+    top: 42%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio1 {
-    left: 63%;
-    top: 51%;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta2 {
+    left: 48%;
+    top: 39%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio2 {
-    left: 56%;
-    top: 44%;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.ampla {
+    left: 67%;
+    top: 43%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.moderado {
-    left: 34%;
-    top: 57%;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.significativa {
+    left: 32%;
+    top: 59%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo {
-    left: 51%;
-    top: 36%;
-}
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button span.ping {
     position: absolute;
     inset: 0;
     border-radius: 50%;
     animation: ping 1000ms cubic-bezier(0, 0, 0.2, 1) infinite;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.active span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.active span.ping {
     animation: none;
     transform: scale(2.5);
     opacity: 0.5;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.alto span.ping {
-    background-color: #d32f2f;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.muito-alta span.ping {
+    background-color: #b03b3b;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio1 span.ping {
-    background-color: #f57c00;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta1 span.ping {
+    background-color: #de8934;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio2 span.ping {
-    background-color: #ff8f00;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta2 span.ping {
+    background-color: #c88b3b;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.moderado span.ping {
-    background-color: #fbc02d;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.ampla span.ping {
+    background-color: #d2ae52;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo span.ping {
-    background-color: #66bb6a;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.significativa span.ping {
+    background-color: #629465;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.mark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1446,38 +1447,38 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.mark {
     width: 2rem;
     height: 2rem;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
-    color: #ffffff;
+    color: #fffaed;
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 1.3333;
-    border: 2px #ffffff solid;
+    border: 2px #fffaed solid;
     border-radius: 50%;
     transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button:hover div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button:hover div.mark {
     transform: scale(1.25);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.alto div.mark {
-    background-color: #d32f2f;
-    box-shadow: 0 4px 15px #d32f2f80;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.muito-alta div.mark {
+    background-color: #b03b3b;
+    box-shadow: 0 4px 15px #b03b3b80;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio1 div.mark {
-    background-color: #f57c00;
-    box-shadow: 0 4px 15px #f57b0080;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta1 div.mark {
+    background-color: #de8934;
+    box-shadow: 0 4px 15px #de893480;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.medio2 div.mark {
-    background-color: #ff8f00;
-    box-shadow: 0 4px 15px #ff910080;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta2 div.mark {
+    background-color: #c88b3b;
+    box-shadow: 0 4px 15px #c88b3b80;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.moderado div.mark {
-    background-color: #fbc02d;
-    box-shadow: 0 4px 15px #fbc12d80;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.ampla div.mark {
+    background-color: #d2ae52;
+    box-shadow: 0 4px 15px #d2ae5280;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button.baixo div.mark {
-    background-color: #66bb6a;
-    box-shadow: 0 4px 15px #66bb6a80;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.significativa div.mark {
+    background-color: #629465;
+    box-shadow: 0 4px 15px #62946580;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-box {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text-box {
     opacity: 0;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     position: absolute;
@@ -1485,288 +1486,288 @@ section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-bo
     bottom: 100%;
     z-index: 50;
     transform: translateX(-50%);
-    color: #1e2939;
+    color: #39361e;
     padding: 0.375rem 0.75rem;
-    background-color: #ffffff;
-    border: 1px #ebe6e7 solid;
+    background-color: #fffaed;
+    border: 1px #ebe9e6 solid;
     border-radius: 0.625rem;
     margin-bottom: 0.5rem;
     white-space: nowrap;
     pointer-events: none;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button:hover div.text-box {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button:hover div.text-box {
     opacity: 1;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-box h5 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text-box h5 {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 1.3333;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map button div.text-box div.text-box-mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text-box div.text-box-mark {
     position: absolute;
     left: 50%;
     top: 100%;
     transform: translateX(-50%);
     border: 4px #00000000 solid;
-    border-top-color: #ffffff;
+    border-top-color: #fffaed;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda {
     backdrop-filter: blur(8px);
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     padding: 0.75rem;
-    background-color: #ffffffe6;
-    border: 1px #ebe6e7 solid;
+    background-color: #fffbf2e6;
+    border: 1px #ebe9e6 solid;
     border-radius: 0.875rem;
     position: absolute;
     left: 0.75rem;
     bottom: 0.75rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda h4 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda h4 {
     text-transform: uppercase;
-    color: #6a7282;
+    color: #82826a;
     font-size: 0.7rem;
     letter-spacing: 0.05em;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis {
     display: flex;
     flex-direction: column;
     gap: 0.375rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-R {
-    background-color: #d32f2f;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel div.bolinha-MA {
+    background-color: #b03b3b;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-O {
-    background-color: #f57c00;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel div.bolinha-AL {
+    background-color: #de8934;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-Y {
-    background-color: #fbc02d;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel div.bolinha-AM {
+    background-color: #d2ae52;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel div.bolinha-G {
-    background-color: #66bb6a;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel div.bolinha-S {
+    background-color: #629465;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda ul.niveis li.nivel p {
-    color: #4a5565;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel p {
+    color: #65644a;
     font-size: 0.75rem;
     line-height: 1.3333;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.map-title {
     backdrop-filter: blur(8px);
     box-shadow: 0 1px 3px 0px #0000001a, 0 1px 2px -1px #0000001a;
     padding: 0.5rem 1rem;
-    background-color: #ffffffe6;
-    border: 1px #ebe6e7 solid;
+    background-color: #fffbf2e6;
+    border: 1px #ebe9e6 solid;
     border-radius: 0.875rem;
     position: absolute;
     right: 0.75rem;
     top: 0.75rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title h4 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.map-title h4 {
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 1.3333;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome {
-    grid-area: fome;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.map-title p {
+    color: #82806a;
+    font-size: 0.625rem;
+}
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab {
+    grid-area: hab;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
-    color: #ffffff;
-    background-image: linear-gradient(to bottom right, #1b5e20, #2e7d32);
+    color: #fffaed;
+    background-image: linear-gradient(to bottom right, #5a3422, #935531);
     text-align: center;
     padding: 1.25rem;
     border-radius: 0.875rem;
     margin-top: 1rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome:hover {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab:hover {
     transform: scale(1.025) translateY(0.5rem);
 } 
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome h3 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab h3 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 0.25rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title p {
-    color: #6a7282;
-    font-size: 0.625rem;
-}
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-type(1) {
-    color: #ffffffcc;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab p:nth-of-type(1) {
+    color: #fffaedcc;
     font-size: 0.875rem;
     line-height: 1.4287;
     margin-bottom: 0.25rem;
     transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome p:nth-of-type(2) {
-    color: #ffffff99;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab p:nth-of-type(2) {
+    color: #fffaed99;
     font-size: 0.75rem;
     line-height: 1.3333;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs {
     grid-area: regs;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs h3 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs h3 {
     text-transform: uppercase;
-    color: #1b5e1f99;
+    color: #5a342299;
     font-weight: 600;
     line-height: 1.4287;
     letter-spacing: 0.05em;
     margin-bottom: 1rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button {
     text-align: left;
     box-shadow: 0 1px 3px 0px #0000001a, 0 1px 2px -1px #0000001a;
     padding: 1rem;
-    background-color: #ffffff;
-    border: 2px #ebe6e7 solid;
+    background-color: #fffbf2;
+    border: 2px #ebe9e6 solid;
     border-radius: 0.875rem;
     width: 100%;
     transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button:hover {
-    border: 2px #99a1af solid;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button:hover {
+    border: 2px #afad99 solid;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active {
-    background-color: #f5f5f5;
-    border: 2px #1b5e20 solid;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.active {
+    background-color: #f6efe4;
+    border: 2px #5a3422 solid;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active:hover {
-    border: 2px #1b5e20 solid;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.active:hover {
+    border: 2px #5a3422 solid;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button:not(:last-of-type) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button:not(:last-of-type) {
     margin-bottom: 0.75rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.regiao {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.regiao {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.5rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.regiao h4 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.regiao h4 {
     font-weight: 700;
     line-height: 1.4287;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.regiao p:nth-of-type(1) {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.africa-sub div.regiao p:nth-of-type(1) {
-    color: #d32f2f;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.egito-ant div.regiao p:nth-of-type(1) {
+    color: #b03b3b;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-med div.regiao p:nth-of-type(1) {
-    color: #f57c00;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.mesopotamia div.regiao p:nth-of-type(1) {
+    color: #de8934;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-oci div.regiao p:nth-of-type(1) {
-    color: #ff8f00;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.imp-romano div.regiao p:nth-of-type(1) {
+    color: #c88b3b;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.ame-lat-car div.regiao p:nth-of-type(1) {
-    color: #fbc02d;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.china-ant div.regiao p:nth-of-type(1) {
+    color: #d2ae52;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.eu-ori div.regiao p:nth-of-type(1) {
-    color: #66bb6a;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.meso-and div.regiao p:nth-of-type(1) {
+    color: #629465;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.barrinha {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.barrinha {
     width: 100%;
     height: 0.5rem;
-    background-color: #ebe6e7;
+    background-color: #ebe9e6;
     border-radius: 50px;
     margin-bottom: 0.5rem;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.barrinha div.porcentagem {
     width: 0;
     height: 0.5rem;
     border-radius: 50px;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.animated-btn div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.animated-btn div.barrinha div.porcentagem {
     animation: growthBar 800ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.africa-sub div.barrinha div.porcentagem {
-    background-color: #d32f2f;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.egito-ant div.barrinha div.porcentagem {
+    background-color: #b03b3b;
+    --target-width: 90%;
+}
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.mesopotamia div.barrinha div.porcentagem {
+    background-color: #de8934;
     --target-width: 80%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-med div.barrinha div.porcentagem {
-    background-color: #f57c00;
-    --target-width: 60%;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.imp-romano div.barrinha div.porcentagem {
+    background-color: #c88b3b;
+    --target-width: 75%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.asia-oci div.barrinha div.porcentagem {
-    background-color: #ff8f00;
-    --target-width: 48%;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.china-ant div.barrinha div.porcentagem {
+    background-color: #d2ae52;
+    --target-width: 70%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.ame-lat-car div.barrinha div.porcentagem {
-    background-color: #fbc02d;
-    --target-width: 24%;
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.meso-and div.barrinha div.porcentagem {
+    background-color: #629465;
+    --target-width: 65%;
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.eu-ori div.barrinha div.porcentagem {
-    background-color: #66bb6a;
-    --target-width: 12%;
-}
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button p.extra-text {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button p.extra-text {
     opacity: 0;
     max-height: 0;
-    color: #1b5e20;
+    color: #5a3422;
     font-size: 0.75rem;
     line-height: 1.625;
     margin-top: 0.5rem;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-regs button.active p.extra-text {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.active p.extra-text {
     opacity: 1;
     max-height: 5rem;
 }
 
-/* === Urgência de Agir === */
-section.urg {
-    color: #ffffff;
+/* === Desafio de Governar === */
+section.dsf-gov {
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #f54a00, #e7000b);
+    background-image: linear-gradient(to bottom right, #d35a39, #d33038);
 }
-section.urg div.urg-content {
+section.dsf-gov div.dsf-gov-content {
     text-align: center;
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.urg div.urg-content h2 {
+section.dsf-gov div.dsf-gov-content h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1.5rem;
 }
-section.urg div.urg-content p {
-    color: #ffffffe6;
+section.dsf-gov div.dsf-gov-content p {
+    color: #fffaede6;
     font-size: 1.5rem;
     line-height: 1.3333;
     max-width: 48rem;
     margin-bottom: 2rem;
     margin-inline: auto;
 }
-section.urg div.urg-content a {
-    color: #1b5e20;
-    background-color: #ffffff;
+section.dsf-gov div.dsf-gov-content a {
+    color: #5a3422;
+    background-color: #fffbf2;
     padding: 1rem 2rem;
     display: inline-flex;
     align-items: center;
@@ -1777,10 +1778,10 @@ section.urg div.urg-content a {
     border-radius: 100px;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.urg div.urg-content a:hover {
+section.dsf-gov div.dsf-gov-content a:hover {
     transform: scale(1.05);
 }
-section.urg div.urg-content a svg {
+section.dsf-gov div.dsf-gov-content a svg {
     width: 1.25rem;
     height: 1.25rem;
     display: block;

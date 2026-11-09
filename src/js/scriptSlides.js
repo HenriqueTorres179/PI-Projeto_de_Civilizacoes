@@ -1,4 +1,3 @@
-// ! Feito com IA !
 document.addEventListener('DOMContentLoaded', () => {
     const rangeInput = document.querySelector('.slides-img .slider input');
     const slides = document.querySelectorAll('.slides-img .slide');
@@ -15,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     rangeInput.addEventListener('input', (e) => {
-        const valor = parseInt(e.target.value);
+        let valor = parseInt(e.target.value);
         let index = 0;
         if (valor > 33 && valor <= 66) {
             index = 1;

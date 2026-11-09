@@ -1,4 +1,3 @@
-// ! Feito Legitimamente 🥳 !
 const menuToggle = document.getElementById('menu-toggle');
 const navCell = document.getElementById('nav-cell');
 const lista = document.querySelector('.nav-cell ul');
@@ -20,7 +19,7 @@ function closeNavCell() {
 }
 menuToggle.addEventListener('click', (e) => {
   e.stopPropagation();
-  const isOpen = navCell.classList.contains('open');
+  let isOpen = navCell.classList.contains('open');
   if (isOpen) closeNavCell();
   else openNavCell();
 });

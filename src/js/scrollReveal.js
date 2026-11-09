@@ -44,7 +44,7 @@ ScrollReveal().reveal('.hero-text .btn-reveal', {
   delay: 900
 });
 
-ScrollReveal().reveal('.dsf-global-cabecalho', {
+ScrollReveal().reveal('.escala-cabecalho', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
@@ -87,7 +87,7 @@ ScrollReveal().reveal('.img-reveal', {
   delay: 250
 });
 
-ScrollReveal().reveal('.text-reveal .prod-stvl-text-header', {
+ScrollReveal().reveal('.text-reveal .ali-cid-text-header', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
@@ -124,14 +124,14 @@ ScrollReveal().reveal('.banner-text .revelar-baixo', {
   delay: 400
 });
 
-ScrollReveal().reveal('.tec-revo-text', {
+ScrollReveal().reveal('.ino-mund-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
   delay: 990
 });
 
-ScrollReveal().reveal('.tec-revo-cards .tec-revo-card-reveal', {
+ScrollReveal().reveal('.ino-mund-cards .ino-mund-card-reveal', {
   ...configBase,
   origin: 'bottom',
   scale: 0.9,
@@ -140,7 +140,7 @@ ScrollReveal().reveal('.tec-revo-cards .tec-revo-card-reveal', {
   delay: 100
 });
 
-ScrollReveal().reveal('.evo-text', {
+ScrollReveal().reveal('.mar-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
@@ -217,7 +217,7 @@ ScrollReveal().reveal('.prin-obs-cards .prin-obs-card', {
   delay: 200
 });
 
-ScrollReveal().reveal('.dados-text', {
+ScrollReveal().reveal('.ppl-die-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
@@ -240,7 +240,7 @@ ScrollReveal().reveal('.pie-chart', {
   delay: 400
 });
 
-ScrollReveal().reveal('.reg-vul-text', {
+ScrollReveal().reveal('.gran-sis-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
@@ -261,7 +261,7 @@ ScrollReveal().reveal('.revelar-fome', {
   delay: 300
 });
 
-ScrollReveal().reveal('.reg-vul-regs > *', {
+ScrollReveal().reveal('.gran-sis-regs > *', {
   ...configBase,
   origin: 'right',
   easing: 'cubic-bezier(0.5, 1.8, 0.3, 0.8)',
@@ -273,7 +273,7 @@ ScrollReveal().reveal('.reg-vul-regs > *', {
   }
 });
 
-ScrollReveal().reveal('.urg-content', {
+ScrollReveal().reveal('.dsf-gov-content', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,

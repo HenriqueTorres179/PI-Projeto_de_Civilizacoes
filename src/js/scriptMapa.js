@@ -1,21 +1,21 @@
 // ! Feito com IA !
 const affectedRegions = [
-    { key: "alto", side: "africa-sub", name: "África Subsaariana" },
-    { key: "medio1", side: "asia-med", name: "Ásia Meridional" },
-    { key: "medio2", side: "asia-oci", name: "Ásia Ocidental" },
-    { key: "moderado", side: "ame-lat-car", name: "América Latina e Caribe" },
-    { key: "baixo", side: "eu-ori", name: "Europa Oriental" },
+    { key: "muito-alta", side: "egito-ant", name: "Egito Antigo" },
+    { key: "alta1", side: "mesopotamia", name: "Mesopotâmia" },
+    { key: "alta2", side: "imp-romano", name: "Império Romano" },
+    { key: "ampla", side: "china-ant", name: "China Antiga" },
+    { key: "significativa", side: "meso-and", name: "Mesoamérica e Andes" },
     ];
 let activeIndex = null;
 function getMapButtonByKey(key) {
     return document.querySelector(`.map button.${key}`);
 }
 function getSideButtonByClass(sideClass) {
-    return document.querySelector(`.reg-vul-regs button.${sideClass}`);
+    return document.querySelector(`.gran-sis-regs button.${sideClass}`);
 }
 function clearActive() {
     document.querySelectorAll('.map button').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.reg-vul-regs button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.gran-sis-regs button').forEach(b => b.classList.remove('active'));
 }
 function setActivePairByIndex(index) {
     const region = affectedRegions[index];
