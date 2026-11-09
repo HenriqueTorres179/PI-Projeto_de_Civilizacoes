@@ -2096,66 +2096,66 @@ section.dsf-res div.dsf-res-content ul li div.res div.res-text p {
     line-height: 1.4287;
 }
 
-/* === Economia Cricular === */
-section.eco {
-    color: #ffffff;
+/* === Ciclo do Abastecimento Antigo === */
+section.ciclo {
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #1b5e20, #2e7d32);
+    background-image: linear-gradient(to bottom right, #5a3422, #935531);
 }
-section.eco div.eco-content {
+section.ciclo div.ciclo-content {
     text-align: center;
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.eco div.eco-content div.eco-text h2 {
+section.ciclo div.ciclo-content div.ciclo-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1.5rem;
 }
-section.eco div.eco-content div.eco-text p {
-    color: #ffffffe6;
+section.ciclo div.ciclo-content div.ciclo-text p {
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 48rem;
     margin-bottom: 3rem;
     margin-inline: auto;
 }
-section.eco div.eco-content ul {
+section.ciclo div.ciclo-content ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
 }
-section.eco div.eco-content ul li {
+section.ciclo div.ciclo-content ul li {
     backdrop-filter: blur(8px);
     padding: 1.5rem;
-    background-color: #ffffff1a;
+    background-color: #fffbf21a;
     border-radius: 1rem;
     animation: wave 2000ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
     animation-play-state: paused;
 }
-section.eco div.eco-content ul > div {
+section.ciclo div.ciclo-content ul > div {
     animation: wave 1200ms ease infinite;
     animation-play-state: paused;
 }
-section.eco div.eco-content ul:hover > div {
+section.ciclo div.ciclo-content ul:hover > div {
     animation-play-state: running;
 }
-section.eco div.eco-content ul > div:nth-of-type(1) {
+section.ciclo div.ciclo-content ul > div:nth-of-type(1) {
     animation-delay: 0ms;
 }
-section.eco div.eco-content ul > div:nth-of-type(2) {
+section.ciclo div.ciclo-content ul > div:nth-of-type(2) {
     animation-delay: 200ms;
 }
-section.eco div.eco-content ul > div:nth-of-type(3) {
+section.ciclo div.ciclo-content ul > div:nth-of-type(3) {
     animation-delay: 400ms;
 }
-section.eco div.eco-content ul > div:nth-of-type(4) {
+section.ciclo div.ciclo-content ul > div:nth-of-type(4) {
     animation-delay: 600ms;
 }
-section.eco div.eco-content ul li div.sequencia {
-    background-color: #f9a825;
+section.ciclo div.ciclo-content ul li div.sequencia {
+    background-color: #d08c34;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -2165,26 +2165,26 @@ section.eco div.eco-content ul li div.sequencia {
     margin-bottom: 1rem;
     margin-inline: auto;
 }
-section.eco div.eco-content ul li div.sequencia p {
+section.ciclo div.ciclo-content ul li div.sequencia p {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
 }
-section.eco div.eco-content ul li h3 {
+section.ciclo div.ciclo-content ul li h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.5rem;
 }
-section.eco div.eco-content ul li p {
-    color: #ffffffcc;
+section.ciclo div.ciclo-content ul li p {
+    color: #fffaedcc;
 }
-section.eco div.eco-content a {
+section.ciclo div.ciclo-content a {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background-color: #f9a825;
+    background-color: #d08c34;
     border-radius: 100px;
     font-size: 1.125rem;
     font-weight: 600;
@@ -2192,10 +2192,10 @@ section.eco div.eco-content a {
     margin-top: 3rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.eco div.eco-content a:hover {
+section.ciclo div.ciclo-content a:hover {
     transform: scale(1.05);
 }
-section.eco div.eco-content a svg {
+section.ciclo div.ciclo-content a svg {
     width: 1.25rem;
     height: 1.25rem;
     display: block;
@@ -2209,9 +2209,9 @@ section.eco div.eco-content a svg {
 
 /* === Curiosidades e Quiz === */
 section.cur-quiz {
-    color: #ffffff;
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #F9A825, #F57C00);
+    background-image: linear-gradient(to bottom right, #af7738, #ce6f37);
     overflow: hidden;
     position: relative;
 }
@@ -2222,7 +2222,7 @@ section.cur-quiz div.cur-quiz-lights {
 }
 section.cur-quiz div.cur-quiz-lights div.white-light {
     filter: blur(64px);
-    background-color: #ffffff;
+    background-color: #fffaed;
     width: 16rem;
     height: 16rem;
     border-radius: 50%;
@@ -2232,7 +2232,7 @@ section.cur-quiz div.cur-quiz-lights div.white-light {
 }
 section.cur-quiz div.cur-quiz-lights div.green-light {
     filter: blur(64px);
-    background-color: #1b5e20;
+    background-color: #5a3422;
     width: 24rem;
     height: 24rem;
     border-radius: 50%;
@@ -2266,7 +2266,7 @@ section.cur-quiz div.cur-quiz-text h1 {
     margin-bottom: 1.5rem;
 }
 section.cur-quiz div.cur-quiz-text p {
-    color: #ffffffe6;
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
 }
@@ -2291,7 +2291,7 @@ section.cur div.cur-content div.cur-text h2 {
     margin-bottom: 1rem;
 }
 section.cur div.cur-content div.cur-text p {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
@@ -2304,10 +2304,10 @@ section.cur div.cur-content ul {
 }
 section.cur div.cur-content ul li {
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
-    color: #ffffff;
+    color: #fffaed;
     padding: 2rem;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #66bb6a, #2e7d32);
+    background-image: linear-gradient(to bottom right, #bc7a54, #935531);
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.cur div.cur-content ul li.cur1 {
@@ -2351,23 +2351,23 @@ section.cur div.cur-content ul li h3 {
     margin-bottom: 0.75rem;
 }
 section.cur div.cur-content ul li p:nth-of-type(1) {
-    color: #ffffffe6;
+    color: #fffaede6;
     font-size: 1.125rem;
     line-height: 1.4;
     margin-bottom: 1rem;
 }
 section.cur div.cur-content ul li p:nth-of-type(2) {
-    color: #ffffffb3;
+    color: #fffaedb3;
     font-size: 0.875rem;
     line-height: 1.4287;
     padding-top: 1rem;
-    border-top: 1px #ffffff33 solid;
+    border-top: 1px #fffaed33 solid;
 }
 
 /* === Quiz === */
 section.quiz {
     padding: 5rem 0;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
 }
 section.quiz div.quiz-content {
     padding: 0 2rem;
@@ -2379,7 +2379,7 @@ section.quiz div.quiz-content div.quiz-text {
     margin-bottom: 4rem;
 }
 section.quiz div.quiz-content div.quiz-text svg {
-    color: #f9a825;
+    color: #d08c34;
     width: 4rem;
     height: 4rem;
     display: block;
@@ -2397,7 +2397,7 @@ section.quiz div.quiz-content div.quiz-text h2 {
     margin-bottom: 1rem;
 }
 section.quiz div.quiz-content div.quiz-text p {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
 }
@@ -2453,7 +2453,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.carrossel-it
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question {
     box-shadow: 0 25px 50px -12px #0000001a, 0 10px 30px -15px #0000001a;
     padding: 3rem;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.question-header {
@@ -2463,7 +2463,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div
     margin-bottom: 2rem;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.question-header h4 {
-    color: #f9a825;
+    color: #d08c34;
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.4287;
@@ -2474,7 +2474,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div
     line-height: 1.4287;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.progress-bar {
-    background-color: #ebe6e7;
+    background-color: #ebe9e6;
     border-radius: 100px;
     width: 100%;
     height: 0.5rem;
@@ -2482,7 +2482,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div
     margin-bottom: 2rem;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.progress-bar div.progress {
-    background-image: linear-gradient(to right, #1b5e20 30%, #2e7d32 70%, #f9a825);
+    background-image: linear-gradient(to right, #5a3422 30%, #935531 70%, #d08c34);
     border-radius: 100px;
     width: 0;
     height: 0.5rem;
@@ -2503,7 +2503,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn {
     text-align: left;
     padding: 1rem;
-    background-color: #f6f3f4;
+    background-color: #f6efe4;
     border: 2px solid;
     border-color: #00000000;
     border-radius: 0.875rem;
@@ -2513,16 +2513,16 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn:hover {
     transform: scale(1.02);
-    background-color: #ebe6e7;
+    background-color: #ebe9e6;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-correct {
-    background-color: #dcfce7;
-    border-color: #00c951;
+    background-color: #cedbd1;
+    border-color: #30a043;
     pointer-events: none;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-wrong {
-    background-color: #ffe2e2;
-    border-color: #fb2c36;
+    background-color: #ebdfde;
+    border-color: #c53f46;
     pointer-events: none;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-disabled {
@@ -2540,7 +2540,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
     flex: 1 1 auto;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div svg.certo {
-    color: #00a63e;
+    color: #2b9642;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
@@ -2552,7 +2552,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div svg.errado {
-    color: #e7000b;
+    color: #aa2a30;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
@@ -2574,8 +2574,8 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div
     transform: translateY(30px) scale(0.95);
     transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 1rem;
-    background-color: #eff6ff;
-    border-left: 4px #2b7fff solid;
+    background-color: #e3e5e9;
+    border-left: 4px #3f65aa solid;
     border-radius: 0.625rem;
     margin-bottom: 1.5rem;
 }
@@ -2585,16 +2585,16 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.explanation p {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 0.875rem;
     line-height: 1.4287;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question button.prox-btn {
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     display: inline-block;
     padding: 1rem 0;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     border-radius: 0.875rem;
     width: 100%;
     cursor: pointer;
@@ -2604,17 +2604,17 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question but
     display: none;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question button.prox-btn:hover {
-    background-color: #2e7d32;
+    background-color: #935531;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final {
     text-align: center;
     box-shadow: 0 25px 50px -12px #0000001a, 0 10px 30px -15px #0000001a;
     padding: 3rem;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final svg {
-    color: #f9a825;
+    color: #d08c34;
     width: 6rem;
     height: 6rem;
     display: block;
@@ -2638,7 +2638,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final p:nth-
     margin-bottom: 1rem;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final p:nth-of-type(2) {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     margin-bottom: 2rem;
@@ -2649,29 +2649,29 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.fi
     gap: 1rem;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons button.restart-btn {
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     padding: 1rem 2rem;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     border-radius: 0.875rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons button.restart-btn:hover {
-    background-color: #2e7d32;
+    background-color: #935531;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons a.prox-page {
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     padding: 1rem 2rem;
-    background-color: #f9a825;
+    background-color: #d08c34;
     border-radius: 0.875rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.final-buttons a.prox-page:hover {
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     padding: 1rem 2rem;
-    background-color: #f57c00;
+    background-color: #d67728;
     border-radius: 0.875rem;
 }
 

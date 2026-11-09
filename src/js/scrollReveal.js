@@ -326,14 +326,14 @@ ScrollReveal().reveal('.dsf-res-content ul li', {
   delay: 300
 });
 
-ScrollReveal().reveal('.eco-text', {
+ScrollReveal().reveal('.ciclo-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
   delay: 200
 });
 
-ScrollReveal().reveal('.eco-content ul .sequencia-reveal', {
+ScrollReveal().reveal('.ciclo-content ul .sequencia-reveal', {
   ...configBase,
   origin: 'bottom',
   easing: 'cubic-bezier(0.5, 1.8, 0.3, 0.8)',
@@ -342,7 +342,7 @@ ScrollReveal().reveal('.eco-content ul .sequencia-reveal', {
   delay: 200
 });
 
-ScrollReveal().reveal('.eco-content .eco-btn-reveal', {
+ScrollReveal().reveal('.ciclo-content .ciclo-btn-reveal', {
   ...configBase,
   origin: 'bottom',
   scale: 0.9,
