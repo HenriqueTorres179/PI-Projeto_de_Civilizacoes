@@ -1,6 +1,6 @@
 // ! Feito com IA !
 document.addEventListener('DOMContentLoaded', () => {
-  const fallbackAnswers = [1,3,2,1,2,1,2,2];
+  const fallbackAnswers = [1,0,2,2,3,1,2,0];
   const track = document.querySelector('.quiz-track');
   const slides = Array.from(track.querySelectorAll('.carrossel-item'));
   if (!track || slides.length === 0) return console.warn('Track ou slides não encontrados');
@@ -209,10 +209,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (finalScoreEl) finalScoreEl.textContent = `${score}/${totalQuestions}`;
         if (finalMsgEl) {
           let message = '';
-          if (score <= 3) message = "Continue estudando! Há muito a aprender sobre segurança alimentar!";
-          else if (score <= 5) message = "Muito bem! Continue aprendendo sobre sustentabilidade!";
-          else if (score <= 7) message = "Excelente! Você tem ótimo conhecimento sobre o tema!";
-          else message = "Perfeito! Você é um expert em sustentabilidade alimentar!";
+          if (score <= 3) message = "Continue estudando! O mundo antigo ainda tem muito a revelar!";
+          else if (score <= 5) message = "Muito bem! Continue explorando a história da agricultura!";
+          else if (score <= 7) message = "Excelente! Você conhece muito bem as civilizações antigas!";
+          else message = "Perfeito! Você domina a história da alimentação antiga!";
           finalMsgEl.textContent = message;
           if (score === totalQuestions && typeof confetti === 'function') {
             confetti({

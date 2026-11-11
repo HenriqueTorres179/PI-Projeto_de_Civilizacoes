@@ -2679,9 +2679,9 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.final div.fi
 
 /* === Conclusão e Reflaxão === */
 section.cncls {
-    color: #ffffff;
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #1b5e20, #66bb6a);
+    background-image: linear-gradient(to bottom right, #5a3422, #bc7a54);
     overflow: hidden;
     position: relative;
 }
@@ -2692,7 +2692,7 @@ section.cncls div.cncls-lights {
 }
 section.cncls div.cncls-lights div.white-light {
     filter: blur(64px);
-    background-color: #ffffff;
+    background-color: #fffbf2;
     width: 16rem;
     height: 16rem;
     border-radius: 50%;
@@ -2702,7 +2702,7 @@ section.cncls div.cncls-lights div.white-light {
 }
 section.cncls div.cncls-lights div.yellow-light {
     filter: blur(64px);
-    background-color: #F9A825;
+    background-color: #d08c34;
     border-radius: 50%;
     width: 24rem;
     height: 24rem;
@@ -2735,25 +2735,25 @@ section.cncls div.cncls-text h1 {
     margin-bottom: 1.5rem;
 }
 section.cncls div.cncls-text p {
-    color: #ffffffe6;
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
 }
 
-/* === Responsabilidade === */
-section.resp {
+/* === Legado === */
+section.leg {
     padding: 5rem 0;
 }
-section.resp div.resp-content {
+section.leg div.leg-content {
     padding: 0 2rem;
     max-width: 56rem;
     margin-inline: auto;
 }
-section.resp div.resp-content div.resp-text {
+section.leg div.leg-content div.leg-text {
     text-align: center;
     margin-bottom: 3rem;
 }
-section.resp div.resp-content div.resp-text svg {
+section.leg div.leg-content div.leg-text svg {
     width: 4rem;
     height: 4rem;
     display: block;
@@ -2764,31 +2764,31 @@ section.resp div.resp-content div.resp-text svg {
     margin-bottom: 1.5rem;
     margin-inline: auto;
 }
-section.resp div.resp-content div.resp-text h2 {
+section.leg div.leg-content div.leg-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1.5rem;
 }
-section.resp div.resp-content div.resp-text p {
+section.leg div.leg-content div.leg-text p {
     margin-bottom: 1.5rem;
 }
-section.resp div.resp-content div.resp-message {
-    color: #ffffff;
+section.leg div.leg-content div.leg-message {
+    color: #fffaed;
     text-align: center;
     padding: 3rem;
-    background-image: linear-gradient(to right, #F9A825, #F57C00);
+    background-image: linear-gradient(to right, #d08c34, #cd792f);
     border-radius: 1rem;
     margin-bottom: 4rem;
 }
-section.resp div.resp-content div.resp-message h3 {
+section.leg div.leg-content div.leg-message h3 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 1.5rem;
 }
-section.resp div.resp-content div.resp-message p {
-    color: #ffffffe6;
+section.leg div.leg-content div.leg-message p {
+    color: #fffaede6;
     font-size: 1.25rem;
     line-height: 1.4;
 }
@@ -2796,7 +2796,7 @@ section.resp div.resp-content div.resp-message p {
 /* === Compromisso - Form === */
 section.compr {
     padding: 5rem 0;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
 }
 section.compr div.compr-content {
     padding: 0 2rem;
@@ -2815,6 +2815,7 @@ section.compr div.compr-content div.compr-text svg {
     stroke: currentColor;
     stroke-width: 2px;
     stroke-linecap: round;
+    stroke-linejoin: round;
     margin-bottom: 1.5rem;
     margin-inline: auto;
 }
@@ -2825,14 +2826,14 @@ section.compr div.compr-content div.compr-text h2 {
     margin-bottom: 1rem;
 }
 section.compr div.compr-content div.compr-text p {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
 }
 section.compr div.compr-content form {
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
     padding: 3rem;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
 }
 section.compr div.compr-content form ul {
@@ -2843,7 +2844,7 @@ section.compr div.compr-content form ul li:not(:last-of-type) {
 }
 section.compr div.compr-content form ul li label {
     padding: 1rem;
-    background-color: #f6f3f4;
+    background-color: #f6efe4;
     border-radius: 0.875rem;
     display: flex;
     align-items: center;
@@ -2853,11 +2854,11 @@ section.compr div.compr-content form ul li label {
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.compr div.compr-content form ul li label:hover {
-    background-color: #ebe6e7;
+    background-color: #ebe9e6;
 }
 section.compr div.compr-content form ul li label:has(input:checked) {
-    color: #ffffff;
-    background-color: #1b5e20;
+    color: #fffaed;
+    background-color: #5a3422;
 }
 section.compr div.compr-content form ul li label input {
     width: 1.25rem;
@@ -2869,7 +2870,7 @@ section.compr div.compr-content form ul li label span {
 }
 section.compr div.compr-content form ul li label svg {
     visibility: hidden;
-    color: #ffffff;
+    color: #fffaed;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
@@ -2897,14 +2898,14 @@ section.compr div.compr-content form div.form-info div.nome label {
 }
 section.compr div.compr-content form div.form-info div.nome input {
     padding: 0.75rem 1rem;
-    border: 2px #ebe6e7 solid;
+    border: 2px #ebe9e6 solid;
     border-radius: 0.875rem;
     outline: none;
     width: 100%;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.compr div.compr-content form div.form-info div.nome input:focus {
-    border: 2px #1b5e20 solid;
+    border: 2px #5a3422 solid;
 }
 section.compr div.compr-content form div.form-info div.email {
     margin-bottom: 1rem;
@@ -2918,26 +2919,26 @@ section.compr div.compr-content form div.form-info div.email label {
 }
 section.compr div.compr-content form div.form-info div.email input {
     padding: 0.75rem 1rem;
-    border: 2px #ebe6e7 solid;
+    border: 2px #ebe9e6 solid;
     border-radius: 0.875rem;
     outline: none;
     width: 100%;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 section.compr div.compr-content form div.form-info div.email input:focus {
-    border: 2px #1b5e20 solid;
+    border: 2px #5a3422 solid;
 }
 section.compr div.compr-content form div.form-info div.email input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px #b5bdcb inset;
-    -webkit-text-fill-color: #ffffff;
+    -webkit-box-shadow: 0 0 0px 1000px #e3e0d0 inset;
+    -webkit-text-fill-color: #fffaed;
 }
 section.compr div.compr-content form button {
-    color: #ffffff;
+    color: #fffaed;
     font-size: 1.125rem;
     font-weight: 600;
     padding: 1rem;
     width: 100%;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     border-radius: 0.875rem;
     display: flex;
     justify-content: center;
@@ -2948,7 +2949,7 @@ section.compr div.compr-content form button {
 section.compr div.compr-content form button:hover {
     transform: scale(1.02);
     gap: 0.625rem;
-    background-color: #2e7d32;
+    background-color: #935531;
 }
 section.compr div.compr-content form button.disabled {
     opacity: 0.5;
@@ -2968,14 +2969,14 @@ section.compr div.compr-content div.post-form {
     text-align: center;
     padding: 3rem;
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
-    background-color: #ffffff;
+    background-color: #fffbf2;
     border-radius: 1rem;
 }
 section.compr div.compr-content div.post-form.animar {
     animation: surgir 300ms cubic-bezier(0.5, 1.8, 0.3, 0.8) forwards;
 }
 section.compr div.compr-content div.post-form div.checkmark {
-    background-color: #1b5e20;
+    background-color: #5a3422;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -2986,7 +2987,7 @@ section.compr div.compr-content div.post-form div.checkmark {
     margin-inline: auto;
 }
 section.compr div.compr-content div.post-form div.checkmark svg {
-    color: #ffffff;
+    color: #fffaed;
     width: 3rem;
     height: 3rem;
     display: block;
@@ -3002,23 +3003,23 @@ section.compr div.compr-content div.post-form h3 {
     margin-bottom: 1rem;
 }
 section.compr div.compr-content div.post-form > p:nth-of-type(1) {
-    color: #1b5e1fcc;
+    color: #5a3422cc;
     margin-bottom: 0.5rem;
 }
 section.compr div.compr-content div.post-form > p:nth-of-type(2) {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     margin-bottom: 1.5rem;
 }
 section.compr div.compr-content div.post-form div.acoes {
     padding: 1.5rem;
-    background-color: #f5f5f5;
+    background-color: #f6efe4;
     border-radius: 0.875rem;
     margin-bottom: 1.5rem;
 }
 section.compr div.compr-content div.post-form div.acoes h4 {
-    color: #1b5e1fcc;
+    color: #5a3422cc;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -3044,17 +3045,17 @@ section.compr div.compr-content div.post-form div.acoes ul.lista-acoes li svg {
     stroke-linecap: round;
 }
 section.compr div.compr-content div.post-form div.acoes ul.lista-acoes li p {
-    color: #1b5e1fcc;
+    color: #5a3422cc;
 }
 section.compr div.compr-content div.post-form > p:nth-of-type(3) {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     margin-bottom: 2rem;
 }
 section.compr div.compr-content div.post-form a {
-    color: #ffffff;
+    color: #fffaed;
     font-weight: 600;
     padding: 1rem 2rem;
-    background-color: #1b5e20;
+    background-color: #5a3422;
     border-radius: 0.875rem;
     display: inline-flex;
     align-items: center;
@@ -3064,7 +3065,7 @@ section.compr div.compr-content div.post-form a {
 section.compr div.compr-content div.post-form a:hover {
     transform: scale(1.02);
     gap: 0.625rem;
-    background-color: #2e7d32;
+    background-color: #935531;
 }
 section.compr div.compr-content div.post-form a svg {
     width: 1.25rem;
@@ -3076,48 +3077,48 @@ section.compr div.compr-content div.post-form a svg {
     stroke-linecap: round;
 }
 
-/* === Futuro === */
-section.futuro {
-    color: #ffffff;
+/* === Passado === */
+section.passado {
+    color: #fffaed;
     padding: 5rem 0;
-    background-image: linear-gradient(to bottom right, #2e7d32, #1b5e20);
+    background-image: linear-gradient(to bottom right, #935531, #5a3422);
 }
-section.futuro div.futuro-content {
+section.passado div.passado-content {
     text-align: center;
     padding: 0 2rem;
     max-width: 80rem;
     margin-inline: auto;
 }
-section.futuro div.futuro-content div.futuro-text h2 {
+section.passado div.passado-content div.passado-text h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.1111;
     margin-bottom: 1.5rem;
 }
-section.futuro div.futuro-content div.futuro-text p {
-    color: #ffffff;
+section.passado div.passado-content div.passado-text p {
+    color: #fffaed;
     font-size: 1.25rem;
     line-height: 1.4;
     margin-bottom: 2rem;
     max-width: 48rem;
     margin-inline: auto;
 }
-section.futuro div.futuro-content ul {
+section.passado div.passado-content ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     margin-top: 3rem;
 }
-section.futuro div.futuro-content ul li h3 {
-    color: #f9a825;
+section.passado div.passado-content ul li h3 {
+    color: #d08c34;
     font-size: 3rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.5rem;
 }
-section.futuro div.futuro-content ul li p {
-    color: #ffffffcc;
+section.passado div.passado-content ul li p {
+    color: #fffaedcc;
 }
 
 /* === About === */
@@ -3151,7 +3152,7 @@ section.about div.about-content div.about-text h2 {
     margin-bottom: 1rem;
 }
 section.about div.about-content div.about-text p {
-    color: #1b5e1fb3;
+    color: #5a3422b3;
     font-size: 1.25rem;
     line-height: 1.4;
     max-width: 42rem;
@@ -3172,8 +3173,8 @@ section.about div.about-content ul.about-us li {
 }
 section.about div.about-content ul.about-us li div {
     box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
-    background-color: #e8f5e9;
-    border: 4px #66BB6A solid;
+    background-color: #f5f2e8;
+    border: 4px #bc7a54 solid;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -3238,48 +3239,48 @@ section.about div.about-content ul.about-us li p {
         font-size: 3.75rem;
     }
 
-    /* === Desafio Global === */
-    section.dsf-global div.dsf-global-content {
+    /* === Escala do Mundo Antigo === */
+    section.escala div.escala-content {
         padding: 0 1.5rem;
     }
 
-    /* === Produção Sustentável === */
-    section.prod-stvl div.prod-stvl-content {
+    /* === Alimentar Cidades === */
+    section.ali-cid div.ali-cid-content {
         padding: 0 1.5rem;
     }
 
-    /* === 2ª Página - Métodos Modernos === */
+    /* === 2ª Página - Métodos Antigos === */
 
     /* ==== Banner === */
     section.banner div.banner-text {
         padding: 0 1.5rem;
     }
 
-    /* === Tecnologias Revolucionárias === */
-    section.tec-revo div.tec-revo-content {
+    /* === Inovações do Mundo Antigo === */
+    section.ino-mund div.ino-mund-content {
         padding: 0 1.5rem;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-prec {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.irri-can {
         grid-column: 1 / span 2;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.dron-agr {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.shaduf {
         grid-column: 3 / span 2;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.IA {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.cal-agri {
         grid-column: 1 / span 2;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.hidroponia {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.ter-cul {
         grid-column: 3 / span 2;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-vert {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.cel-pub {
         grid-column: 2 / span 2;
     }
 
-    /* === Evolução da Agricultura === */
-    section.evo div.evo-content {
+    /* === Marcos da Agricultura Antiga === */
+    section.mar div.mar-content {
         padding: 1.5rem;
     }
 
@@ -3298,8 +3299,8 @@ section.about div.about-content ul.about-us li p {
 
     /* === 3ª Página - Desafios === */
 
-    /* === Desafios Atuais === */
-    section.dsf-atuais div.dsf-text {
+    /* === Desafios da Antiguidade === */
+    section.dsf-anti div.dsf-text {
         padding: 0 1.5rem;
     }
 
@@ -3308,56 +3309,56 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1.5rem;
     }
 
-    /* === Dados Mundias === */
-    section.dados div.dados-content {
+    /* === Populações e Dieta === */
+    section.ppl-die div.ppl-die-content {
         padding: 0 1.5rem;
     }
 
-    /* === Regiões Mais Vulneráveis === */
-    section.reg-vul div.reg-vul-content {
+    /* === Grandes Sistemas Alimentares === */
+    section.gran-sis div.gran-sis-content {
         padding: 0 1.5rem;
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados {
         grid-template-columns: 1fr;
-        grid-template-areas: "map" "regs" "fome";
+        grid-template-areas: "map" "regs" "hab";
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.first-collumn {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.first-collumn {
         display: contents;
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.map {
         margin-bottom: 2rem;
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab {
         margin-top: 2rem;
     }
     section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome:hover {
         transform: none;
     }
 
-    /* === Urgência de Agir === */
-    section.urg div.urg-content {
+    /* === Desafio de Governar === */
+    section.dsf-gov div.dsf-gov-content {
         padding: 0 1.5rem;
     }
 
-    /* === 4ª Página - Soluções === */
+    /* === 4ª Página - Respostas === */
 
-    /* === Soluções Sustentáveis === */
-    section.slcs div.slcs-content {
+    /* === Respostas do Mundo Antigo === */
+    section.rspts div.rspts-content {
         padding: 0 1.5rem;
     }
 
-    /* === Alternativas Transformadoras === */
-    section.alt div.alt-content {
+    /* === Estratégias de Abastecimento === */
+    section.est div.est-content {
         padding: 0 1.5rem;
     }
 
-    /* === Problema x Solução === */
-    section.prob-sol div.prob-sol-content {
+    /* === Desafio x Resposta === */
+    section.dsf-res div.dsf-res-content {
         padding: 0 1.5rem;
     }
 
-    /* === Economia Cricular === */
-    section.eco div.eco-content {
+    /* === Ciclo do Abastecimento Antigo === */
+    section.ciclo div.ciclo-content {
         padding: 0 1.5rem;
     }
 
@@ -3385,8 +3386,8 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1.5rem;
     }
 
-    /* === Responsabilidade === */
-    section.resp div.resp-content {
+    /* === Legado === */
+    section.leg div.leg-content {
         padding: 0 1.5rem;
     }
 
@@ -3395,8 +3396,8 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1.5rem;
     }
 
-    /* === Futuro === */
-    section.futuro div.futuro-content {
+    /* === Passado === */
+    section.passado div.passado-content {
         padding: 0 1.5rem;
     }
 
@@ -3448,64 +3449,64 @@ section.about div.about-content ul.about-us li p {
         font-size: 1.25rem;
     }
 
-    /* === Desafio Global === */
-    section.dsf-global div.dsf-global-content ul.cards {
+    /* === Escala do Mundo Antigo === */
+    section.escala div.escala-content ul.cards {
         grid-template-columns: 1fr;
     }
-    section.dsf-global div.dsf-global-content ul.cards li.card:hover {
+    section.escala div.escala-content ul.cards li.card:hover {
         transform: scale(1);
     }
 
-    /* === Produção Sustentável === */
-    section.prod-stvl div.prod-stvl-content {
+    /* === Alimentar Cidades === */
+    section.ali-cid div.ali-cid-content {
         grid-template-columns: 1fr;
     }
-    section.prod-stvl div.prod-stvl-content div.eficiencia {
+    section.ali-cid div.ali-cid-content div.anos-agri {
         right: -1rem;
         bottom: -1rem;
     }
 
-    /* === 2ª Página - Métodos Modernos === */
+    /* === 2ª Página - Métodos Antigos === */
 
     /* ==== Banner === */
     section.banner div.banner-text h1 {
         font-size: 2.25rem;
     }
 
-    /* === Tecnologias Revolucionárias === */
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards {
+    /* === Inovações do Mundo Antigo === */
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards {
         grid-template-columns: 1fr;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-prec {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.irri-can {
         grid-column: 1 / span 1;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.dron-agr {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.shaduf {
         grid-column: 1 / span 1;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.IA {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.cal-agri {
         grid-column: 1 / span 1;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.hidroponia {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.ter-cul {
         grid-column: 1 / span 1;
     }
-    section.tec-revo div.tec-revo-content ul.tec-revo-cards li.agr-vert {
+    section.ino-mund div.ino-mund-content ul.ino-mund-cards li.cel-pub {
         grid-column: 1 / span 1;
     }
 
-    /* === Evolução da Agricultura === */
-    section.evo div.evo-content ul.evo-timeline div.linha {
+    /* === Marcos da Agricultura Antiga === */
+    section.mar div.mar-content ul.mar-timeline div.linha {
     left: 95%;
     }
-    section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.time {
+    section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time {
         left: 95%;
     }
-    section.evo div.evo-content ul.evo-timeline li.evo-timeline-cards div.spacing {
+    section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.spacing {
         flex: 0;
     }
-    section.evo div.evo-content ul.evo-timeline li.right-card {
+    section.mar div.mar-content ul.mar-timeline li.right-card {
         flex-direction: row;
     }
-    section.evo div.evo-content ul.evo-timeline li.right-card div.right-time {
+    section.mar div.mar-content ul.mar-timeline li.right-card div.right-time {
         padding-left: 0;
         padding-right: 3rem;
     }
@@ -3517,8 +3518,8 @@ section.about div.about-content ul.about-us li p {
 
     /* === 3ª Página - Desafios === */
 
-    /* === Desafios Atuais === */
-    section.dsf-atuais div.dsf-text h1 {
+    /* === Desafios da Antiguidade === */
+    section.dsf-anti div.dsf-text h1 {
         font-size: 2.25rem;
     }
 
@@ -3527,67 +3528,67 @@ section.about div.about-content ul.about-us li p {
         grid-template-columns: 1fr;
     }
 
-    /* === Dados Mundias === */
-    section.dados div.dados-content div.dados-charts {
+    /* === Populações e Dieta === */
+    section.ppl-die div.ppl-die-content div.ppl-die-charts {
         grid-template-columns: 1fr;
     }
 
-    /* === Regiões Mais Vulneráveis === */
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda {
+    /* === Grandes Sistemas Alimentares === */
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda {
         transform: scale(0.9);
         left: 0.4rem;
         bottom: 0.4rem;
     }
 
-    /* === 4ª Página - Soluções === */
+    /* === 4ª Página - Respostas === */
 
-    /* === Soluções Sustentáveis === */
-    section.slcs div.slcs-content h1 {
+    /* === Respostas do Mundo Antigo === */
+    section.rspts div.rspts-content h1 {
         font-size: 2.25rem;
     }
 
-    /* === Alternativas Transformadoras === */
-    section.alt div.alt-content ul li {
+    /* === Estratégias de Abastecimento === */
+    section.est div.est-content ul li {
         grid-template-columns: 1fr;
     }
-    section.alt div.alt-content ul li div.trocar-1 {
+    section.est div.est-content ul li div.trocar-1 {
         order: 1;
     }
-    section.alt div.alt-content ul li div.trocar-2 {
+    section.est div.est-content ul li div.trocar-2 {
         order: 2;
     }
-    section.alt div.alt-content ul li div.slcs-img:hover img {
+    section.est div.est-content ul li div.rspts-img:hover img {
         transform: scale(1);
     }
-    section.alt div.alt-content ul li div.slcs-text.order-1:hover {
+    section.est div.est-content ul li div.rspts-text.order-1:hover {
         transform: translateX(0);
     }
-    section.alt div.alt-content ul li div.slcs-text.order-2:hover {
+    section.est div.est-content ul li div.rspts-text.order-2:hover {
         transform: translateX(0);
     }
-    section.alt div.alt-content ul li div.slcs-img:hover ~ div.slcs-text.order-1 {
+    section.est div.est-content ul li div.rspts-img:hover ~ div.rspts-text.order-1 {
         transform: translateX(0);
     }
-    section.alt div.alt-content ul li div.slcs-img:hover ~ div.slcs-text.order-2 {
+    section.est div.est-content ul li div.rspts-img:hover ~ div.rspts-text.order-2 {
         transform: translateX(0);
     }
-    section.alt div.alt-content ul li div.slcs-text ul li:hover {
+    section.est div.est-content ul li div.rspts-text ul li:hover {
         transform: translateX(0);
     }
 
-    /* === Problema x Solução === */
-    section.prob-sol div.prob-sol-content ul {
+    /* === Desafio x Resposta === */
+    section.dsf-res div.dsf-res-content ul {
         grid-template-columns: 1fr;
     }
 
-    /* === Economia Cricular === */
-    section.eco div.eco-content ul {
+    /* === Ciclo do Abastecimento Antigo === */
+    section.ciclo div.ciclo-content ul {
         grid-template-columns: 1fr;
     }
-    section.eco div.eco-content ul li {
+    section.ciclo div.ciclo-content ul li {
         animation: none;
     }
-    section.eco div.eco-content ul:hover > div {
+    section.ciclo div.ciclo-content ul:hover > div {
         animation-play-state: paused;
     }
 
@@ -3642,11 +3643,11 @@ section.about div.about-content ul.about-us li p {
         font-size: 2.25rem;
     }
 
-    /* === Responsabilidade === */
-    section.resp div.resp-content div.resp-message {
+    /* === Legado === */
+    section.leg div.leg-content div.leg-message {
         padding: 2rem;
     }
-    section.resp div.resp-content div.resp-message h3 {
+    section.leg div.leg-content div.leg-message h3 {
         font-size: 1.875rem;
     }
 
@@ -3680,33 +3681,33 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1rem;
     }
     
-    /* === Desafio Global === */
-    section.dsf-global div.dsf-global-content {
+    /* === Escala do Mundo Antigo === */
+    section.escala div.escala-content {
         padding: 0 1rem;
     }
 
-    /* === Produção Sustentável === */
-    section.prod-stvl div.prod-stvl-content {
+    /* === Alimentar Cidades === */
+    section.ali-cid div.ali-cid-content {
         padding: 0 1rem;
     }
-    section.prod-stvl div.prod-stvl-content div.eficiencia {
+    section.ali-cid div.ali-cid-content div.anos-agri {
         right: -0.75rem;
     }
 
-    /* === 2ª Página - Métodos Modernos === */
+    /* === 2ª Página - Métodos Antigos === */
 
     /* ==== Banner === */
     section.banner div.banner-text {
         padding: 0 1rem;
     }
 
-    /* === Tecnologias Revolucionárias === */
-    section.tec-revo div.tec-revo-content {
+    /* === Inovações do Mundo Antigo === */
+    section.ino-mund div.ino-mund-content {
         padding: 0 1rem;
     }
 
-    /* === Evolução da Agricultura === */
-    section.evo div.evo-content {
+    /* === Marcos da Agricultura Antiga === */
+    section.mar div.mar-content {
         padding: 1rem;
     }
 
@@ -3717,8 +3718,8 @@ section.about div.about-content ul.about-us li p {
 
     /* === 3ª Página - Desafios === */
 
-    /* === Desafios Atuais === */
-    section.dsf-atuais div.dsf-text {
+    /* === Desafios da Antiguidade === */
+    section.dsf-anti div.dsf-text {
         padding: 0 1.5rem;
     }
 
@@ -3727,50 +3728,50 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1rem;
     }
 
-    /* === Dados Mundias === */
-    section.dados div.dados-content {
+    /* === Populações e Dieta === */
+    section.ppl-die div.ppl-die-content {
         padding: 0 1rem;
     }
 
-    /* === Regiões Mais Vulneráveis === */
-    section.reg-vul div.reg-vul-content {
+    /* === Grandes Sistemas Alimentares === */
+    section.gran-sis div.gran-sis-content {
         padding: 0 1.5rem;
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.legenda {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda {
         transform: scale(0.75);
         left: -0.6rem;
         bottom: -0.2rem;
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.map div.map-title {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.map-title {
         transform: scale(0.9);
         top: 0.6rem;
         right: 0.3rem;
     }
 
-    /* === Urgência de Agir === */
-    section.urg div.urg-content {
+    /* === Desafio de Governar === */
+    section.dsf-gov div.dsf-gov-content {
         padding: 0 1rem;
     }
 
-    /* === 4ª Página - Soluções === */
+    /* === 4ª Página - Respostas === */
 
-    /* === Soluções Sustentáveis === */
-    section.slcs div.slcs-content {
+    /* === Respostas do Mundo Antigo === */
+    section.rspts div.rspts-content {
         padding: 0 1rem;
     }
 
-    /* === Alternativas Transformadoras === */
-    section.alt div.alt-content {
+    /* === Estratégias de Abastecimento === */
+    section.est div.est-content {
         padding: 0 1.5rem;
     }
 
-    /* === Problema x Solução === */
-    section.prob-sol div.prob-sol-content {
+    /* === Desafio x Resposta === */
+    section.dsf-res div.dsf-res-content {
         padding: 0 1rem;
     }
 
-    /* === Economia Cricular === */
-    section.eco div.eco-content {
+    /* === Ciclo do Abastecimento Antigo === */
+    section.ciclo div.ciclo-content {
         padding: 0 1rem;
     }
 
@@ -3798,8 +3799,8 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1rem;
     }
 
-    /* === Responsabilidade === */
-    section.resp div.resp-content {
+    /* === Legado === */
+    section.leg div.leg-content {
         padding: 0 1rem;
     }
 
@@ -3808,8 +3809,8 @@ section.about div.about-content ul.about-us li p {
         padding: 0 1rem;
     }
 
-    /* === Futuro === */
-    section.futuro div.futuro-content {
+    /* === Passado === */
+    section.passado div.passado-content {
         padding: 0 1rem;
     }
 

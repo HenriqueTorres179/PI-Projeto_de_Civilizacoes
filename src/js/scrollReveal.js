@@ -395,21 +395,21 @@ ScrollReveal().reveal('.cncls-text .revelar-baixo', {
   delay: 200
 });
 
-ScrollReveal().reveal('.resp-text:nth-child(1), .resp-text h2', {
+ScrollReveal().reveal('.leg-text:nth-child(1), .leg-text h2', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
   delay: 600
 });
 
-ScrollReveal().reveal('.resp-text p', {
+ScrollReveal().reveal('.leg-text p', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
   delay: 200
 });
 
-ScrollReveal().reveal('.resp-message', {
+ScrollReveal().reveal('.leg-message', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
@@ -454,14 +454,14 @@ ScrollReveal().reveal('.compr-content form .btn-reveal', {
   delay: 300
 });
 
-ScrollReveal().reveal('.futuro-text', {
+ScrollReveal().reveal('.passado-text', {
   ...configBase,
   origin: 'bottom',
   scale: 0.95,
   delay: 200
 });
 
-ScrollReveal().reveal('.futuro-content ul li', {
+ScrollReveal().reveal('.passado-content ul li', {
   ...configBase,
   origin: 'bottom',
   scale: 0.9,  

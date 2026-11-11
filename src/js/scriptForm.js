@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
         checkboxes.forEach(cb => compromissos.push(cb.nextElementSibling.textContent));
         nomeValidado.textContent = nomeInput.value.trim();
         if (compromissos.length === 1) {
-            qtdAcoes.textContent = "1 ação sustentável";
+            qtdAcoes.textContent = "1 atividade de aprendizagem";
         } else {
-            qtdAcoes.textContent = compromissos.length + " ações sustentáveis";
+            qtdAcoes.textContent = compromissos.length + " atividades de aprendizagem";
         }
         listaAcoes.innerHTML = "";
         compromissos.forEach(acao => {
