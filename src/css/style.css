@@ -444,7 +444,7 @@ section.escala div.escala-content ul.cards {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
-section.escala div.escala-content ul.cards li.card {
+section.escala div.escala-content ul.cards li div.card {
     padding: 2rem;
     color: #fffaed;
     height: 100%;
@@ -452,10 +452,10 @@ section.escala div.escala-content ul.cards li.card {
     box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.escala div.escala-content ul.cards li.card:hover {
+section.escala div.escala-content ul.cards li div.card:hover {
     transform: scale(1.05);
 }
-section.escala div.escala-content ul.cards li.card svg.cards-svg {
+section.escala div.escala-content ul.cards li div.card svg.cards-svg {
     color: #fffaed;
     width: 3rem;
     height: 3rem;
@@ -466,28 +466,28 @@ section.escala div.escala-content ul.cards li.card svg.cards-svg {
     stroke-width: 2px;
     stroke-linecap: round;
 }
-section.escala div.escala-content ul.cards li.card div.cards-title {
+section.escala div.escala-content ul.cards li div.card div.cards-title {
     font-weight: 700;
     font-size: 3rem;
     line-height: 1;
     margin-bottom: 0.5rem;
 }
-section.escala div.escala-content ul.cards li.card p:nth-of-type(1) {
+section.escala div.escala-content ul.cards li div.card p:nth-of-type(1) {
     opacity: 0.9;
 }
-section.escala div.escala-content ul.cards li.card p:nth-of-type(2) {
+section.escala div.escala-content ul.cards li div.card p:nth-of-type(2) {
     opacity: 0.7;
     font-size: 0.875rem;
     line-height: 1.4287;
     margin-top: 0.5rem;
 }
-section.escala div.escala-content ul.cards li.hab-roma {
+section.escala div.escala-content ul.cards li div.hab-roma {
     background-image: linear-gradient(to bottom right, #5a3422, #935531);
 }
-section.escala div.escala-content ul.cards li.hab-imperio-roma {
+section.escala div.escala-content ul.cards li div.hab-imperio-roma {
     background-image: linear-gradient(to bottom right, #935531, #bc7a54);
 }
-section.escala div.escala-content ul.cards li.ppl-trab {
+section.escala div.escala-content ul.cards li div.ppl-trab {
     background-image: linear-gradient(to bottom right, #bc7a54, #cc8f6d);
 }
 
@@ -802,10 +802,10 @@ section.mar div.mar-content div.mar-text p {
     max-width: 42rem;
     margin-inline: auto;
 }
-section.mar div.mar-content ul.mar-timeline {
+section.mar div.mar-content div.mar-conteiner {
     position: relative;
 }
-section.mar div.mar-content ul.mar-timeline div.linha {
+section.mar div.mar-content div.mar-conteiner div.linha {
     background-color: #bc7a54;
     width: 0.25rem;
     transform: translateX(-50%);
@@ -815,49 +815,52 @@ section.mar div.mar-content ul.mar-timeline div.linha {
     top: 0;
     border-radius: 1.2px;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline {
+    position: relative;
+}
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards .flex1 {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards .flex1 {
     flex: 1;
 }
-section.mar div.mar-content ul.mar-timeline li.left-card {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.left-card {
     flex-direction: row;
 }
-section.mar div.mar-content ul.mar-timeline li.left-card div.left-time {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.left-card div.left-time {
     padding-right: 3rem;
 }
-section.mar div.mar-content ul.mar-timeline li.right-card {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.right-card {
     flex-direction: row-reverse;
 }
-section.mar div.mar-content ul.mar-timeline li.right-card div.right-time {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.right-card div.right-time {
     padding-left: 3rem;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.card {
     background-color: #fffbf2;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     border-radius: 1rem;
     padding: 1.5rem;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card h4 {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.card h4 {
     color: #d08c34;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
     margin-bottom: 0.5rem;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card h3 {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.card h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.5rem;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.card p {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.card p {
     color: #5a3422b3;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.time {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -868,7 +871,7 @@ section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time {
     border: 4px #fffaed solid;
     border-radius: 50%;
 }
-section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time div {
+section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.time div {
     background-color: #d08c34;
     border-radius: 50%;
     width: 1rem;
@@ -3453,7 +3456,7 @@ section.about div.about-content ul.about-us li p {
     section.escala div.escala-content ul.cards {
         grid-template-columns: 1fr;
     }
-    section.escala div.escala-content ul.cards li.card:hover {
+    section.escala div.escala-content ul.cards li div.card:hover {
         transform: scale(1);
     }
 
@@ -3494,19 +3497,19 @@ section.about div.about-content ul.about-us li p {
     }
 
     /* === Marcos da Agricultura Antiga === */
-    section.mar div.mar-content ul.mar-timeline div.linha {
+    section.mar div.mar-content div.mar-conteiner div.linha {
     left: 95%;
     }
-    section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.time {
+    section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.time {
         left: 95%;
     }
-    section.mar div.mar-content ul.mar-timeline li.mar-timeline-cards div.spacing {
+    section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.mar-timeline-cards div.spacing {
         flex: 0;
     }
-    section.mar div.mar-content ul.mar-timeline li.right-card {
+    section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.right-card {
         flex-direction: row;
     }
-    section.mar div.mar-content ul.mar-timeline li.right-card div.right-time {
+    section.mar div.mar-content div.mar-conteiner ul.mar-timeline li.right-card div.right-time {
         padding-left: 0;
         padding-right: 3rem;
     }
