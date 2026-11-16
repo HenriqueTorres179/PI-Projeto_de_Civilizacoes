@@ -301,7 +301,7 @@ footer div.credits p:nth-of-type(1) a {
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 footer div.credits p:nth-of-type(1) a svg {
-    width: 1.5; 
+    width: 1.5rem; 
     height: 1.5rem;
     display: block;
     fill: none;
@@ -1034,17 +1034,17 @@ section.videos div.videos-content div.videos-educacionais p {
     line-height: 1.4;
     margin-bottom: 2rem;
 }
-section.videos div.videos-content div.videos-educacionais ul.videos-links li {
+section.videos div.videos-content div.videos-educacionais ul.videos-links li div {
     backdrop-filter: blur(8px);
     background-color: #fffaed1a;
     border-radius: 0.625rem;
     margin-bottom: 1rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.videos div.videos-content div.videos-educacionais ul.videos-links li:hover {
+section.videos div.videos-content div.videos-educacionais ul.videos-links li div:hover {
     transform: scale(0.95);
 }
-section.videos div.videos-content div.videos-educacionais ul.videos-links li a {
+section.videos div.videos-content div.videos-educacionais ul.videos-links li div a {
     font-weight: 600;
     display: inline-block;
     padding: 1rem;
@@ -1391,58 +1391,59 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.map-gradien
     position: absolute;
     inset: 0;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn {
     position: absolute;
     transform: translate(-50%, -50%);
     z-index: 10;
+    cursor: pointer;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.muito-alta {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.muito-alta {
     left: 50%;
     top: 47%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta1 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta1 {
     left: 53%;
     top: 42%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta2 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta2 {
     left: 48%;
     top: 39%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.ampla {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.ampla {
     left: 67%;
     top: 43%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.significativa {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.significativa {
     left: 32%;
     top: 59%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn span.ping {
     position: absolute;
     inset: 0;
     border-radius: 50%;
     animation: ping 1000ms cubic-bezier(0, 0, 0.2, 1) infinite;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.active span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn.active span.ping {
     animation: none;
     transform: scale(2.5);
     opacity: 0.5;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.muito-alta span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.muito-alta span.ping {
     background-color: #b03b3b;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta1 span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta1 span.ping {
     background-color: #de8934;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta2 span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta2 span.ping {
     background-color: #c88b3b;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.ampla span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.ampla span.ping {
     background-color: #d2ae52;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.significativa span.ping {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.significativa span.ping {
     background-color: #629465;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn div.mark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1458,30 +1459,30 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.mark
     border-radius: 50%;
     transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button:hover div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn:hover div.mark {
     transform: scale(1.25);
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.muito-alta div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.muito-alta div.mark {
     background-color: #b03b3b;
     box-shadow: 0 4px 15px #b03b3b80;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta1 div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta1 div.mark {
     background-color: #de8934;
     box-shadow: 0 4px 15px #de893480;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.alta2 div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta2 div.mark {
     background-color: #c88b3b;
     box-shadow: 0 4px 15px #c88b3b80;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.ampla div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.ampla div.mark {
     background-color: #d2ae52;
     box-shadow: 0 4px 15px #d2ae5280;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button.significativa div.mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.significativa div.mark {
     background-color: #629465;
     box-shadow: 0 4px 15px #62946580;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text-box {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn div.text-box {
     opacity: 0;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     position: absolute;
@@ -1499,15 +1500,15 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text
     pointer-events: none;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button:hover div.text-box {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn:hover div.text-box {
     opacity: 1;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text-box h5 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn div.text-box h5 {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 1.3333;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map button div.text-box div.text-box-mark {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.btn div.text-box div.text-box-mark {
     position: absolute;
     left: 50%;
     top: 100%;
@@ -3214,7 +3215,7 @@ section.about div.about-content ul.about-us li h3 {
     line-height: 1.25;
 }
 section.about div.about-content ul.about-us li p {
-    color: #1b5e1f80;
+    color: #5a342280;
     font-size: 0.75rem;
     line-height: 1.3333;
     margin-top: 0.25rem;
@@ -3334,7 +3335,7 @@ section.about div.about-content ul.about-us li p {
     section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab {
         margin-top: 2rem;
     }
-    section.reg-vul div.reg-vul-content div.reg-vul-dados div.reg-vul-fome:hover {
+    section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-hab:hover {
         transform: none;
     }
 

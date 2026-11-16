@@ -8,13 +8,13 @@ const affectedRegions = [
     ];
 let activeIndex = null;
 function getMapButtonByKey(key) {
-    return document.querySelector(`.map button.${key}`);
+    return document.querySelector(`.map div.btn.${key}`);
 }
 function getSideButtonByClass(sideClass) {
     return document.querySelector(`.gran-sis-regs button.${sideClass}`);
 }
 function clearActive() {
-    document.querySelectorAll('.map button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.map div.btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.gran-sis-regs button').forEach(b => b.classList.remove('active'));
 }
 function setActivePairByIndex(index) {

@@ -1,4 +1,3 @@
-// Scroll Reveal
 const configBase = {
   duration: 500,
   easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
@@ -254,7 +253,7 @@ ScrollReveal().reveal('.map', {
   delay: 200
 });
 
-ScrollReveal().reveal('.revelar-fome', {
+ScrollReveal().reveal('.revelar-hab', {
   ...configBase,
   origin: 'left',
   scale: 0.95,
