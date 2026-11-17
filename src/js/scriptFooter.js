@@ -1,4 +1,3 @@
-// ! Feito Legitimamente 🥳 !
 const usBtn = document.querySelectorAll('.us-btn');
 const conteiner = document.querySelectorAll('.perfil');
 const avatar = document.querySelectorAll('.avatar');

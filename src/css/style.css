@@ -2306,7 +2306,7 @@ section.cur div.cur-content ul {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-section.cur div.cur-content ul li {
+section.cur div.cur-content ul li div.curs {
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
     color: #fffaed;
     padding: 2rem;
@@ -2314,31 +2314,31 @@ section.cur div.cur-content ul li {
     background-image: linear-gradient(to bottom right, #bc7a54, #935531);
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.cur div.cur-content ul li.cur1 {
+section.cur div.cur-content ul li div.cur1 {
     border-radius: 1rem 1rem 0.5rem;
 }
-section.cur div.cur-content ul li.cur2 {
+section.cur div.cur-content ul li div.cur2 {
     border-radius: 1rem 1rem 1rem 0.5rem;
 }
-section.cur div.cur-content ul li.cur3 {
+section.cur div.cur-content ul li div.cur3 {
     border-radius: 1rem 0.5rem 1rem 1rem;
 }
-section.cur div.cur-content ul li.cur4 {
+section.cur div.cur-content ul li div.cur4 {
     border-radius: 0.5rem 1rem 1rem;
 }
-section.cur div.cur-content ul li.cur1:hover {
+section.cur div.cur-content ul li div.cur1:hover {
     transform: scale(1.045) translate(-0.7rem, -0.7rem);
 }
-section.cur div.cur-content ul li.cur2:hover {
+section.cur div.cur-content ul li div.cur2:hover {
     transform: scale(1.045) translate(0.7rem, -0.7rem);
 }
-section.cur div.cur-content ul li.cur3:hover {
+section.cur div.cur-content ul li div.cur3:hover {
     transform: scale(1.045) translate(-0.7rem, 0.7rem);
 }
-section.cur div.cur-content ul li.cur4:hover {
+section.cur div.cur-content ul li div.cur4:hover {
     transform: scale(1.045) translate(0.7rem, 0.7rem);
 }
-section.cur div.cur-content ul li svg {
+section.cur div.cur-content ul li div.curs svg {
     width: 3rem;
     height: 3rem;
     display: block;
@@ -2348,19 +2348,19 @@ section.cur div.cur-content ul li svg {
     stroke-linecap: round;
     margin-bottom: 1.5rem;
 }
-section.cur div.cur-content ul li h3 {
+section.cur div.cur-content ul li div.curs h3 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
     margin-bottom: 0.75rem;
 }
-section.cur div.cur-content ul li p:nth-of-type(1) {
+section.cur div.cur-content ul li div.curs p:nth-of-type(1) {
     color: #fffaede6;
     font-size: 1.125rem;
     line-height: 1.4;
     margin-bottom: 1rem;
 }
-section.cur div.cur-content ul li p:nth-of-type(2) {
+section.cur div.cur-content ul li div.curs p:nth-of-type(2) {
     color: #fffaedb3;
     font-size: 0.875rem;
     line-height: 1.4287;
@@ -2504,7 +2504,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li:not(:last-of-type) {
     margin-bottom: 1rem;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn {
     text-align: left;
     padding: 1rem;
     background-color: #f6efe4;
@@ -2515,35 +2515,35 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
     cursor: pointer;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn:hover {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn:hover {
     transform: scale(1.02);
     background-color: #ebe9e6;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-correct {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn-correct {
     background-color: #cedbd1;
     border-color: #30a043;
     pointer-events: none;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-wrong {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn-wrong {
     background-color: #ebdfde;
     border-color: #c53f46;
     pointer-events: none;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-disabled {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn-disabled {
     opacity: 0.5;
     pointer-events: none;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div p {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn div p {
     font-weight: 600;
     flex: 1 1 auto;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div svg.certo {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn div svg.certo {
     color: #2b9642;
     width: 1.5rem;
     height: 1.5rem;
@@ -2555,7 +2555,7 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
     opacity: 0;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn div svg.errado {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn div svg.errado {
     color: #aa2a30;
     width: 1.5rem;
     height: 1.5rem;
@@ -2567,10 +2567,10 @@ section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.
     opacity: 0;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-correct div svg.certo {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn-correct div svg.certo {
     opacity: 1;
 }
-section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li button.alt-btn-wrong div svg.errado {
+section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question ul.alternatives li div.alt-btn-wrong div svg.errado {
     opacity: 1;
 }
 section.quiz div.quiz-content div.carrossel-quiz div.quiz-track div.question div.explanation {
@@ -3607,28 +3607,28 @@ section.about div.about-content ul.about-us li p {
     section.cur div.cur-content ul {
         grid-template-columns: 1fr;
     }
-    section.cur div.cur-content ul li.cur1 {
+    section.cur div.cur-content ul li div.cur1 {
         border-radius: 1rem;
     }
-    section.cur div.cur-content ul li.cur2 {
+    section.cur div.cur-content ul li div.cur2 {
         border-radius: 1rem;
     }
-    section.cur div.cur-content ul li.cur3 {
+    section.cur div.cur-content ul li div.cur3 {
         border-radius: 1rem;
     }
-    section.cur div.cur-content ul li.cur4 {
+    section.cur div.cur-content ul li div.cur4 {
         border-radius: 1rem;
     }
-    section.cur div.cur-content ul li.cur1:hover {
+    section.cur div.cur-content ul li div.cur1:hover {
         transform: none;
     }
-    section.cur div.cur-content ul li.cur2:hover {
+    section.cur div.cur-content ul li div.cur2:hover {
         transform: none;
     }
-    section.cur div.cur-content ul li.cur3:hover {
+    section.cur div.cur-content ul li div.cur3:hover {
         transform: none;
     }
-    section.cur div.cur-content ul li.cur4:hover {
+    section.cur div.cur-content ul li div.cur4:hover {
         transform: none;
     }
 

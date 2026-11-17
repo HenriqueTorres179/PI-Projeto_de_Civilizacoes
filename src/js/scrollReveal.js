@@ -363,7 +363,7 @@ ScrollReveal().reveal('.cur-text', {
   delay: 800
 });
 
-ScrollReveal().reveal('.cur-content ul .curs', {
+ScrollReveal().reveal('.cur-content ul li', {
   ...configBase,
   duration: 400,
   distance: 0,
