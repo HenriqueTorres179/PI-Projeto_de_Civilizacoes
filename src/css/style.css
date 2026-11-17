@@ -1641,7 +1641,7 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs h3 {
     letter-spacing: 0.05em;
     margin-bottom: 1rem;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs {
     text-align: left;
     box-shadow: 0 1px 3px 0px #0000001a, 0 1px 2px -1px #0000001a;
     padding: 1rem;
@@ -1651,85 +1651,85 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs butto
     width: 100%;
     transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button:hover {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs:hover {
     border: 2px #afad99 solid;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.active {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.active {
     background-color: #f6efe4;
     border: 2px #5a3422 solid;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.active:hover {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.active:hover {
     border: 2px #5a3422 solid;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button:not(:last-of-type) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs:not(:last-of-type) {
     margin-bottom: 0.75rem;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.regiao {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs div.regiao {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.5rem;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.regiao h4 {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs div.regiao h4 {
     font-weight: 700;
     line-height: 1.4287;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs div.regiao p:nth-of-type(1) {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.egito-ant div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.egito-ant div.regiao p:nth-of-type(1) {
     color: #b03b3b;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.mesopotamia div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.mesopotamia div.regiao p:nth-of-type(1) {
     color: #de8934;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.imp-romano div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.imp-romano div.regiao p:nth-of-type(1) {
     color: #c88b3b;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.china-ant div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.china-ant div.regiao p:nth-of-type(1) {
     color: #d2ae52;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.meso-and div.regiao p:nth-of-type(1) {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.meso-and div.regiao p:nth-of-type(1) {
     color: #629465;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.barrinha {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs div.barrinha {
     width: 100%;
     height: 0.5rem;
     background-color: #ebe9e6;
     border-radius: 50px;
     margin-bottom: 0.5rem;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs div.barrinha div.porcentagem {
     width: 0;
     height: 0.5rem;
     border-radius: 50px;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.animated-btn div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.animated-btn div.barrinha div.porcentagem {
     animation: growthBar 800ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.egito-ant div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.egito-ant div.barrinha div.porcentagem {
     background-color: #b03b3b;
     --target-width: 90%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.mesopotamia div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.mesopotamia div.barrinha div.porcentagem {
     background-color: #de8934;
     --target-width: 80%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.imp-romano div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.imp-romano div.barrinha div.porcentagem {
     background-color: #c88b3b;
     --target-width: 75%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.china-ant div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.china-ant div.barrinha div.porcentagem {
     background-color: #d2ae52;
     --target-width: 70%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.meso-and div.barrinha div.porcentagem {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.meso-and div.barrinha div.porcentagem {
     background-color: #629465;
     --target-width: 65%;
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button p.extra-text {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs p.extra-text {
     opacity: 0;
     max-height: 0;
     color: #5a3422;
@@ -1738,7 +1738,7 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs butto
     margin-top: 0.5rem;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs button.active p.extra-text {
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.active p.extra-text {
     opacity: 1;
     max-height: 5rem;
 }
@@ -1888,13 +1888,13 @@ section.est div.est-content div.est-text p {
     max-width: 42rem;
     margin-inline: auto;
 }
-section.est div.est-content ul li {
+section.est div.est-content > ul > li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
 }
-section.est div.est-content ul li:not(:last-of-type) {
+section.est div.est-content > ul > li:not(:last-of-type) {
     margin-bottom: 3rem;
 }
 section.est div.est-content ul li div.order-1 {
@@ -1969,25 +1969,25 @@ section.est div.est-content ul li div.rspts-text > p {
     line-height: 1.5555;
     margin-bottom: 1.5rem;
 }
-section.est div.est-content ul li div.rspts-text ul li {
+section.est div.est-content ul li div.rspts-text ul li div.list-item {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.est div.est-content ul li div.rspts-text ul li:hover {
+section.est div.est-content ul li div.rspts-text ul li div.list-item:hover {
     transform: translateX(10px);
 }
-section.est div.est-content ul li div.rspts-text ul li:not(:last-of-type) {
+section.est div.est-content ul li div.rspts-text ul li div.list-item:not(:last-of-type) {
     margin-bottom: 0.75rem;
 }
-section.est div.est-content ul li div.rspts-text ul li div.item {
+section.est div.est-content ul li div.rspts-text ul li div.list-item div.item {
     background-color: #bc7a54;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
 }
-section.est div.est-content ul li div.rspts-text ul li p {
+section.est div.est-content ul li div.rspts-text ul li div.list-item p {
     color: #5a3422cc;
 }
 
@@ -2131,7 +2131,7 @@ section.ciclo div.ciclo-content ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
 }
-section.ciclo div.ciclo-content ul li {
+section.ciclo div.ciclo-content ul li div.sequencia-item {
     backdrop-filter: blur(8px);
     padding: 1.5rem;
     background-color: #fffbf21a;
@@ -2139,26 +2139,26 @@ section.ciclo div.ciclo-content ul li {
     animation: wave 2000ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
     animation-play-state: paused;
 }
-section.ciclo div.ciclo-content ul > div {
+section.ciclo div.ciclo-content ul > li {
     animation: wave 1200ms ease infinite;
     animation-play-state: paused;
 }
-section.ciclo div.ciclo-content ul:hover > div {
+section.ciclo div.ciclo-content ul:hover > li {
     animation-play-state: running;
 }
-section.ciclo div.ciclo-content ul > div:nth-of-type(1) {
+section.ciclo div.ciclo-content ul > li:nth-of-type(1) {
     animation-delay: 0ms;
 }
-section.ciclo div.ciclo-content ul > div:nth-of-type(2) {
+section.ciclo div.ciclo-content ul > li:nth-of-type(2) {
     animation-delay: 200ms;
 }
-section.ciclo div.ciclo-content ul > div:nth-of-type(3) {
+section.ciclo div.ciclo-content ul > li:nth-of-type(3) {
     animation-delay: 400ms;
 }
-section.ciclo div.ciclo-content ul > div:nth-of-type(4) {
+section.ciclo div.ciclo-content ul > li:nth-of-type(4) {
     animation-delay: 600ms;
 }
-section.ciclo div.ciclo-content ul li div.sequencia {
+section.ciclo div.ciclo-content ul li div.sequencia-item div.sequencia {
     background-color: #d08c34;
     border-radius: 50%;
     display: flex;
@@ -2169,18 +2169,18 @@ section.ciclo div.ciclo-content ul li div.sequencia {
     margin-bottom: 1rem;
     margin-inline: auto;
 }
-section.ciclo div.ciclo-content ul li div.sequencia p {
+section.ciclo div.ciclo-content ul li div.sequencia-item div.sequencia p {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3333;
 }
-section.ciclo div.ciclo-content ul li h3 {
+section.ciclo div.ciclo-content ul li div.sequencia-item h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.5rem;
 }
-section.ciclo div.ciclo-content ul li p {
+section.ciclo div.ciclo-content ul li div.sequencia-item p {
     color: #fffaedcc;
 }
 section.ciclo div.ciclo-content a {
@@ -3576,7 +3576,7 @@ section.about div.about-content ul.about-us li p {
     section.est div.est-content ul li div.rspts-img:hover ~ div.rspts-text.order-2 {
         transform: translateX(0);
     }
-    section.est div.est-content ul li div.rspts-text ul li:hover {
+    section.est div.est-content ul li div.rspts-text ul li div.list-item:hover {
         transform: translateX(0);
     }
 
@@ -3592,7 +3592,7 @@ section.about div.about-content ul.about-us li p {
     section.ciclo div.ciclo-content ul li {
         animation: none;
     }
-    section.ciclo div.ciclo-content ul:hover > div {
+    section.ciclo div.ciclo-content ul:hover > li {
         animation-play-state: paused;
     }
 
