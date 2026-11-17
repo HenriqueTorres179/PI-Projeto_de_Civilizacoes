@@ -707,7 +707,7 @@ section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.in
     height: 100%;
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card:hover div.ino-mund-card-banner div.ino-mund-card-banner img {
+section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card:hover div.ino-mund-card-banner img {
     transform: scale(1.1);
 }
 section.ino-mund div.ino-mund-content ul.ino-mund-cards div.ino-mund-card div.ino-mund-card-banner-gradient {
@@ -2134,6 +2134,7 @@ section.ciclo div.ciclo-content ul {
 section.ciclo div.ciclo-content ul li div.sequencia-item {
     backdrop-filter: blur(8px);
     padding: 1.5rem;
+    height: 100%;
     background-color: #fffbf21a;
     border-radius: 1rem;
     animation: wave 2000ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
@@ -2910,6 +2911,10 @@ section.compr div.compr-content form div.form-info div.nome input {
 }
 section.compr div.compr-content form div.form-info div.nome input:focus {
     border: 2px #5a3422 solid;
+}
+section.compr div.compr-content form div.form-info div.nome input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #e3e0d0 inset;
+    -webkit-text-fill-color: #fffaed;
 }
 section.compr div.compr-content form div.form-info div.email {
     margin-bottom: 1rem;
