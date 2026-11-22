@@ -986,9 +986,10 @@ section.slides-img div.slider {
     transform: translateX(-50%);
 }
 section.slides-img div.slider input {
+    transform: scale(1.7);
     accent-color: #d08c34;
     cursor: pointer;
-    width: 100%;
+    width: 60%;
 }
 section.slides-img div.slider div.slider-text {
     padding: 0 0.25rem;
