@@ -1432,10 +1432,10 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.muito-alta 
     background-color: #b03b3b;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta1 span.ping {
-    background-color: #de8934;
+    background-color: #c88b3b;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta2 span.ping {
-    background-color: #c88b3b;
+    background-color: #de8934;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.ampla span.ping {
     background-color: #d2ae52;
@@ -1467,12 +1467,12 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.muito-alta 
     box-shadow: 0 4px 15px #b03b3b80;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta1 div.mark {
-    background-color: #de8934;
-    box-shadow: 0 4px 15px #de893480;
-}
-section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta2 div.mark {
     background-color: #c88b3b;
     box-shadow: 0 4px 15px #c88b3b80;
+}
+section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.alta2 div.mark {
+    background-color: #de8934;
+    box-shadow: 0 4px 15px #de893480;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.ampla div.mark {
     background-color: #d2ae52;
@@ -1553,14 +1553,14 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.
     flex-shrink: 0;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel div.bolinha-AL {
-    background-color: #de8934;
+    background-color: #d2ae52;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.map div.legenda ul.niveis li.nivel div.bolinha-AM {
-    background-color: #d2ae52;
+    background-color: #de8934;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
@@ -1683,10 +1683,10 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.b
     color: #b03b3b;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.mesopotamia div.regiao p:nth-of-type(1) {
-    color: #de8934;
+    color: #c88b3b;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.imp-romano div.regiao p:nth-of-type(1) {
-    color: #c88b3b;
+    color: #de8934;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.china-ant div.regiao p:nth-of-type(1) {
     color: #d2ae52;
@@ -1714,11 +1714,11 @@ section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.b
     --target-width: 90%;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.mesopotamia div.barrinha div.porcentagem {
-    background-color: #de8934;
+    background-color: #c88b3b;
     --target-width: 80%;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.imp-romano div.barrinha div.porcentagem {
-    background-color: #c88b3b;
+    background-color: #de8934;
     --target-width: 75%;
 }
 section.gran-sis div.gran-sis-content div.gran-sis-dados div.gran-sis-regs div.btn-regs.china-ant div.barrinha div.porcentagem {
