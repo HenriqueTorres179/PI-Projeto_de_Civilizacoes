@@ -5,7 +5,7 @@ let index = 0;
 function updateCarousel() {
   const width = document.querySelector('.carrossel-slide').clientWidth;
   track.style.transform = `translateX(${-index * width}px)`;
-  let videos = track.querySelector('video');
+  let videos = track.querySelectorAll('video');
   for (let video of videos) {
     video.pause();
   }

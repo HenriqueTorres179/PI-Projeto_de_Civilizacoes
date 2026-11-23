@@ -2778,6 +2778,7 @@ section.leg div.leg-content div.leg-text h2 {
 }
 section.leg div.leg-content div.leg-text p {
     margin-bottom: 1.5rem;
+    color: rgb(90, 52, 34, 0.9);
 }
 section.leg div.leg-content div.leg-message {
     color: #fffaed;
